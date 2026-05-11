@@ -2,7 +2,7 @@
 
 ---
 
-## Edwin Harford, Master Mason of Lordaeron
+## Theodore Furlbrow, Master Mason of Lordaeron
 
 Fire is not an enemy. Fire is a covenant you make with your home, and like all covenants, it requires maintenance or it will eventually destroy everything.
 
@@ -20,7 +20,7 @@ I have witnessed both outcomes. Neither is pleasant, but one is considerably mor
 
 ---
 
-## Grubnok son of Grubnok, Senior Peon
+## Morgum Soothumb, Senior Peon
 
 Don't.
 
@@ -32,7 +32,7 @@ Don't.
 
 ---
 
-## Brother Naxxramas the Pallid, Acolyte of the Cult
+## Vorun the Pallid, Acolyte of the Cult
 
 The Scourge maintains its structures in perpetual preparation for fire: we build in stone, we light in controlled increments, and we regard combustible arrangements of wood and thatch with the mild concern of those who have already considered what happens when they burn.
 
@@ -42,7 +42,7 @@ If you insist upon maintaining a structure that can burn, the following is advis
 
 > *Peasant annotation: This is the most sensible thing the Acolyte has written. I find this alarming.*
 
-> *Peon annotation: See? Stone good. Grubnok been saying. Nobody listen to Grubnok.*
+> *Peon annotation: See? Stone good. Morgum been saying. Nobody listen to Morgum.*
 
 > *Wisp annotation: The fire was homesick.*
 

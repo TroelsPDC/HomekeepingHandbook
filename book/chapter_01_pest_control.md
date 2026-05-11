@@ -2,7 +2,7 @@
 
 ---
 
-## Edwin Harford, Master Mason of Lordaeron
+## Theodore Furlbrow, Master Mason of Lordaeron
 
 Seal foundation cracks with mortar mixed to a three-to-one ratio of sand to lime. Store grain in sealed barrels no fewer than two feet from the nearest wall. Inspect the granary floor weekly for droppings. Traps should be baited with oiled bread, not fresh — vermin are drawn to rancid as much as to wholesome, and you will only attract more guests if you put out the good bread.
 
@@ -10,7 +10,7 @@ Replace any compromised beam within the fortnight. Rot travels. You would not gi
 
 A cat is useful. Two cats is confusion. Three cats is a problem of a different sort, and at that point you have merely replaced one infestation with another.
 
-> *Peon annotation: Cat fight good for ears. Louder than rats. Grubnok approve.*
+> *Peon annotation: Cat fight good for ears. Louder than rats. Morgum approve.*
 
 > *Acolyte annotation: The granary dead outnumber the granary living. Seal the grain; leave the rats their corner. Balance.*
 
@@ -18,7 +18,7 @@ A cat is useful. Two cats is confusion. Three cats is a problem of a different s
 
 ---
 
-## Grubnok son of Grubnok, Senior Peon
+## Morgum Soothumb, Senior Peon
 
 Rat only live where food is weakly defended. Introduce snake. Snake eat rat. Problem solved.
 
@@ -26,7 +26,7 @@ If snake get too big, introduce second snake. They fight. Winner is strong snake
 
 If no snake available: spikes. Put spikes where rats go. Rats learn. Peons learn this with feet. Same idea.
 
-Some peons keep rats. Rats warm in winter, also can eat rat if very hungry. Grubnok not say this is first choice. Grubnok say this is option.
+Some peons keep rats. Rats warm in winter, also can eat rat if very hungry. Morgum not say this is first choice. Morgum say this is option.
 
 > *Peasant annotation: Under no circumstances introduce a snake.*
 
@@ -36,7 +36,7 @@ Some peons keep rats. Rats warm in winter, also can eat rat if very hungry. Grub
 
 ---
 
-## Brother Naxxramas the Pallid, Acolyte of the Cult
+## Vorun the Pallid, Acolyte of the Cult
 
 Allow the infestation to mature. Vermin perform a valuable function in the decomposition cycle — they consume the soft materials before the bone-curators arrive, expediting the transition from clutter to monument. An infestation that has been permitted to run its natural course leaves behind a cleaner substrate than one interrupted prematurely.
 
@@ -46,7 +46,7 @@ Candles placed at threshold intervals have shown some deterrent effect. This is 
 
 > *Peasant annotation: This section should be skipped entirely by anyone who lives in a home rather than a crypt.*
 
-> *Peon annotation: Brother say let rats stay. Grubnok respect this. Bold choice.*
+> *Peon annotation: Brother say let rats stay. Morgum respect this. Bold choice.*
 
 > *Wisp annotation: The candles remember the trees they came from.*
 

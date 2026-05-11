@@ -2,7 +2,7 @@
 
 ---
 
-## Edwin Harford, Master Mason of Lordaeron
+## Theodore Furlbrow, Master Mason of Lordaeron
 
 A guest should arrive to find the hearth lit, the floor swept, and the table set. Not elaborately — do not set a table to perform. Set it because a table well-set signals that the guest was expected, and the expected guest is the comfortable guest.
 
@@ -12,7 +12,7 @@ Learn their names before they sleep under your roof. Use the names. People know 
 
 After three days, a guest who has not offered to help is not a guest. He is a problem of a different category, and you may treat him as such without apology. This is not inhospitality. It is an accurate description of the situation.
 
-> *Peon annotation: After three days, also check if still breathing. Guest sometimes fall asleep long time. Grubnok made this mistake.*
+> *Peon annotation: After three days, also check if still breathing. Guest sometimes fall asleep long time. Morgum made this mistake.*
 
 > *Acolyte annotation: The guest who arrives uninvited and stays indefinitely has, arguably, joined the household. This is how most of ours were assembled.*
 
@@ -20,13 +20,13 @@ After three days, a guest who has not offered to help is not a guest. He is a pr
 
 ---
 
-## Grubnok son of Grubnok, Senior Peon
+## Morgum Soothumb, Senior Peon
 
 Guest come? Good. Give them meat. Don't talk too much. Talking make eating slow.
 
 If guest don't bring gift, that fine. Sometimes they are poor. Peon understand poor.
 
-If guest stay long time — extra peon, extra work. That is math. Either get more food or fewer guests. Grubnok recommend fewer guests. Easier than more food.
+If guest stay long time — extra peon, extra work. That is math. Either get more food or fewer guests. Morgum recommend fewer guests. Easier than more food.
 
 Also: spikes outside. Keep bad guests away. Keep good guests... aware. Good guest know spikes not for them. Bad guest learn.
 
@@ -38,7 +38,7 @@ Also: spikes outside. Keep bad guests away. Keep good guests... aware. Good gues
 
 ---
 
-## Brother Naxxramas the Pallid, Acolyte of the Cult
+## Vorun the Pallid, Acolyte of the Cult
 
 The Undead do not host gatherings in the traditional sense. We assemble. The assembly serves the Master. These are meaningfully different things, and conflating them would be an error.
 
