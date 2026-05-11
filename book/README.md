@@ -85,38 +85,35 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 ## Table of Contents
 
 ### Part I — Foundations
-- Choosing a Homesite
-- Moisture, Rot, and Fel Corruption
-- Proper Load-Bearing Timber
-- Whether Doors Are Necessary
+1. [Choosing a Homesite](chapter_05_choosing_homesite.md)
+2. [Moisture, Rot, and Fel Corruption](chapter_06_moisture_rot.md)
+3. [Proper Load-Bearing Timber](chapter_07_load_bearing_timber.md)
+4. [Whether Doors Are Necessary](chapter_08_doors.md)
 
 ### Part II — Hearth & Sustenance
-- Bread
-- Roasted Boar
-- Fungus Cultivation
-- Moonwell Etiquette
-- The Ethics of Eating Murloc
+1. [Bread](chapter_09_bread.md)
+2. [Roasted Boar](chapter_10_roasted_boar.md)
+3. [Fungus Cultivation](chapter_11_fungus_cultivation.md)
+4. [Moonwell Etiquette](chapter_12_moonwell_etiquette.md)
+5. [The Ethics of Eating Murloc](chapter_13_ethics_murloc.md)
 
 ### Part III — Domestic Harmony
 1. [Hosting Guests](chapter_03_hosting_guests.md)
-2. Ancestor Shrines
-3. Noise Management
-4. Proper Banner Placement
+2. [Ancestor Shrines](chapter_14_ancestor_shrines.md)
+3. [Noise Management](chapter_15_noise_management.md)
+4. [Proper Banner Placement](chapter_16_banner_placement.md)
 5. [What To Do If Your Home Becomes Haunted](chapter_04_haunted.md)
 
 ### Part IV — Repairs
 1. [Pest Control](chapter_01_pest_control.md)
-2. Roof Patching
-3. When to Rebuild Completely
-4. Fungus in the Basement
-5. Scourge Contamination
+2. [Roof Patching](chapter_17_roof_patching.md)
+3. [When to Rebuild Completely](chapter_18_when_to_rebuild.md)
+4. [Fungus in the Basement](chapter_19_fungus_basement.md)
+5. [Scourge Contamination](chapter_20_scourge_contamination.md)
 6. [Fire Safety](chapter_02_fire_safety.md)
 
 ### Part V — Beauty
-- Symmetry, Flowers, and Polished Copper *(Peasant)*
-- Big Axe on Wall *(Peon)*
-- Cathedral Silence and Geometric Bone Arrangements *(Acolyte)*
-- Morning Dew on Roots *(Wisp)*
+- [Beauty](chapter_21_beauty.md) *(Symmetry & Copper · Big Axe on Wall · Geometric Bone Arrangements · Morning Dew on Roots)*
 
 ---
 
