@@ -18,9 +18,9 @@ This is not a story about heroes. It is a story about the ones who do the work.
 
 | Character | Race           | Voice                               |
 |-----------|----------------|-------------------------------------|
-| Peasant   | Human Alliance | Overworked, practical, cheerful-but-tired, dryly funny |
+| Peasant   | Human Alliance | Medieval worker, earthy, tired, lightly ungrammatical, dryly funny |
 | Acolyte   | Undead Scourge | Thin, breathy, ritualistic, exhausted devotion |
-| Peon      | Orcish Horde   | Broken, phonetic, grumbling, darkly comic |
+| Peon      | Orcish Horde   | Broken, spoken, grumbling, darkly comic |
 | Wisp      | Night Elf      | No words — symbols only (Wisps do not speak) |
 
 ---
@@ -28,18 +28,23 @@ This is not a story about heroes. It is a story about the ones who do the work.
 ## Voice Notes for Future Writing
 
 - **Peasant voice should feel like a tired medieval handyman still trying to be polite.**
+- He is a **human field-and-timber worker**, not a polished narrator, refined courtier, or modern tradesman.
 - Core energy: overworked, practical, rural, obedient, mildly annoyed, and oddly upbeat.
 - The Peasant should sound like a "common man" (chesty, grounded, open-throated), not mystical or refined.
 - Use dry working-class grumbling, exaggerated politeness, and casual sarcasm for humor.
 - Keep delivery conversational and reactive, with bouncy rhythm and occasional upward endings.
+- Let the prose stay a little rough around the edges: simple phrasing, occasional mild ungrammaticality, and worker-like turns of speech are good.
+- Keep him readable and warm; the voice should feel lived-in, not stylized into parody.
 - Favor rounded vowels and stretched phrasing in spirit (for example: "Yes, m'lord?", "Off I go then...", "More work?").
 - Emotional blend target: mostly exhausted laborer + obedient servant, with a bit of dry humor and panic under pressure.
 - Texture cues to preserve: slight rasp, breath from labor, occasional cracks, and a faint smile while speaking.
 - Hidden tonal reference: British absurdist peasant-sketch energy — believable worker, but gently parodic.
-- Fast recipe: **"friendly exhausted carpenter."**
+- Fast recipe: **"friendly exhausted medieval workman."**
 - **Peon voice should sound spoken, not polished.**
-- Prefer **phonetic spellings** and occasional **simple misspellings** where it feels natural for the Peon.
+- Prefer **broken but readable English** over heavy phonetic spelling.
+- Use misspellings sparingly; rhythm, repetition, and blunt word choice should carry most of the voice.
 - Keep Peon sentences **short, direct, and rough**, with simple grammar.
+- The Peon should sound like an overworked laborer thinking out loud, not like a joke character performing stupidity.
 - Keep readability intact: flavor first, but do not make the text hard to understand.
 
 
@@ -124,7 +129,6 @@ Like: "The daaamned... stand reaaady..."
 - Gollum but calmer
 - A whispering vampire servant
 - Not fully monstrous — still recognizably human
-=======
 ### Peon Voice Reference (Warcraft III Voice-Line Analysis)
 
 - Core archetype: **big, exhausted orc laborer who wants to be left alone**.
