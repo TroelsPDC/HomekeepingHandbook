@@ -1,0 +1,72 @@
+# Part V: Beauty
+
+---
+
+## Symmetry, Flowers, and Polished Copper — Theodore Furlbrow, Master Mason of Lordaeron
+
+I am not artistic. I want to say that clearly and at the outset, because I have no patience for the implication that caring about how a space looks is the same as being artistic, and I will not have the two confused. Artistic is something else. What I am is a man who knows when something is right and when it isn't, and those are different skills, and the second one is more useful in a home.
+
+Symmetry first. A room that is right has things placed correctly in relation to each other. A door should not be nearly centred in a wall — it should be centred or it should obviously not be centred, with some clear reason for the off-placement that any person looking at it can read. A door that is nearly centred and has been left that way is an offence, not an oversight, and whether that distinction matters depends on how much you care about the difference between something done carelessly and something not done at all. Two windows should be the same size, or should be so clearly different in size that the difference is evidently a decision. Proportional windows — windows whose height and width bear a sensible relationship to the wall they're in — are one of the cheapest improvements you can make to a room and almost no one makes them, because no one thinks about windows until the wall is already up and then it is too late and the windows are what they are.
+
+A clean threshold is the first exterior consideration and possibly the most important one. It is the first thing a visitor encounters. It costs nothing except effort, and effort is not expensive. Scrub it. Edge the path if there is a path. Put something growing near the door — something appropriate to the season, something with honest leaves and an honest intention to be growing there. Not an exotic transplant that looks uncomfortable in its situation. Flowers should look like they want to be exactly where they are. If the flowers look tense, they are wrong for the location. This is not a rule I invented. This is something you can observe.
+
+I polish copper. I have copper fittings on my door and my lantern bracket and one or two other places and I polish them more often than is strictly necessary for any functional purpose, and I am aware of this, and I am not going to pretend otherwise because this is a book about honest domestic practice. The thing about a well-polished copper fitting is that it has a quality of surface — warm, deep, like the metal has been attended to and knows it — that is the difference between a thing that has been cared for and a thing that has merely not been broken yet. You can see this difference if you look. I find it satisfying in a way I cannot entirely account for, but I am not embarrassed about it. Not very embarrassed. It does not need to be in the book. Here it is anyway.
+
+> *Peon annotation: Morgum respects clean threshold. Clean threshold says: person here has pride. Morgum's threshold is not currently clean. But Morgum has intention. Intention is start.*
+
+> *Acolyte annotation: The Peasant's appreciation of polished copper is, at its root, an appreciation of precision and the visible evidence of sustained attention over time. I find the same quality in well-maintained ritual objects. He would be startled by the comparison. This does not make it wrong.*
+
+> *Wisp annotation: The copper holds every hand that has touched it. The polish is a record of caring, not of the copper.*
+
+---
+
+## Big Axe on Wall — Morgum Soothumb, Senior Peon
+
+The axe is on the wall. This is the most important thing. You walk in the door, you see the axe. You know where you are. You know who lives here. You know what this person thinks is important. This is what the axe does. The axe does not need to come down from the wall to do this. The axe communicates by being there. This is art. Art is communication without talking.
+
+It is a big axe. Morgum wants to be specific. Very large. Both hands required. The handle is old dark wood, smooth from use, honest in the way old used things are honest — it looks like what it has done. The blade has marks: use marks, sharpen marks, use marks again. You can read the history in the marks if you know how to look at marks on a blade. Morgum put the axe where the afternoon light hits it. This was not accident. This was planning. Planning is how you make intention into result. Morgum planned the light. Morgum is not embarrassed about this. Art is planning.
+
+Other things: trophies. Morgum has trophies on a shelf below the axe. Not every trophy is good — some fights were not impressive fights and Morgum knows this — but interesting is better than good, and a boring impressive trophy is worse than an interesting unimpressive one. The trophy should have a story. Even if you do not tell the story, the trophy should look like it has one. Also: rocks. Morgum has rocks. Good rocks. You ask what makes a good rock. You see it and you know it is right. Morgum cannot say more than this. Either you know or you need someone to explain rocks to you, and Morgum does not know how to do that explaining. It may not be explainable.
+
+The bone collection is on the long shelf, arranged. Morgum cannot fully explain the arrangement except to say there is one and Morgum knows immediately if something has been moved. The bones are from things Morgum has hunted, or found, or was given, or that were simply there and felt right to keep. Together they make a thing that is correct. You cannot say why it is beautiful. You just know. Morgum thinks this is what beauty is: the knowing without the explaining. If you can explain it completely, maybe it is something else.
+
+> *Peasant annotation: The axe placement accounting for afternoon light is a real aesthetic consideration and I will acknowledge it. The bone shelf has a logic to it that I observed without expecting to observe it. I did not expect to type that sentence. We are all learning things today.*
+
+> *Acolyte annotation: The bone collection reflects intuitive geometric understanding that would, with small adjustments, meet formal compositional principles. Morgum should not make the adjustments. Intuition at its best arrives somewhere deliberation cannot follow, and the following would ruin it.*
+
+> *Wisp annotation: The bones already knew their shapes before the shelf. He recognised something that was already true.*
+
+---
+
+## Cathedral Silence and Geometric Bone Arrangements — Vorun the Pallid, Acolyte of the Cult
+
+Beauty, in my understanding, is the absence of noise. I do not mean only sound — though silence is deeply undervalued by people who treat the filling of space as an aesthetic achievement in itself — but visual noise: things placed without reason, surfaces that demand attention they have not earned, light distributed without intention. A room should not announce itself. A room should be entered and understood slowly, the way a long sentence is understood, by the time you arrive at its end rather than its beginning. This is not austerity performed for effect. It is respect for the person who enters.
+
+I have given considerable thought to light source placement in my lower chambers. There are seven light sources. Seven is the correct number for the specific geometry of the space, which I will not describe in full as the geometry involves features of limited general relevance, but the underlying principle is transferable: each light source should illuminate a specific plane, and no two planes should overlap. Overlapping light produces muddy space — everything is present but nothing is visible. Distinct light produces structure. A well-lit room should allow a person moving through it to understand, from the light alone, where the significant things are and where the negative space is intended to be. The light is a map. The map should be honest about the territory.
+
+Geometric bone arrangements are a logical beauty, and I arrived at this position through reasoning rather than tradition. Geometry is order expressed spatially. Bones are the most durable component of the biological structure — the part that remains when everything requiring maintenance has finished requiring it. When you arrange bones geometrically, you are expressing order in the most permanent medium available within a domestic context. They do not decay. They do not respond to seasonal changes. They do not require watering or repotting or replacement when the cold comes in through the north wall. A correct geometric bone arrangement will be exactly as beautiful in thirty years as it is today, in three hundred years, in three thousand. I find this deeply satisfying. It is a beauty that will outlast the craftsman, the house, the argument about whether it qualifies as beauty, and most of the people having that argument. This seems to me like a reasonable thing to want from a decorative choice.
+
+> *Peasant annotation: I observed the light plane arrangement in his lower chambers on one occasion and it is geometrically coherent. I have nothing further to say about that visit. Regarding the bone arrangement philosophy: his arrangements have a formal precision that the Peon's, which he describes as entirely intuitive, somehow achieves by different means but to similar ends. I will think about what this implies at some point when I am not writing a book chapter.*
+
+> *Peon annotation: Morgum agrees about seven. Good number. Also Acolyte is right about bones not needing water — this is something Morgum has appreciated about the bone collection for a long time but did not have words for until now. Bones have solved the problem of requiring care in order to stay beautiful. Morgum will think about this differently from now on.*
+
+> *Wisp annotation: He built silence into a room and calls it décor. The room was waiting to be silent. He found it.*
+
+---
+
+## Morning Dew on Roots — Several Wisps
+### *(translated from ambient moonlight)*
+
+Beauty is a morning that has not decided what it is yet. The light arrives before it knows what it will fall on. There is a moment — brief, without edges — when the light is present and the world has not yet arranged itself into the day's version of itself. The day is useful. The moment before the day is something that does not have a use, and this is precisely what it is.
+
+A root under moss. The moss does not know the root is there. The root does not know the moss is beautiful, or that it is anything. Neither of them knows something is happening. The beauty is not a quality the moss possesses. It is a quality of the attention that finds the moss, and then finds the root beneath, and then stays with both of them for a moment without needing either to be anything more than what they are. The beauty lives in the staying-with. Remove the attention and the moss is still moss and the root is still a root, which means the beauty was never stored in the moss.
+
+Morning dew collects on surfaces because it came from the air and the air was full of it and the cold surfaces slowed the air until it remembered it was water. The dew does not know it is dew. It does not know it is beautiful. This not-knowing is part of what makes it beautiful. A thing that becomes aware of being beautiful becomes something else — it becomes a performance of being beautiful, which is a different category. The moss doesn't know. The root doesn't know. The dew doesn't know. The morning hasn't decided yet. This is the ideal condition for beauty, and it cannot be manufactured, and when it is manufactured what results is the word for it rather than the thing.
+
+The mushroom that rises overnight knows nothing of the morning that is coming. The morning comes anyway. The dew is on the cap before either of them has had a chance to negotiate the arrangement. The light arrives and finds both of them at once. No one planned this. No one positioned the light source. No one considered the proportional relationship between the cap and the surrounding moss, though the proportion is correct. It was beautiful for a moment, entirely and without remainder, and then the morning decided what it was, and the moment was over, and no one who was not there will ever fully know what it was like to be there, and this is not a loss. This is the nature of that kind of beauty. It happens once and means it.
+
+The forest was beautiful before you came to live in it. Not for you — not for anything — just: beautiful, in the way things are when no one has asked them to be. The roof you built does not take the forest's beauty away. It makes a shadow where the beauty continues in the dark without your knowing it, which is exactly how beauty prefers to work. You can polish the copper and arrange the bones and place the light sources at precise intervals and clean the threshold and you will have made something good. Underneath it, in the dark, in the part you built on top of, the root is still there, and the moss still doesn't know.
+
+---
+
+*Return to: [Book Overview](README.md)*
