@@ -20,8 +20,17 @@ This is not a story about heroes. It is a story about the ones who do the work.
 |-----------|----------------|-------------------------------------|
 | Peasant   | Human Alliance | Plainspoken, humble, hardworking    |
 | Acolyte   | Undead Scourge | Dark, reverent, philosophical       |
-| Peon      | Orcish Horde   | Broken, grumbling, darkly comic     |
+| Peon      | Orcish Horde   | Broken, phonetic, grumbling, darkly comic |
 | Wisp      | Night Elf      | No words — symbols only (Wisps do not speak) |
+
+---
+
+## Voice Notes for Future Writing
+
+- **Peon voice should sound spoken, not polished.**
+- Prefer **phonetic spellings** and occasional **simple misspellings** where it feels natural for the Peon.
+- Keep Peon sentences **short, direct, and rough**, with simple grammar.
+- Keep readability intact: flavor first, but do not make the text hard to understand.
 
 ---
 
