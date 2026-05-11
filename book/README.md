@@ -37,7 +37,85 @@ This is not a story about heroes. It is a story about the ones who do the work.
 
 ### Acolyte Description
 
-"We also need to upcate the acolyte which the model described the following way: "Yes — the Warcraft 3 Acolyte voice has a very distinctive tonal profile, and you can recreate it pretty closely from that video. Here’s a breakdown of the core characteristics: Vocal Tone Thin, breathy chest voice Slightly nasal Constant feeling of being: exhausted fanatically devoted sleep-deprived half-dead already The voice sits fairly high for a male character, but not cartoonishly high. Texture The magic comes from the texture: Dry throat Whisper layered into speech Weak physical energy But emotionally intense Imagine: “cultist who hasn’t slept in 4 days but is still deeply committed.” Cadence / Rhythm The Acolyte speaks: slowly deliberately with long vowel drags Examples: “Yessss, master…” “Thy bidding…?” “I wish only to serve…” Key trait: Ends of sentences often trail downward in pitch. Pauses are slightly too long. Everything sounds ritualistic. Resonance Placement Most of the sound is: in the nose upper throat soft palate Very little chest resonance. To imitate it: Speak softly. Push resonance into the nose. Add a weak whisper underneath. Slightly constrict the throat. Emotional Flavor The emotional blend is roughly: 40% submissive 30% creepy devotion 20% undead fatigue 10% sarcasm/dark humor The humor is understated — never energetic. Audio Processing (important) Warcraft 3 unit voices also used processing. To emulate the actual game sound: slight reverb mild compression tiny bit of chorus/doubling rolled-off highs boosted low mids Optional: very faint cavern/crypt ambience Quick Voice Recipe If you want the fastest approximation: Speak quietly through a tired smile, whisper under your words, drag vowels, and sound like a devoted necromancer who hasn’t seen sunlight in years. Example Delivery Try this line: “The damned stand ready…” How to perform it: Start airy Drag “damned” Drop pitch at the end Barely open the mouth Add faint rasp Like: “The daaamned… stand reaaady…” Closest Modern Voice Archetypes The voice sits somewhere between: a tired priest a gothic monk Gollum but calmer a whispering vampire servant Not fully monstrous — still recognizably human.""
+We also need to update the Acolyte, which the model described this way:
+
+#### Vocal Tone
+- Thin, breathy chest voice
+- Slightly nasal
+- Constant feeling of being:
+  - exhausted
+  - fanatically devoted
+  - sleep-deprived
+  - half-dead already
+- Sits fairly high for a male character, but not cartoonishly high
+
+#### Texture
+- Dry throat
+- Whisper layered into speech
+- Weak physical energy
+- Emotionally intense
+- Reference feeling: "cultist who hasn’t slept in 4 days but is still deeply committed."
+
+#### Cadence / Rhythm
+- Speaks slowly and deliberately
+- Uses long vowel drags
+- Example lines:
+  - "Yessss, master..."
+  - "Thy bidding...?"
+  - "I wish only to serve..."
+- Key trait: sentence endings often trail downward in pitch
+- Pauses are slightly too long
+- Delivery should feel ritualistic
+
+#### Resonance Placement
+- Most sound should sit in:
+  - the nose
+  - upper throat
+  - soft palate
+- Very little chest resonance
+- Performance tips:
+  - Speak softly
+  - Push resonance into the nose
+  - Add a weak whisper underneath
+  - Slightly constrict the throat
+
+#### Emotional Flavor
+- Approximate blend:
+  - 40% submissive
+  - 30% creepy devotion
+  - 20% undead fatigue
+  - 10% sarcasm/dark humor
+- Humor should be understated and never energetic
+
+#### Audio Processing (important)
+- Slight reverb
+- Mild compression
+- Tiny bit of chorus/doubling
+- Rolled-off highs
+- Boosted low mids
+- Optional: faint cavern/crypt ambience
+
+#### Quick Voice Recipe
+Speak quietly through a tired smile, whisper under your words, drag vowels, and sound like a devoted necromancer who hasn’t seen sunlight in years.
+
+#### Example Delivery
+Try this line: "The damned stand ready..."
+
+How to perform it:
+- Start airy
+- Drag "damned"
+- Drop pitch at the end
+- Barely open the mouth
+- Add faint rasp
+
+Like: "The daaamned... stand reaaady..."
+
+#### Closest Modern Voice Archetypes
+- A tired priest
+- A gothic monk
+- Gollum but calmer
+- A whispering vampire servant
+- Not fully monstrous — still recognizably human
 
 ### Example Prompt Style (Same Scenario)
 
