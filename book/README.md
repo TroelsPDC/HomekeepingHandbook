@@ -35,6 +35,7 @@ This is not a story about heroes. It is a story about the ones who do the work.
 - Keep Peon sentences **short, direct, and rough**, with simple grammar.
 - Keep readability intact: flavor first, but do not make the text hard to understand.
 
+
 ### Acolyte Description
 
 The model described the Acolyte this way:
@@ -116,6 +117,20 @@ Like: "The daaamned... stand reaaady..."
 - Gollum but calmer
 - A whispering vampire servant
 - Not fully monstrous — still recognizably human
+=======
+### Peon Voice Reference (Warcraft III Voice-Line Analysis)
+
+- Core archetype: **big, exhausted orc laborer who wants to be left alone**.
+- Emotional mix: exhausted worker + obedient servant + grumpy caveman + goofy warmth.
+- Tone should be **deep, gravelly, chest-heavy, and slow-thinking**, but **not aggressive**.
+- He should sound physically strong but emotionally worn down.
+- Syntax should stay simple and broken on purpose: clipped phrases, optional grammar, delayed responses.
+- Keep humor grounded in low-status worker energy, passive-aggressive annoyance, and sincere simplicity.
+- Preserve the “secret softness”: even annoyed lines should still feel harmless, almost sweet.
+- Useful performance image: **friendly cave troll with a union job**.
+- Cadence target: short phrases, slight drag, abrupt endings, and blunt consonants.
+- Texture target for reading voice aloud: low-throat placement, rough breath, mild vocal fry, and lazy mouth shape.
+
 
 ### Example Prompt Style (Same Scenario)
 
