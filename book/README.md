@@ -37,7 +37,7 @@ This is not a story about heroes. It is a story about the ones who do the work.
 
 ### Acolyte Description
 
-We also need to update the Acolyte, which the model described this way:
+The model described the Acolyte this way:
 
 #### Vocal Tone
 - Thin, breathy chest voice
