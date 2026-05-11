@@ -19,7 +19,7 @@ This is not a story about heroes. It is a story about the ones who do the work.
 | Character | Race           | Voice                               |
 |-----------|----------------|-------------------------------------|
 | Peasant   | Human Alliance | Plainspoken, humble, hardworking    |
-| Acolyte   | Undead Scourge | Dark, reverent, philosophical       |
+| Acolyte   | Undead Scourge | Thin, breathy, ritualistic, exhausted devotion |
 | Peon      | Orcish Horde   | Broken, phonetic, grumbling, darkly comic |
 | Wisp      | Night Elf      | No words — symbols only (Wisps do not speak) |
 
@@ -35,6 +35,89 @@ This is not a story about heroes. It is a story about the ones who do the work.
 - Keep Peon sentences **short, direct, and rough**, with simple grammar.
 - Keep readability intact: flavor first, but do not make the text hard to understand.
 
+
+### Acolyte Description
+
+The model described the Acolyte this way:
+
+#### Vocal Tone
+- Thin, breathy chest voice
+- Slightly nasal
+- Constant feeling of being:
+  - exhausted
+  - fanatically devoted
+  - sleep-deprived
+  - half-dead already
+- Sits fairly high for a male character, but not cartoonishly high
+
+#### Texture
+- Dry throat
+- Whisper layered into speech
+- Weak physical energy
+- Emotionally intense
+- Reference feeling: "cultist who hasn’t slept in 4 days but is still deeply committed."
+
+#### Cadence / Rhythm
+- Speaks slowly and deliberately
+- Uses long vowel drags
+- Example lines:
+  - "Yessss, master..."
+  - "Thy bidding...?"
+  - "I wish only to serve..."
+- Key trait: sentence endings often trail downward in pitch
+- Pauses are slightly too long
+- Delivery should feel ritualistic
+
+#### Resonance Placement
+- Most sound should sit in:
+  - the nose
+  - upper throat
+  - soft palate
+- Very little chest resonance
+- Performance tips:
+  - Speak softly
+  - Push resonance into the nose
+  - Add a weak whisper underneath
+  - Slightly constrict the throat
+
+#### Emotional Flavor
+- Approximate blend:
+  - 40% submissive
+  - 30% creepy devotion
+  - 20% undead fatigue
+  - 10% sarcasm/dark humor
+- Humor should be understated and never energetic
+
+#### Audio Processing (important)
+- Slight reverb
+- Mild compression
+- Tiny bit of chorus/doubling
+- Rolled-off highs
+- Boosted low mids
+- Optional: faint cavern/crypt ambience
+
+#### Quick Voice Recipe
+Speak quietly through a tired smile, whisper under your words, drag vowels, and sound like a devoted necromancer who hasn’t seen sunlight in years.
+
+#### Example Delivery
+Try this line: "The damned stand ready..."
+
+How to perform it:
+- Start airy
+- Drag "damned"
+- Drop pitch at the end
+- Barely open the mouth
+- Add faint rasp
+
+Like: "The daaamned... stand reaaady..."
+
+#### Closest Modern Voice Archetypes
+- A tired priest
+- A gothic monk
+- Gollum but calmer
+- A whispering vampire servant
+- Not fully monstrous — still recognizably human
+=======
 ### Peon Voice Reference (Warcraft III Voice-Line Analysis)
 
 - Core archetype: **big, exhausted orc laborer who wants to be left alone**.
@@ -47,6 +130,7 @@ This is not a story about heroes. It is a story about the ones who do the work.
 - Useful performance image: **friendly cave troll with a union job**.
 - Cadence target: short phrases, slight drag, abrupt endings, and blunt consonants.
 - Texture target for reading voice aloud: low-throat placement, rough breath, mild vocal fry, and lazy mouth shape.
+
 
 ### Example Prompt Style (Same Scenario)
 
