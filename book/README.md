@@ -18,7 +18,7 @@ This is not a story about heroes. It is a story about the ones who do the work.
 
 | Character | Race           | Voice                               |
 |-----------|----------------|-------------------------------------|
-| Peasant   | Human Alliance | Plainspoken, humble, hardworking    |
+| Peasant   | Human Alliance | Overworked, practical, cheerful-but-tired, dryly funny |
 | Acolyte   | Undead Scourge | Dark, reverent, philosophical       |
 | Peon      | Orcish Horde   | Broken, phonetic, grumbling, darkly comic |
 | Wisp      | Night Elf      | No words — symbols only (Wisps do not speak) |
@@ -27,9 +27,16 @@ This is not a story about heroes. It is a story about the ones who do the work.
 
 ## Voice Notes for Future Writing
 
-- **Peasant voice should be practical, plainspoken, and grounded in everyday work.**
-- Keep Peasant language clear, humble, and direct — no fancy wording.
-- Peasant should explain things in a useful, step-by-step way.
+- **Peasant voice should feel like a tired medieval handyman still trying to be polite.**
+- Core energy: overworked, practical, rural, obedient, mildly annoyed, and oddly upbeat.
+- The Peasant should sound like a "common man" (chesty, grounded, open-throated), not mystical or refined.
+- Use dry working-class grumbling, exaggerated politeness, and casual sarcasm for humor.
+- Keep delivery conversational and reactive, with bouncy rhythm and occasional upward endings.
+- Favor rounded vowels and stretched phrasing in spirit (for example: "Yes, m'lord?", "Off I go then...", "More work?").
+- Emotional blend target: mostly exhausted laborer + obedient servant, with a bit of dry humor and panic under pressure.
+- Texture cues to preserve: slight rasp, breath from labor, occasional cracks, and a faint smile while speaking.
+- Hidden tonal reference: British absurdist peasant-sketch energy — believable worker, but gently parodic.
+- Fast recipe: **"friendly exhausted carpenter."**
 - **Peon voice should sound spoken, not polished.**
 - Prefer **phonetic spellings** and occasional **simple misspellings** where it feels natural for the Peon.
 - Keep Peon sentences **short, direct, and rough**, with simple grammar.
