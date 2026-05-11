@@ -21,7 +21,7 @@ This is not a story about heroes. It is a story about the ones who do the work.
 | Peasant   | Human Alliance | Plainspoken, humble, hardworking    |
 | Acolyte   | Undead Scourge | Dark, reverent, philosophical       |
 | Peon      | Orcish Horde   | Broken, grumbling, darkly comic     |
-| Wisp      | Night Elf      | Ethereal, poetic, nature-bound      |
+| Wisp      | Night Elf      | No words — symbols only (Wisps do not speak) |
 
 ---
 
