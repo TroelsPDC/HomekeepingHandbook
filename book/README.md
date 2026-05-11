@@ -1,162 +1,159 @@
-# Builders of the World: Four Voices, One Story
+# The Essential Guide to Caring for Everything in Your Domain
 
-*A novel told through the eyes of those who build.*
+*A Collaborative Household Reference*
+
+---
+
+**By:**
+Grubnok son of Grubnok, Senior Peon
+Edwin Harford, Master Mason of Lordaeron
+Brother Naxxramas the Pallid, Acolyte of the Cult
+*(translated from ambient moonlight) by several Wisps*
 
 ---
 
 ## About This Book
 
-Four builders. Four races. One story.
+On the surface, this is a practical guide to domestic life: cleaning, repairs, cooking, pest control, gardening, hospitality, seasonal upkeep.
 
-A watchtower must be raised on a hill at the edge of a battlefield. A battle rages nearby. A comrade falls. Each of the four builders — a Peasant, an Acolyte, a Peon, and a Wisp — experiences and recounts the same day in their own voice, shaped by who they are and how they see the world.
+Underneath, it is four civilisations arguing about what *care* means.
 
-This is not a story about heroes. It is a story about the ones who do the work.
-
----
-
-## The Four Builders
-
-| Character | Race           | Voice                               |
-|-----------|----------------|-------------------------------------|
-| Peasant   | Human Alliance | Medieval worker, earthy, tired, lightly ungrammatical, dryly funny |
-| Acolyte   | Undead Scourge | Thin, breathy, ritualistic, exhausted devotion |
-| Peon      | Orcish Horde   | Broken, spoken, grumbling, darkly comic |
-| Wisp      | Night Elf      | No words — symbols only (Wisps do not speak) |
+The four authors agree that a domain requires maintenance. They disagree about what a domain is, what maintenance means, what care is for, and whether ownership is real.
 
 ---
 
-## Voice Notes for Future Writing
+## The Core Structure
 
-- **Peasant voice should feel like a tired medieval handyman still trying to be polite.**
-- He is a **human field-and-timber worker**, not a polished narrator, refined courtier, or modern tradesman.
-- Core energy: overworked, practical, rural, obedient, mildly annoyed, and oddly upbeat.
-- The Peasant should sound like a "common man" (chesty, grounded, open-throated), not mystical or refined.
-- Use dry working-class grumbling, exaggerated politeness, and casual sarcasm for humor.
-- Keep delivery conversational and reactive, with bouncy rhythm and occasional upward endings.
-- Let the prose stay a little rough around the edges: simple phrasing, occasional mild ungrammaticality, and worker-like turns of speech are good.
-- Keep him readable and warm; the voice should feel lived-in, not stylized into parody.
-- Favor rounded vowels and stretched phrasing in spirit (for example: "Yes, m'lord?", "Off I go then...", "More work?").
-- Emotional blend target: mostly exhausted laborer + obedient servant, with a bit of dry humor and panic under pressure.
-- Texture cues to preserve: slight rasp, breath from labor, occasional cracks, and a faint smile while speaking.
-- Hidden tonal reference: British absurdist peasant-sketch energy — believable worker, but gently parodic.
-- Fast recipe: **"friendly exhausted medieval workman."**
-- **Peon voice should sound spoken, not polished.**
-- Prefer **broken but readable English** over heavy phonetic spelling.
-- Use misspellings sparingly; rhythm, repetition, and blunt word choice should carry most of the voice.
-- Keep Peon sentences **short, direct, and rough**, with simple grammar.
-- The Peon should sound like an overworked laborer thinking out loud, not like a joke character performing stupidity.
-- Keep readability intact: flavor first, but do not make the text hard to understand.
+Every chapter is written by all four authors. Every author believes the others are incompetent amateurs.
 
+Nobody acknowledges how insane the others are. Everyone is entirely serious.
 
-### Acolyte Description
-
-The model described the Acolyte this way:
-
-#### Vocal Tone
-- Thin, breathy chest voice
-- Slightly nasal
-- Constant feeling of being:
-  - exhausted
-  - fanatically devoted
-  - sleep-deprived
-  - half-dead already
-- Sits fairly high for a male character, but not cartoonishly high
-
-#### Texture
-- Dry throat
-- Whisper layered into speech
-- Weak physical energy
-- Emotionally intense
-- Reference feeling: "cultist who hasn’t slept in 4 days but is still deeply committed."
-
-#### Cadence / Rhythm
-- Speaks slowly and deliberately
-- Uses long vowel drags
-- Example lines:
-  - "Yessss, master..."
-  - "Thy bidding...?"
-  - "I wish only to serve..."
-- Key trait: sentence endings often trail downward in pitch
-- Pauses are slightly too long
-- Delivery should feel ritualistic
-
-#### Resonance Placement
-- Most sound should sit in:
-  - the nose
-  - upper throat
-  - soft palate
-- Very little chest resonance
-- Performance tips:
-  - Speak softly
-  - Push resonance into the nose
-  - Add a weak whisper underneath
-  - Slightly constrict the throat
-
-#### Emotional Flavor
-- Approximate blend:
-  - 40% submissive
-  - 30% creepy devotion
-  - 20% undead fatigue
-  - 10% sarcasm/dark humor
-- Humor should be understated and never energetic
-
-#### Audio Processing (important)
-- Slight reverb
-- Mild compression
-- Tiny bit of chorus/doubling
-- Rolled-off highs
-- Boosted low mids
-- Optional: faint cavern/crypt ambience
-
-#### Quick Voice Recipe
-Speak quietly through a tired smile, whisper under your words, drag vowels, and sound like a devoted necromancer who hasn’t seen sunlight in years.
-
-#### Example Delivery
-Try this line: "The damned stand ready..."
-
-How to perform it:
-- Start airy
-- Drag "damned"
-- Drop pitch at the end
-- Barely open the mouth
-- Add faint rasp
-
-Like: "The daaamned... stand reaaady..."
-
-#### Closest Modern Voice Archetypes
-- A tired priest
-- A gothic monk
-- Gollum but calmer
-- A whispering vampire servant
-- Not fully monstrous — still recognizably human
-### Peon Voice Reference (Warcraft III Voice-Line Analysis)
-
-- Core archetype: **big, exhausted orc laborer who wants to be left alone**.
-- Emotional mix: exhausted worker + obedient servant + grumpy caveman + goofy warmth.
-- Tone should be **deep, gravelly, chest-heavy, and slow-thinking**, but **not aggressive**.
-- He should sound physically strong but emotionally worn down.
-- Syntax should stay simple and broken on purpose: clipped phrases, optional grammar, delayed responses.
-- Keep humor grounded in low-status worker energy, passive-aggressive annoyance, and sincere simplicity.
-- Preserve the “secret softness”: even annoyed lines should still feel harmless, almost sweet.
-- Useful performance image: **friendly cave troll with a union job**.
-- Cadence target: short phrases, slight drag, abrupt endings, and blunt consonants.
-- Texture target for reading voice aloud: low-throat placement, rough breath, mild vocal fry, and lazy mouth shape.
-
-
-### Example Prompt Style (Same Scenario)
-
-**Peasant (removing calcium from a mirror):**
-"Right, here's how I'd do it. Mix equal parts warm water and white vinegar, then wet a cloth with it and lay it on the calcium marks for a few minutes. Don't scrub hard straight away — let it soften first. Then wipe in small circles. If a patch is stubborn, use a plastic scraper gentle-like, not metal, or you'll scratch the mirror. Finish with clean water and dry with a soft cloth so you don't leave streaks."
+In addition, the authors annotate each other's sections — occasionally with agreement, more often with bewilderment, and sometimes in ways that raise urgent questions about the annotator.
 
 ---
 
-## Chapters
+## The Four Authors
 
-1. [The Peasant's Account](chapter_01_peasant.md)
-2. [The Acolyte's Account](chapter_02_acolyte.md)
-3. [The Peon's Account](chapter_03_peon.md)
-4. [The Wisp's Account](chapter_04_wisp.md)
+### Edwin Harford — Master Mason of Lordaeron
+**"Maintenance through labour."**
+
+Edwin believes everything breaks constantly, that order requires suffering, that roofs leak because God is testing you, and that chores are morally righteous.
+
+His sections are detailed, resentful, practical, and full of warnings.
+
+*Voice:* "You will regret neglecting chimney ash. Perhaps not today. But during rain? Certainly."
+
+### Grubnok son of Grubnok — Senior Peon
+**"Good enough is perfect."**
+
+Grubnok is ingenious but horrifying. He believes structural integrity is optional, that mud solves most problems, that spikes improve everything, that smoke means warmth, and that holes are ventilation.
+
+His sections cover improvised repairs, preserving meat with excessive salt, sleeping during work, and arguing with tools.
+
+*Voice:* "If wall leans, build matching wall opposite direction. Now both strong."
+
+### Brother Naxxramas the Pallid — Acolyte of the Cult
+**"A home is where decay is organised."**
+
+The Acolyte's sections are unexpectedly elegant. He treats necromancy like upper-class housekeeping. He is obsessed with preservation, stonework, candle placement, and maintaining crypts for ten thousand years.
+
+The comedy comes from extreme calmness and horrifying implications.
+
+*Voice:* "An untended crypt is merely clutter with ambition."
+
+### Several Wisps
+**"Ownership is a temporary hallucination."**
+
+The Wisp chapters are poetic, incomprehensible, and occasionally profound. The Wisps fundamentally disagree with permanent structures, furniture, agriculture, and the concept of "inside."
+
+*Voice:* "You trap air in square caves and wonder why it becomes lonely."
 
 ---
 
-*"The tower was built. That much is certain. What it cost — that depends on who you ask."*
+## The Annotation System
+
+All four authors annotate each other's sections, indicated by a blockquote with their name:
+
+> *Peon annotation: Why move dirt? Dirt loyal.*
+
+> *Acolyte annotation: Dust is merely patient stone.*
+
+> *Wisp annotation: Floor yearns to become earth again.*
+
+---
+
+## Table of Contents
+
+### Part I — Foundations
+- Choosing a Homesite
+- Moisture, Rot, and Fel Corruption
+- Proper Load-Bearing Timber
+- Whether Doors Are Necessary
+
+### Part II — Hearth & Sustenance
+- Bread
+- Roasted Boar
+- Fungus Cultivation
+- Moonwell Etiquette
+- The Ethics of Eating Murloc
+
+### Part III — Domestic Harmony
+1. [Hosting Guests](chapter_03_hosting_guests.md)
+2. Ancestor Shrines
+3. Noise Management
+4. Proper Banner Placement
+5. [What To Do If Your Home Becomes Haunted](chapter_04_haunted.md)
+
+### Part IV — Repairs
+1. [Pest Control](chapter_01_pest_control.md)
+2. Roof Patching
+3. When to Rebuild Completely
+4. Fungus in the Basement
+5. Scourge Contamination
+6. [Fire Safety](chapter_02_fire_safety.md)
+
+### Part V — Beauty
+- Symmetry, Flowers, and Polished Copper *(Peasant)*
+- Big Axe on Wall *(Peon)*
+- Cathedral Silence and Geometric Bone Arrangements *(Acolyte)*
+- Morning Dew on Roots *(Wisp)*
+
+---
+
+## Voice Notes
+
+### Peasant (Edwin Harford)
+- Tired medieval handyman trying to be polite
+- Core energy: overworked, practical, rural, obedient, mildly annoyed, oddly upbeat
+- Uses dry working-class grumbling, exaggerated politeness, and casual sarcasm
+- Keeps prose slightly rough: simple phrasing, occasional mild ungrammaticality, worker-like turns of speech
+- Resentful but warm; the voice should feel lived-in, not stylized
+- Hidden tone: British absurdist peasant-sketch energy
+- **Fast recipe: "friendly exhausted medieval workman"**
+
+### Peon (Grubnok son of Grubnok)
+- Spoken, not polished — but readable
+- Use broken but legible English over heavy phonetic spelling
+- Short, direct, rough — sounds like an overworked laborer thinking out loud
+- Rhythm, repetition, and blunt word choice carry the voice
+- Humor comes from low-status worker energy, sincere simplicity, and occasional unexpected warmth
+- **Fast recipe: "friendly cave troll with a union job"**
+
+### Acolyte (Brother Naxxramas the Pallid)
+- Thin, breathy, slow, deliberately ritualistic
+- Emotionally intense but physically exhausted
+- Long vowel drags, slightly too-long pauses, downward-trailing endings
+- Treats necromancy as a perfectly ordinary domestic subject
+- Dry humor, never energetic; horrifying implications delivered with complete calm
+- **Fast recipe: "devoted necromancer who hasn't seen sunlight in years, writing a style guide"**
+
+### Wisps
+- Poetic, incomprehensible, occasionally profound
+- No direct address; no acknowledgement that anyone is listening
+- Speak in observations, not instructions
+- Often reframe the chapter's problem by dissolving the assumptions behind it
+- **Fast recipe: "a forest that has decided to weigh in"**
+
+---
+
+*"The domain will not maintain itself. Or it will. That depends entirely on who you ask."*
