@@ -27,10 +27,18 @@ This is not a story about heroes. It is a story about the ones who do the work.
 
 ## Voice Notes for Future Writing
 
+- **Peasant voice should be practical, plainspoken, and grounded in everyday work.**
+- Keep Peasant language clear, humble, and direct — no fancy wording.
+- Peasant should explain things in a useful, step-by-step way.
 - **Peon voice should sound spoken, not polished.**
 - Prefer **phonetic spellings** and occasional **simple misspellings** where it feels natural for the Peon.
 - Keep Peon sentences **short, direct, and rough**, with simple grammar.
 - Keep readability intact: flavor first, but do not make the text hard to understand.
+
+### Example Prompt Style (Same Scenario)
+
+**Peasant (removing calcium from a mirror):**
+"Right, here's how I'd do it. Mix equal parts warm water and white vinegar, then wet a cloth with it and lay it on the calcium marks for a few minutes. Don't scrub hard straight away — let it soften first. Then wipe in small circles. If a patch is stubborn, use a plastic scraper gentle-like, not metal, or you'll scratch the mirror. Finish with clean water and dry with a soft cloth so you don't leave streaks."
 
 ---
 
