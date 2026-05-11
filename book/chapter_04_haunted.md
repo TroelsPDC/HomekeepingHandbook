@@ -2,7 +2,7 @@
 
 ---
 
-## Edwin Harford, Master Mason of Lordaeron
+## Theodore Furlbrow, Master Mason of Lordaeron
 
 First: do not panic. Panic has never repaired anything, and it is particularly unhelpful in situations involving the restless dead.
 
@@ -12,7 +12,7 @@ If the clergyman is unavailable — or has recently fled — you may attempt the
 
 Document the haunting. Time of occurrence, location, nature of disturbance. A pattern is a problem you can solve. A pattern is *always* a problem you can solve, and this holds as true for apparitions as for a leaking gutter. If the haunting persists for more than one season, consider whether the spirit has any legitimate grievance regarding the property. In my experience, a ghost with a grievance is correct more often than it is wrong.
 
-> *Peon annotation: Bread idea is good. Grubnok tried. Ghost ate bread. Haunting continue but now ghost less angry. Overall: improvement.*
+> *Peon annotation: Bread idea is good. Morgum tried. Ghost ate bread. Haunting continue but now ghost less angry. Overall: improvement.*
 
 > *Acolyte annotation: If the haunting has persisted for one season, you have not resolved it. You have extended an informal offer of residency. There are implications to this.*
 
@@ -20,13 +20,13 @@ Document the haunting. Time of occurrence, location, nature of disturbance. A pa
 
 ---
 
-## Grubnok son of Grubnok, Senior Peon
+## Morgum Soothumb, Senior Peon
 
-Haunted? That mean ghost? Grubnok seen ghost. Ghost not so bad. Ghost don't eat food. Ghost don't steal blankets. Ghost just float around and look sad.
+Haunted? That mean ghost? Morgum seen ghost. Ghost not so bad. Ghost don't eat food. Ghost don't steal blankets. Ghost just float around and look sad.
 
 Give ghost old corner. Somewhere not important — corner near the firewood, maybe, or back of the grain store where nobody really goes. Ghost happy, peon happy. Everyone leave each other alone. This is good living arrangement.
 
-If ghost get angry: ask what ghost want. Usually ghost want something very specific from when it was alive. Give it. Ghost calm down. Grubnok has a whole shelf now, just for ghost things. Works good.
+If ghost get angry: ask what ghost want. Usually ghost want something very specific from when it was alive. Give it. Ghost calm down. Morgum has a whole shelf now, just for ghost things. Works good.
 
 If ghost too angry for talking: build more walls. Ghost get confused in new walls. Eventually forget what it was angry about. Most things do, given enough walls.
 
@@ -38,7 +38,7 @@ If ghost too angry for talking: build more walls. Ghost get confused in new wall
 
 ---
 
-## Brother Naxxramas the Pallid, Acolyte of the Cult
+## Vorun the Pallid, Acolyte of the Cult
 
 A haunted home is not a problem. A haunted home is a home that has begun to fulfil its deeper purpose.
 

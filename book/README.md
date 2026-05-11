@@ -5,9 +5,9 @@
 ---
 
 **By:**
-Grubnok son of Grubnok, Senior Peon
-Edwin Harford, Master Mason of Lordaeron
-Brother Naxxramas the Pallid, Acolyte of the Cult
+Morgum Soothumb, Senior Peon
+Theodore Furlbrow, Master Mason of Lordaeron
+Vorun the Pallid, Acolyte of the Cult
 *(translated from ambient moonlight) by several Wisps*
 
 ---
@@ -34,7 +34,7 @@ In addition, the authors annotate each other's sections — occasionally with ag
 
 ## The Four Authors
 
-### Edwin Harford — Master Mason of Lordaeron
+### Theodore Furlbrow — Master Mason of Lordaeron
 **"Maintenance through labour."**
 
 Edwin believes everything breaks constantly, that order requires suffering, that roofs leak because God is testing you, and that chores are morally righteous.
@@ -43,16 +43,16 @@ His sections are detailed, resentful, practical, and full of warnings.
 
 *Voice:* "You will regret neglecting chimney ash. Perhaps not today. But during rain? Certainly."
 
-### Grubnok son of Grubnok — Senior Peon
+### Morgum Soothumb — Senior Peon
 **"Good enough is perfect."**
 
-Grubnok is ingenious but horrifying. He believes structural integrity is optional, that mud solves most problems, that spikes improve everything, that smoke means warmth, and that holes are ventilation.
+Morgum is ingenious but horrifying. He believes structural integrity is optional, that mud solves most problems, that spikes improve everything, that smoke means warmth, and that holes are ventilation.
 
 His sections cover improvised repairs, preserving meat with excessive salt, sleeping during work, and arguing with tools.
 
 *Voice:* "If wall leans, build matching wall opposite direction. Now both strong."
 
-### Brother Naxxramas the Pallid — Acolyte of the Cult
+### Vorun the Pallid — Acolyte of the Cult
 **"A home is where decay is organised."**
 
 The Acolyte's sections are unexpectedly elegant. He treats necromancy like upper-class housekeeping. He is obsessed with preservation, stonework, candle placement, and maintaining crypts for ten thousand years.
@@ -122,7 +122,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 
 ## Voice Notes
 
-### Peasant (Edwin Harford)
+### Peasant (Theodore Furlbrow)
 - Tired medieval handyman trying to be polite
 - Core energy: overworked, practical, rural, obedient, mildly annoyed, oddly upbeat
 - Uses dry working-class grumbling, exaggerated politeness, and casual sarcasm
@@ -131,7 +131,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Hidden tone: British absurdist peasant-sketch energy
 - **Fast recipe: "friendly exhausted medieval workman"**
 
-### Peon (Grubnok son of Grubnok)
+### Peon (Morgum Soothumb)
 - Spoken, not polished — but readable
 - Use broken but legible English over heavy phonetic spelling
 - Short, direct, rough — sounds like an overworked laborer thinking out loud
@@ -139,7 +139,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Humor comes from low-status worker energy, sincere simplicity, and occasional unexpected warmth
 - **Fast recipe: "friendly cave troll with a union job"**
 
-### Acolyte (Brother Naxxramas the Pallid)
+### Acolyte (Vorun the Pallid)
 - Thin, breathy, slow, deliberately ritualistic
 - Emotionally intense but physically exhausted
 - Long vowel drags, slightly too-long pauses, downward-trailing endings
