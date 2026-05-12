@@ -113,6 +113,12 @@
     nav.appendChild(nextBtn);
   }
 
+  function clearCleanupTimer() {
+    if (!cleanupTimer) return;
+    window.clearTimeout(cleanupTimer);
+    cleanupTimer = null;
+  }
+
   function updateStageHeight(indices) {
     var height = 0;
     indices.forEach(function (index) {
@@ -158,7 +164,7 @@
     currentPage = pages[previousIndex];
     targetPage = pages[index];
 
-    if (cleanupTimer) window.clearTimeout(cleanupTimer);
+    clearCleanupTimer();
     updateStageHeight([previousIndex, index]);
 
     if (reduceMotionQuery.matches) {
@@ -173,6 +179,7 @@
     setPageState(currentPage, 'current', false);
     setPageState(targetPage, direction === 'next' ? 'after' : 'before', false);
     // Force reflow so the browser applies the setup states before the flip starts.
+    // `void` makes it explicit that we intentionally discard the layout value.
     void stack.offsetHeight;
 
     currentPage.dataset.state = direction === 'next' ? 'leaving-next' : 'leaving-prev';
@@ -184,6 +191,7 @@
     cleanupTimer = window.setTimeout(function () {
       syncPages();
       render();
+      cleanupTimer = null;
     }, animationDuration);
   }
 
@@ -205,6 +213,7 @@
 
   window.addEventListener('resize', refreshLayout);
   reduceMotionQuery.addEventListener('change', refreshLayout);
+  window.addEventListener('pagehide', clearCleanupTimer);
 
   syncPages();
   render();
