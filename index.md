@@ -10,10 +10,10 @@ title: "Table of Contents"
 ---
 
 **By:**
-Morgum Soothumb, Senior Peon
-Theodore Furlbrow, Master Mason of Lordaeron
-Vorun the Pallid, Acolyte of the Cult
-*(translated from ambient moonlight)* by Several Wisps
+**Morgum Soothumb**, *Senior Peon*
+**Theodore Furlbrow**, *Master Mason of Lordaeron*
+**Vorun the Pallid**, *Acolyte of the Cult*
+**Wisps**
 
 ---
 
