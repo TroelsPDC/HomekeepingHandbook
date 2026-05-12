@@ -17,6 +17,7 @@
   if (!article) return;
   var reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
   var animationDuration = 650;
+  var minStackHeight = 1;
   var cleanupTimer = null;
   var currentIndex = 0;
   var isAnimating = false;
@@ -118,7 +119,7 @@
       if (index < 0 || index >= pages.length) return;
       height = Math.max(height, pages[index].offsetHeight);
     });
-    stack.style.height = (height || 1) + 'px';
+    stack.style.height = (height || minStackHeight) + 'px';
   }
 
   function setPageState(page, state, active) {
@@ -171,6 +172,7 @@
     isAnimating = true;
     setPageState(currentPage, 'current', false);
     setPageState(targetPage, direction === 'next' ? 'after' : 'before', false);
+    // Force reflow so the browser applies the setup states before the flip starts.
     stack.offsetHeight;
 
     currentPage.dataset.state = direction === 'next' ? 'leaving-next' : 'leaving-prev';
