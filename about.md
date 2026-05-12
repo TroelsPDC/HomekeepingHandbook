@@ -31,7 +31,7 @@ Morgum is ingenious but horrifying. He believes structural integrity is optional
 
 The Acolyte's sections are unexpectedly elegant. He treats necromancy like upper-class housekeeping. He is obsessed with preservation, stonework, candle placement, and maintaining crypts for ten thousand years.
 
-### Several Wisps
+### Wisps
 **"Ownership is a temporary hallucination."**
 
 The Wisp chapters are poetic, incomprehensible, and occasionally profound. The Wisps fundamentally disagree with permanent structures, furniture, agriculture, and the concept of "inside."

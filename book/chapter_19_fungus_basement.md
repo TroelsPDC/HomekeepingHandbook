@@ -60,7 +60,7 @@ I named the colony Thessivane. It has been three years now. Thessivane does not 
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 The fungus in the basement is the forest floor. It does not know it is indoors. There is no word, in the part of the forest that lives underground, for indoors.

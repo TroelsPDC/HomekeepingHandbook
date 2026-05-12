@@ -61,7 +61,7 @@ Practically: if your repair plan has more line items than your original construc
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 A tree falls. This is not the end of the tree. The tree becomes something that was a tree: nurse log, shelter, soil, the slow wealth of fungus, the corridor beneath the moss where small things make decisions about direction. The tree does not rebuild. The tree does not stand up again and try to be the tree it was before the wind came. It becomes something else. This is not resignation. This is not failure. This is the tree continuing in a different form, less vertical, more distributed, more interested in the ground than it used to be.

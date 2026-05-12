@@ -58,7 +58,7 @@ For properties with Fel-adjacent foundations, I recommend: quarterly cleansing r
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 The wood in your wall is not rotting. The wood in your wall is continuing. You interrupted it briefly — took it mid-sentence from its long conversation with beetle and rain and the slow turning of seasons — and asked it to hold up your ceiling for a while. It agreed, in the way that things agree when pressed. Now it is returning to what it was saying. The sentence has not changed. You were a parenthesis.

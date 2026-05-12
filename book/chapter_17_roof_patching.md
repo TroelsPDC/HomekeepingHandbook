@@ -58,7 +58,7 @@ The maintenance schedule for a stone roof is: inspect after any significant weat
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 Rain falls. This is what rain does. Rain has been falling on this land since the land was young and did not yet know it was a land, only that it was cold and wet from above and from within, and it did not mind. Rain falls toward the lowest point it can find. This is not aggression. This is not carelessness. Rain is simply being accurate about the nature of downward.

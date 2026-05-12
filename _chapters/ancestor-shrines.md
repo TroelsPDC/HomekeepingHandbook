@@ -67,7 +67,7 @@ My only practical note — and I offer this gently, as someone who understands t
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 We have been trying to understand what is meant by "shrine."

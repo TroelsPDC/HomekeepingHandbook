@@ -58,7 +58,7 @@ If you insist on making bread — and many of you will, I am aware — I ask onl
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 Grain begins as a held breath. The seed waits. It has been waiting since the last field, and before that since the field before that, each grain a copy of an intention that started somewhere no record reaches. The waiting is not impatience. The waiting is the seed being entirely itself, in reserve.
