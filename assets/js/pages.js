@@ -173,7 +173,7 @@
     setPageState(currentPage, 'current', false);
     setPageState(targetPage, direction === 'next' ? 'after' : 'before', false);
     // Force reflow so the browser applies the setup states before the flip starts.
-    stack.offsetHeight;
+    void stack.offsetHeight;
 
     currentPage.dataset.state = direction === 'next' ? 'leaving-next' : 'leaving-prev';
     targetPage.dataset.state = 'current';
@@ -204,9 +204,7 @@
   });
 
   window.addEventListener('resize', refreshLayout);
-  if (typeof reduceMotionQuery.addEventListener === 'function') {
-    reduceMotionQuery.addEventListener('change', refreshLayout);
-  }
+  reduceMotionQuery.addEventListener('change', refreshLayout);
 
   syncPages();
   render();
