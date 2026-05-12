@@ -1,0 +1,81 @@
+---
+layout: chapter
+title: "Part I, Chapter 5: Choosing a Homesite"
+nav_title: "Choosing a Homesite"
+order: 1
+---
+
+# Part I, Chapter 5: Choosing a Homesite
+
+---
+
+## Theodore Furlbrow, Master Mason of Lordaeron
+
+Soil drainage is the first thing. Not the second thing. The first thing. I have seen men choose their land by how pretty the view is, or because a stream was nearby and they fancied the sound of running water. Those men, every last one of them, spent their second winter bailing standing water out of a cellar they dug themselves during summer when they were feeling optimistic. Optimism is expensive. Check the soil.
+
+What you want is dark loam that crumbles when you squeeze it. What you do not want is the grey-blue clay that goes slick when it rains and sets like pottery when it dries. If you press your boot into the ground and your boot does not come back easily, that is clay. That is a warning. That is the land telling you to look elsewhere. The land is not subtle about this. You have to choose to ignore it.
+
+Sun exposure matters considerably more than most people admit, especially in the northern territories. Your walls should face south where possible. Morning sun dries damp; afternoon sun warms stone; stone that holds warmth through the night costs you less in firewood. Firewood, if you have never spent a winter cutting it yourself, is not free. It is extremely not free. It costs you your back and most of October and a quantity of goodwill toward trees that you will not recover.
+
+Water proximity is a question of balance. You want water close — an hour's walk at most — but not so close that spring floods reach you. Floods will always reach further than you expect. Add twenty feet to wherever you think is safe. Then add another ten, because you are probably still underestimating. This is not pessimism. This is hydrology.
+
+Regarding neighbours: I recommend a distance of no less than four furlongs. Close enough that you might borrow a tool in an emergency. Far enough that you cannot, under any circumstances, hear them argue about the tool after you return it. The ideal neighbour is visible from a hill on a clear day and no closer.
+
+> *Peon annotation: Morgum agree with dirt squeeze test. Also good for making mud. Mud very useful. Peasant not mention mud.*
+
+> *Acolyte annotation: The grey-blue clay he dismisses has its uses. It retains impressions remarkably well — footprints, handprints, the outlines of things that lay upon it. A site with clay subsoil is, effectively, a living archive. I have found this professionally invaluable.*
+
+> *Wisp annotation: The soil does not drain. The soil receives.*
+
+---
+
+## Morgum Soothumb, Senior Peon
+
+Flat rock near river. That is good home. Rock already there. River already there. Morgum not need to carry rock to river or carry river to rock. This is called working smart. Peon union have saying: "Why move thing that already there?" Morgum make up that saying just now but it sound right.
+
+Cliff also very good. Cliff is already wall on one side. That is one wall Morgum not build. Morgum build three walls, not four. This is thirty percent less work. Peon union say thirty percent less work is acceptable outcome. Peon union also say cliff should not be too crumbly, but Morgum find that out later when cliff crumble, not before, because cliff do not crumble until you live on it and then you already have house so you just fix cliff after. This is called adaptive building. Morgum think.
+
+If ground is not flat, Morgum make flat. Dig low part, put dirt in high part. If there is too much dirt left over, throw over cliff. If cliff not there, now you have too much dirt and nowhere to put it. This is second reason why cliff is good. Always bring cliff.
+
+Some peons say look at where trees grow to understand if soil is healthy. Morgum look at where trees grow. Trees grow in forest. Forest is the whole area in every direction. This does not help Morgum narrow down location. Morgum ask different peon. Different peon say look at what animal live there. Morgum look. Animals are also everywhere. Both peons not helpful. Morgum just pick the flat rock and it fine.
+
+> *Peasant annotation: "Thirty percent less work." He said this with pride. I want that on record. He said it and he was proud.*
+
+> *Acolyte annotation: The cliff wall approach is genuinely sound doctrine. The elevated dead are the most settled. Wind carries things upward, and what is carried upward tends to remain in circulation. An excellent site for long-term occupancy.*
+
+> *Wisp annotation: The rock was flat before the glacier. The glacier was flat before the sea. Flat is a memory the land is having.*
+
+---
+
+## Vorun the Pallid, Acolyte of the Cult
+
+Site selection is a matter of listening, not looking. The land communicates through what has already happened to it, and what has already happened to it is, in the most productive sites, quite a lot. A location where structures have previously burned is a location that has completed one full cycle of habitation and dissolution. The residue of that completion does not disperse. It accumulates. This is a form of richness that does not appear in the Peasant's soil assessment, but is measurable to those with appropriate training.
+
+Proximity to ancient burial grounds is frequently undervalued by secular builders. I understand the cultural hesitation. People feel that the dead require privacy, or that proximity to them is a harbinger of personal misfortune, which reflects a misunderstanding of how proximity functions. In my experience, the dead are not private. They are simply responsive to inattention in ways that escalate if ignored. A home near a burial ground is never lonely. One adapts to the communication cadence within a season or two.
+
+Ley lines of fel corruption present a more nuanced consideration and I will not pretend otherwise. The corruption itself is not the issue — corruption is change that has simply committed too fully to a particular direction. The issue is that corrupted ground tends to enter into dialogue with whatever is built upon it, and construction materials vary considerably in their receptivity. Stone is largely appropriate. Dressed timber becomes, as I will expand upon in the following chapter, enthusiastic. My recommendation is stone foundations at any site with measurable corruption, not as a safety measure but as an acoustic one.
+
+I will say this plainly, because the Peasant's section was long and you may be tired: choose the site where you feel the least alone when you arrive with nothing and no one. If the ground already feels populated before you have brought a single stone, that is not a warning to leave. That is a listing feature.
+
+> *Peasant annotation: "The most settled dead." I have chosen not to think about this sentence and I am recommending the same to the reader.*
+
+> *Peon annotation: Morgum feel alone at cliff sometimes. Very windy. Maybe that what the pale one mean — wind is company? Wind visit every day. Very reliable.*
+
+> *Wisp annotation: A place where things have died is a place where things have been. This is more than can be said of most places you have lived.*
+
+---
+
+## Several Wisps
+### *(translated from ambient moonlight)*
+
+You walk across the land making assessments. Squeezing its soil between your fingers. Measuring the angle of the sun with your hand held flat like a tool. The land is not waiting for your assessment. The land is not a candidate. The land has been here through several extinctions and has no opinion about your drainage concerns, though it finds them, in a minor way, endearing.
+
+You ask: where should I build? The ground has already answered. You are standing on the answer. The fact of your presence — the particular weight of you, in that particular spot, at this particular moment — is the response to the question you thought you were still formulating. You stopped there because something stopped you there. What stopped you does not have a name in any language currently spoken, though several dead ones made attempts.
+
+The water the Peasant worries about is the same water that worried the stone beneath the Peasant's foundation and the older stone beneath that and the even older stone that was once the bottom of an ocean that has no name because it existed before anyone was here to be bad at naming things. Water is not a problem that arrived. Water is what was present before the concept of "present" had anyone to have it. You are placing a house in the middle of a conversation that began before the word "began."
+
+What you call a defensible position, the hill calls its own inclination toward the valley, which has been ongoing for longer than the word "hill" has existed to describe it. You are not selecting elevated ground. You are asking to stand on something that has been making its way downhill for ten thousand years and will continue after you have finished with it. The hill does not mind. The hill has perspective.
+
+Something is being communicated by the place where you stopped reading this. That is why you stopped there and not somewhere else. The homesite has already chosen. You are completing the paperwork.
+
+---

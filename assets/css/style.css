@@ -1,0 +1,305 @@
+/* ============================================
+   The Essential Guide — Jekyll Theme Styles
+   A parchment-inspired book theme
+   ============================================ */
+
+:root {
+  --bg: #fdf6e3;
+  --bg-dark: #1a1a2e;
+  --text: #3e2f1c;
+  --text-dark: #d4c5a9;
+  --heading: #5c3d1a;
+  --heading-dark: #e8d5b7;
+  --link: #8b4513;
+  --link-dark: #d4a56a;
+  --border: #c9b99a;
+  --border-dark: #3a3a5c;
+
+  /* Author colors */
+  --peasant: #6b8e23;
+  --peon: #b8860b;
+  --acolyte: #4a0e4e;
+  --wisp: #2e8b8b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* Header */
+.site-header {
+  text-align: center;
+  padding: 1.5rem 0 1rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  color: var(--heading);
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+}
+
+body.dark-mode .site-title {
+  color: var(--heading-dark);
+}
+
+/* Content */
+.content {
+  padding: 0 0.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: var(--heading);
+  margin: 1.5rem 0 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: var(--heading);
+  margin: 1.5rem 0 0.75rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  color: var(--heading);
+  margin: 1.2rem 0 0.5rem;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: var(--heading-dark);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--link);
+}
+
+body.dark-mode a {
+  color: var(--link-dark);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+body.dark-mode hr {
+  border-color: var(--border-dark);
+}
+
+em {
+  font-style: italic;
+}
+
+/* Annotation blockquotes — styled per author */
+blockquote {
+  border-left: 4px solid var(--border);
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.95rem;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+body.dark-mode blockquote {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Author-specific annotation colors */
+blockquote:has(> p > em:first-child:is([class])) {
+  /* fallback — JS handles this */
+}
+
+blockquote.annotation-peasant {
+  border-left-color: var(--peasant);
+  background: rgba(107, 142, 35, 0.08);
+}
+
+blockquote.annotation-peon {
+  border-left-color: var(--peon);
+  background: rgba(184, 134, 11, 0.08);
+}
+
+blockquote.annotation-acolyte {
+  border-left-color: var(--acolyte);
+  background: rgba(74, 14, 78, 0.08);
+}
+
+blockquote.annotation-wisp {
+  border-left-color: var(--wisp);
+  background: rgba(46, 139, 139, 0.08);
+}
+
+body.dark-mode blockquote.annotation-peasant { background: rgba(107, 142, 35, 0.15); }
+body.dark-mode blockquote.annotation-peon { background: rgba(184, 134, 11, 0.15); }
+body.dark-mode blockquote.annotation-acolyte { background: rgba(74, 14, 78, 0.2); }
+body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15); }
+
+/* Table of Contents */
+.toc-section {
+  margin-bottom: 1.5rem;
+}
+
+.toc-section h3 {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+
+.toc-section ol,
+.toc-section ul {
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.toc-section li {
+  margin-bottom: 0.3rem;
+}
+
+/* Chapter navigation */
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.nav-prev,
+.nav-next {
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--link);
+}
+
+.nav-prev:hover,
+.nav-next:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode .nav-prev,
+body.dark-mode .nav-next {
+  border-color: var(--border-dark);
+  color: var(--link-dark);
+}
+
+.nav-next {
+  margin-left: auto;
+}
+
+.toc-link {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Audio player */
+.audio-controls {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+
+.audio-toggle {
+  background: var(--heading);
+  color: var(--bg);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.audio-toggle:hover {
+  opacity: 0.85;
+}
+
+.audio-toggle.hidden {
+  display: none;
+}
+
+/* Dark mode toggle */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: var(--heading);
+  color: var(--bg);
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+
+  .chapter-nav {
+    flex-direction: column;
+  }
+
+  .nav-next {
+    margin-left: 0;
+    text-align: right;
+  }
+}

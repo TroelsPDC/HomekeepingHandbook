@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+  </header>
+
+  <main class="content chapter-content">
+    <article>
+      {{ content }}
+    </article>
+
+    {% assign sorted = site.chapters | sort: "order" %}
+    {% assign prev_ch = nil %}
+    {% assign next_ch = nil %}
+    {% assign found_current = false %}
+    {% for ch in sorted %}
+      {% if found_current and next_ch == nil %}
+        {% assign next_ch = ch %}
+      {% endif %}
+      {% if ch.url == page.url %}
+        {% assign found_current = true %}
+      {% endif %}
+      {% unless found_current %}
+        {% assign prev_ch = ch %}
+      {% endunless %}
+    {% endfor %}
+
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      {% if prev_ch and prev_ch.url != page.url %}
+        <a href="{{ prev_ch.url | relative_url }}" class="nav-prev">← {{ prev_ch.nav_title | default: prev_ch.title }}</a>
+      {% endif %}
+      {% if next_ch %}
+        <a href="{{ next_ch.url | relative_url }}" class="nav-next">{{ next_ch.nav_title | default: next_ch.title }} →</a>
+      {% endif %}
+    </nav>
+
+    <p class="toc-link"><a href="{{ '/' | relative_url }}">← Table of Contents</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="colophon">A Collaborative Household Reference</p>
+  </footer>
+  <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
+</body>
+</html>
