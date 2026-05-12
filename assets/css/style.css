@@ -377,6 +377,30 @@ body.dark-mode .page-dot:not(.active):hover {
   background: rgba(255, 255, 255, 0.12);
 }
 
+/* Homepage flipbook */
+.home-flipbook-stage {
+  margin-top: 1rem;
+}
+
+.home-flipbook-stack .chapter-page {
+  border-radius: 0.85rem;
+}
+
+.home-cover-page {
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-cover-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home-toc-page {
+  overflow: auto;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .author-page-stack,
   .chapter-page {

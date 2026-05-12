@@ -1,7 +1,18 @@
 ---
 layout: default
-title: "Table of Contents"
+title: "Homekeeping Handbook"
 ---
+
+<div class="author-page-stage home-flipbook-stage" data-home-flipbook>
+  <div class="author-page-stack home-flipbook-stack">
+    <section class="chapter-page home-cover-page" data-state="current">
+      <img
+        src="https://github.com/user-attachments/assets/c362cdbf-3dd2-4e4d-94b0-0799ed1d6fa6"
+        alt="Homekeeping Handbook cover with an orc cleaning a window"
+        class="home-cover-image"
+      >
+    </section>
+    <section class="chapter-page home-toc-page" data-state="after" aria-hidden="true" inert markdown="1">
 
 # The Essential Guide to Caring for Everything in Your Domain
 
@@ -92,3 +103,8 @@ title: "Table of Contents"
   <a href="https://www.saxo.com/dk/martha-stewarts-homekeeping-handbook_martha-stewart_hardback_9780517577004">Martha Stewart's Homekeeping Handbook</a>.
   This is a direct Saxo link and does not support this site.
 </p>
+    </section>
+  </div>
+</div>
+
+<nav class="author-page-nav home-flipbook-nav" aria-label="Front page navigation"></nav>
