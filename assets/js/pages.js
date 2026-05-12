@@ -15,6 +15,11 @@
 
   var article = document.querySelector('.chapter-content article');
   if (!article) return;
+  var reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var animationDuration = 650;
+  var cleanupTimer = null;
+  var currentIndex = 0;
+  var isAnimating = false;
 
   // Group all child nodes by splitting on <hr> elements
   var groups = [];
@@ -47,24 +52,28 @@
   var pages = authorGroups.map(function (nodes, i) {
     var div = document.createElement('div');
     div.className = 'chapter-page';
-    div.setAttribute('aria-hidden', i > 0 ? 'true' : 'false');
-    if (i > 0) div.hidden = true;
     nodes.forEach(function (n) { div.appendChild(n); });
     return div;
   });
 
-  // Rebuild the article: title nodes, then page divs
+  var stage = document.createElement('div');
+  stage.className = 'author-page-stage';
+
+  var stack = document.createElement('div');
+  stack.className = 'author-page-stack';
+  stage.appendChild(stack);
+  pages.forEach(function (div) { stack.appendChild(div); });
+
+  // Rebuild the article: title nodes, then page stage
   article.innerHTML = '';
   titleNodes.forEach(function (n) { article.appendChild(n); });
-  pages.forEach(function (div) { article.appendChild(div); });
+  article.appendChild(stage);
 
   // Navigation bar
   var nav = document.createElement('nav');
   nav.className = 'author-page-nav';
   nav.setAttribute('aria-label', 'Author page navigation');
   article.appendChild(nav);
-
-  var currentIndex = 0;
 
   function render() {
     var total = pages.length;
@@ -103,18 +112,85 @@
     nav.appendChild(nextBtn);
   }
 
-  function goTo(index) {
-    if (index < 0 || index >= pages.length) return;
-    pages[currentIndex].hidden = true;
-    pages[currentIndex].setAttribute('aria-hidden', 'true');
-    currentIndex = index;
-    pages[currentIndex].hidden = false;
-    pages[currentIndex].setAttribute('aria-hidden', 'false');
+  function updateStageHeight(indices) {
+    var height = 0;
+    indices.forEach(function (index) {
+      if (index < 0 || index >= pages.length) return;
+      height = Math.max(height, pages[index].offsetHeight);
+    });
+    stack.style.height = (height || 1) + 'px';
+  }
+
+  function setPageState(page, state, active) {
+    page.dataset.state = state;
+    page.setAttribute('aria-hidden', active ? 'false' : 'true');
+    page.inert = !active;
+  }
+
+  function syncPages() {
+    pages.forEach(function (page, index) {
+      var state = 'after';
+      if (index < currentIndex) state = 'before';
+      if (index === currentIndex) state = 'current';
+      setPageState(page, state, index === currentIndex);
+    });
+    updateStageHeight([currentIndex]);
+    isAnimating = false;
+  }
+
+  function scrollArticleIntoView() {
     article.scrollIntoView({
-      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+      behavior: reduceMotionQuery.matches ? 'auto' : 'smooth',
       block: 'start'
     });
+  }
+
+  function goTo(index) {
+    var previousIndex = currentIndex;
+    var direction;
+    var currentPage;
+    var targetPage;
+
+    if (index < 0 || index >= pages.length || index === currentIndex || isAnimating) return;
+
+    direction = index > previousIndex ? 'next' : 'prev';
+    currentPage = pages[previousIndex];
+    targetPage = pages[index];
+
+    if (cleanupTimer) window.clearTimeout(cleanupTimer);
+    updateStageHeight([previousIndex, index]);
+
+    if (reduceMotionQuery.matches) {
+      currentIndex = index;
+      syncPages();
+      render();
+      scrollArticleIntoView();
+      return;
+    }
+
+    isAnimating = true;
+    setPageState(currentPage, 'current', false);
+    setPageState(targetPage, direction === 'next' ? 'after' : 'before', false);
+    stack.offsetHeight;
+
+    currentPage.dataset.state = direction === 'next' ? 'leaving-next' : 'leaving-prev';
+    targetPage.dataset.state = 'current';
+    currentIndex = index;
     render();
+    scrollArticleIntoView();
+
+    cleanupTimer = window.setTimeout(function () {
+      syncPages();
+      render();
+    }, animationDuration);
+  }
+
+  function refreshLayout() {
+    if (isAnimating) {
+      updateStageHeight([currentIndex]);
+      return;
+    }
+    syncPages();
   }
 
   // Arrow-key navigation (only when not focused on a text input)
@@ -125,5 +201,11 @@
     if (e.key === 'ArrowRight') goTo(currentIndex + 1);
   });
 
+  window.addEventListener('resize', refreshLayout);
+  if (typeof reduceMotionQuery.addEventListener === 'function') {
+    reduceMotionQuery.addEventListener('change', refreshLayout);
+  }
+
+  syncPages();
   render();
 }());
