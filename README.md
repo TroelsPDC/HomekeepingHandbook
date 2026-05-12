@@ -1,4 +1,4 @@
-# homekeepingHandbook
+# HomekeepingHandbook
 
 This repo contains **The Essential Guide to Caring for Everything in Your Domain** — a parody homekeeping handbook co-authored by the four builder units of the Warcraft III universe: a Peasant, a Peon, an Acolyte, and a Wisp.
 
