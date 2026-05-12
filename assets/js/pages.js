@@ -19,6 +19,7 @@
   var animationDuration = 650;
   var minStackHeight = 1;
   var cleanupTimer = null;
+  var removeReduceMotionListener = function () {};
   var currentIndex = 0;
   var isAnimating = false;
 
@@ -212,8 +213,21 @@
   });
 
   window.addEventListener('resize', refreshLayout);
-  reduceMotionQuery.addEventListener('change', refreshLayout);
-  window.addEventListener('pagehide', clearCleanupTimer);
+  if (typeof reduceMotionQuery.addEventListener === 'function') {
+    reduceMotionQuery.addEventListener('change', refreshLayout);
+    removeReduceMotionListener = function () {
+      reduceMotionQuery.removeEventListener('change', refreshLayout);
+    };
+  } else if (typeof reduceMotionQuery.addListener === 'function') {
+    reduceMotionQuery.addListener(refreshLayout);
+    removeReduceMotionListener = function () {
+      reduceMotionQuery.removeListener(refreshLayout);
+    };
+  }
+  window.addEventListener('pagehide', function () {
+    clearCleanupTimer();
+    removeReduceMotionListener();
+  });
 
   syncPages();
   render();
