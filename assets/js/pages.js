@@ -212,7 +212,11 @@
   });
 
   window.addEventListener('resize', refreshLayout);
-  reduceMotionQuery.addEventListener('change', refreshLayout);
+  if (typeof reduceMotionQuery.addEventListener === 'function') {
+    reduceMotionQuery.addEventListener('change', refreshLayout);
+  } else if (typeof reduceMotionQuery.addListener === 'function') {
+    reduceMotionQuery.addListener(refreshLayout);
+  }
   window.addEventListener('pagehide', clearCleanupTimer);
 
   syncPages();
