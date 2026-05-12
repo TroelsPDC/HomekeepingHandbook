@@ -26,7 +26,7 @@
   var scripts = document.querySelectorAll('script[src*="audio.js"]');
   var baseUrl = '';
   if (scripts.length) {
-    // e.g. /LegeRepo/assets/js/audio.js -> /LegeRepo
+    // e.g. /homekeepingHandbook/assets/js/audio.js -> /homekeepingHandbook
     baseUrl = scripts[0].src.replace(/\/assets\/js\/audio\.js.*$/, '');
   }
 
@@ -79,7 +79,7 @@
     .pop();
 
   var audioSources = [];
-  if (slug && slug !== '' && slug !== 'LegeRepo') {
+  if (slug && slug !== '' && slug !== 'homekeepingHandbook') {
     audioSources.push(baseUrl + '/assets/audio/' + slug + '.mp3');
   }
   audioSources.push(baseUrl + '/assets/audio/ambient-chapter.mp3');
