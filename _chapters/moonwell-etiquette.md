@@ -67,7 +67,7 @@ One further note, for any acolytes reading this who may be considering the matte
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 This chapter is titled Moonwell Etiquette. We are not sure that is the right title. We did not title it. We are not sure etiquette is the right word for what happens at the edge of a moonwell, any more than etiquette is the right word for what happens at the edge of sleep. There are behaviours that are appropriate. But the behaviours are not really the point.

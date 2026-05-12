@@ -8,7 +8,7 @@
 Morgum Soothumb, Senior Peon
 Theodore Furlbrow, Master Mason of Lordaeron
 Vorun the Pallid, Acolyte of the Cult
-*(translated from ambient moonlight) by several Wisps*
+*(translated from ambient moonlight) by Wisps*
 
 ---
 
@@ -61,7 +61,7 @@ The comedy comes from extreme calmness and horrifying implications.
 
 *Voice:* "An untended crypt is merely clutter with ambition."
 
-### Several Wisps
+### Wisps
 **"Ownership is a temporary hallucination."**
 
 The Wisp chapters are poetic, incomprehensible, and occasionally profound. The Wisps fundamentally disagree with permanent structures, furniture, agriculture, and the concept of "inside."

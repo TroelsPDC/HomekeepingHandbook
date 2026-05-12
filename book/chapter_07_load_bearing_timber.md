@@ -56,7 +56,7 @@ I want to briefly address aesthetics, as I anticipate this will come up. Bone is
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 The tree you cut down was already performing the function you now attempt to replicate. This is worth sitting with, not as an argument against cutting, but as a record of what was present before the wanting began. Something was already here. The beam arrived later, with nails.

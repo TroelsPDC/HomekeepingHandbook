@@ -63,7 +63,7 @@ The six-step observance for boar remains: one, place the primary trophy — skul
 
 ---
 
-## Several Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
 
 We knew a boar once. This is not a claim that requires verification. We know things the way light knows a surface — briefly, completely, without ownership. The boar was in a forest near a ridge where the old trees had fallen and the new trees were still uncertain about whether to grow there. The boar was not uncertain. The boar was never uncertain. There is a quality in boars of absolute confidence in the present moment that the forest recognised and found restful.
