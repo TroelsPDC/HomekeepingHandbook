@@ -284,6 +284,54 @@ body.dark-mode .nav-next {
   z-index: 100;
 }
 
+/* Wisp translation filter */
+.wisp-section.wisp-encoded,
+blockquote.annotation-wisp.wisp-encoded {
+  color: var(--wisp);
+  letter-spacing: 0.04em;
+}
+
+body.dark-mode .wisp-section.wisp-encoded,
+body.dark-mode blockquote.annotation-wisp.wisp-encoded {
+  color: #5ecece;
+}
+
+.wisp-translate-btn {
+  display: inline-block;
+  margin: 0.4rem 0 0.75rem;
+  padding: 0.25rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: var(--wisp);
+  background: transparent;
+  border: 1px solid var(--wisp);
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.15s, background 0.15s;
+}
+
+.wisp-translate-btn:hover {
+  opacity: 1;
+  background: rgba(46, 139, 139, 0.1);
+}
+
+body.dark-mode .wisp-translate-btn {
+  color: #5ecece;
+  border-color: #5ecece;
+}
+
+body.dark-mode .wisp-translate-btn:hover {
+  background: rgba(94, 206, 206, 0.1);
+}
+
+/* Inline translate button inside annotation blockquotes */
+.wisp-translate-inline {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.78rem;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   body {
