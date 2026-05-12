@@ -123,9 +123,29 @@
     insertAfter.parentNode.insertBefore(btn, wrapper);
   });
 
+  // Encode text nodes inside an annotation blockquote, preserving the label prefix
+  // (e.g. "Wisp annotation: ") so readers can identify the annotation type.
+  function encodeAnnotationTextNodes(el) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+    var nodes = [];
+    var node;
+    while ((node = walker.nextNode())) {
+      nodes.push(node);
+    }
+    nodes.forEach(function (n) {
+      originalText.set(n, n.textContent);
+      var m = n.textContent.match(/^(\s*\w+ annotation:\s*)([\s\S]*)$/i);
+      if (m) {
+        n.textContent = m[1] + encodeString(m[2]);
+      } else {
+        n.textContent = encodeString(n.textContent);
+      }
+    });
+  }
+
   // ---- Wisp annotation blockquotes ----
   document.querySelectorAll('blockquote.annotation-wisp').forEach(function (bq) {
-    encodeTextNodes(bq);
+    encodeAnnotationTextNodes(bq);
     bq.classList.add('wisp-encoded');
 
     var btn = document.createElement('button');
@@ -143,7 +163,7 @@
         btn.textContent = '✦ obscure';
         btn.setAttribute('aria-pressed', 'true');
       } else {
-        encodeTextNodes(bq);
+        encodeAnnotationTextNodes(bq);
         bq.classList.remove('wisp-translated');
         bq.classList.add('wisp-encoded');
         btn.textContent = '✦ translate';
