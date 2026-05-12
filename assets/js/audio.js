@@ -1,0 +1,120 @@
+/**
+ * Audio infrastructure for The Essential Guide
+ *
+ * Supports:
+ *  - Per-chapter ambient audio (place files in /assets/audio/ named by chapter slug)
+ *  - Author annotation sounds (optional)
+ *  - Play/pause toggle button
+ *  - Dark mode toggle
+ *
+ * HOW TO ADD SOUNDS:
+ *  1. Place .mp3 files in /assets/audio/
+ *  2. Name them to match chapter slugs, e.g.:
+ *       - ambient-chapter.mp3       (default ambient for all chapters)
+ *       - pest-control.mp3          (chapter-specific ambient)
+ *       - annotation-peasant.mp3    (sound when peasant annotation appears)
+ *       - annotation-peon.mp3
+ *       - annotation-acolyte.mp3
+ *       - annotation-wisp.mp3
+ *  3. The script auto-detects and plays them. No code changes needed.
+ */
+
+(function () {
+  'use strict';
+
+  // ---- Determine base URL from the <script> tag or a known path ----
+  var scripts = document.querySelectorAll('script[src*="audio.js"]');
+  var baseUrl = '';
+  if (scripts.length) {
+    // e.g. /LegeRepo/assets/js/audio.js -> /LegeRepo
+    baseUrl = scripts[0].src.replace(/\/assets\/js\/audio\.js.*$/, '');
+  }
+
+  // ---- Dark mode toggle ----
+  var themeBtn = document.createElement('button');
+  themeBtn.className = 'theme-toggle';
+  themeBtn.setAttribute('aria-label', 'Toggle dark mode');
+  themeBtn.textContent = '🌙';
+  document.body.appendChild(themeBtn);
+
+  var isDark = localStorage.getItem('darkMode') === 'true';
+  if (isDark) document.body.classList.add('dark-mode');
+
+  themeBtn.addEventListener('click', function () {
+    isDark = !isDark;
+    document.body.classList.toggle('dark-mode', isDark);
+    localStorage.setItem('darkMode', String(isDark));
+    themeBtn.textContent = isDark ? '☀️' : '🌙';
+  });
+  themeBtn.textContent = isDark ? '☀️' : '🌙';
+
+  // ---- Colorize annotation blockquotes ----
+  document.querySelectorAll('blockquote').forEach(function (bq) {
+    var text = bq.textContent.toLowerCase();
+    if (text.indexOf('peasant annotation') !== -1) {
+      bq.classList.add('annotation-peasant');
+    } else if (text.indexOf('peon annotation') !== -1) {
+      bq.classList.add('annotation-peon');
+    } else if (text.indexOf('acolyte annotation') !== -1) {
+      bq.classList.add('annotation-acolyte');
+    } else if (text.indexOf('wisp annotation') !== -1) {
+      bq.classList.add('annotation-wisp');
+    }
+  });
+
+  // ---- Audio player ----
+  var audioBtn = document.createElement('button');
+  audioBtn.className = 'audio-toggle hidden';
+  audioBtn.setAttribute('aria-label', 'Toggle ambient audio');
+  audioBtn.textContent = '🔇';
+  document.body.appendChild(audioBtn);
+
+  var audio = null;
+  var isPlaying = false;
+
+  // Try to find an audio file for this page
+  var slug = window.location.pathname
+    .replace(/\/$/, '')
+    .split('/')
+    .pop();
+
+  var audioSources = [];
+  if (slug && slug !== '' && slug !== 'LegeRepo') {
+    audioSources.push(baseUrl + '/assets/audio/' + slug + '.mp3');
+  }
+  audioSources.push(baseUrl + '/assets/audio/ambient-chapter.mp3');
+
+  function tryLoadAudio(sources, index) {
+    if (index >= sources.length) return; // no audio available
+
+    var testAudio = new Audio();
+    testAudio.preload = 'metadata';
+
+    testAudio.addEventListener('canplaythrough', function () {
+      audio = testAudio;
+      audio.loop = true;
+      audio.volume = 0.3;
+      audioBtn.classList.remove('hidden');
+    }, { once: true });
+
+    testAudio.addEventListener('error', function () {
+      tryLoadAudio(sources, index + 1);
+    }, { once: true });
+
+    testAudio.src = sources[index];
+  }
+
+  tryLoadAudio(audioSources, 0);
+
+  audioBtn.addEventListener('click', function () {
+    if (!audio) return;
+    if (isPlaying) {
+      audio.pause();
+      audioBtn.textContent = '🔇';
+    } else {
+      audio.play().catch(function () { /* browser blocked autoplay */ });
+      audioBtn.textContent = '🔊';
+    }
+    isPlaying = !isPlaying;
+  });
+})();

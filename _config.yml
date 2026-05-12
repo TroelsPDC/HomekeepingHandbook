@@ -1,0 +1,31 @@
+title: "The Essential Guide to Caring for Everything in Your Domain"
+description: "A Collaborative Household Reference — by Morgum Soothumb, Theodore Furlbrow, Vorun the Pallid, and Several Wisps"
+baseurl: "/LegeRepo"
+url: "https://troelspdc.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# No remote theme — we use custom layouts in _layouts/
+
+# Collections for chapters
+collections:
+  chapters:
+    output: true
+    permalink: /chapters/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
