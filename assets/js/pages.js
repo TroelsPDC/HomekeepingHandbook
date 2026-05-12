@@ -110,7 +110,10 @@
     currentIndex = index;
     pages[currentIndex].hidden = false;
     pages[currentIndex].setAttribute('aria-hidden', 'false');
-    article.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    article.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+      block: 'start'
+    });
     render();
   }
 
