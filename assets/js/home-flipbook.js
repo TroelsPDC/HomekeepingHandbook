@@ -163,4 +163,19 @@
 
   syncPages();
   renderNav();
+
+  // The cover image loads asynchronously.  Until it loads the page has no
+  // natural height, so the stack height cannot be measured correctly on the
+  // first syncPages() call above.  Re-run layout as soon as the image is
+  // ready (or errors out) so the stack is sized to the image height.
+  var coverImg = stage.querySelector('.home-cover-image');
+  if (coverImg && (!coverImg.complete || coverImg.naturalHeight === 0)) {
+    function onCoverImageReady() {
+      coverImg.removeEventListener('load', onCoverImageReady);
+      coverImg.removeEventListener('error', onCoverImageReady);
+      refreshLayout();
+    }
+    coverImg.addEventListener('load', onCoverImageReady);
+    coverImg.addEventListener('error', onCoverImageReady);
+  }
 }());
