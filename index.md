@@ -7,7 +7,7 @@ title: "Homekeeping Handbook"
   <div class="author-page-stack home-flipbook-stack">
     <section class="chapter-page home-cover-page" data-state="current">
       <img
-        src="https://github.com/user-attachments/assets/c362cdbf-3dd2-4e4d-94b0-0799ed1d6fa6"
+        src="https://github.com/user-attachments/assets/c1e7b83b-6496-4924-a3bc-2b10620f4de0"
         alt="Homekeeping Handbook cover with an orc cleaning a window"
         class="home-cover-image"
       >
