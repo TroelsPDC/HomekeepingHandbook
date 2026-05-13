@@ -129,6 +129,14 @@
     }, animationDuration);
   }
 
+  function refreshLayout() {
+    if (isAnimating) {
+      updateStageHeight([currentIndex]);
+      return;
+    }
+    syncPages();
+  }
+
   document.addEventListener('keydown', function (e) {
     var tag = document.activeElement && document.activeElement.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA') return;
@@ -156,10 +164,3 @@
   syncPages();
   renderNav();
 }());
-  function refreshLayout() {
-    if (isAnimating) {
-      updateStageHeight([currentIndex]);
-      return;
-    }
-    syncPages();
-  }
