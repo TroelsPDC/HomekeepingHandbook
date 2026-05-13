@@ -17,6 +17,7 @@
   var cleanupTimer = null;
   var animationDuration = 650;
   var isAnimating = false;
+  var removeReduceMotionListener = function () {};
 
   if (!stack || !nav || pages.length < 2) return;
 
@@ -135,10 +136,30 @@
     if (e.key === 'ArrowRight') goTo(currentIndex + 1);
   });
 
-  window.addEventListener('resize', syncPages);
-  reduceMotionQuery.addEventListener('change', syncPages);
-  window.addEventListener('pagehide', clearCleanupTimer);
+  window.addEventListener('resize', refreshLayout);
+  if (typeof reduceMotionQuery.addEventListener === 'function') {
+    reduceMotionQuery.addEventListener('change', refreshLayout);
+    removeReduceMotionListener = function () {
+      reduceMotionQuery.removeEventListener('change', refreshLayout);
+    };
+  } else if (typeof reduceMotionQuery.addListener === 'function') {
+    reduceMotionQuery.addListener(refreshLayout);
+    removeReduceMotionListener = function () {
+      reduceMotionQuery.removeListener(refreshLayout);
+    };
+  }
+  window.addEventListener('pagehide', function () {
+    clearCleanupTimer();
+    removeReduceMotionListener();
+  });
 
   syncPages();
   renderNav();
 }());
+  function refreshLayout() {
+    if (isAnimating) {
+      updateStageHeight([currentIndex]);
+      return;
+    }
+    syncPages();
+  }
