@@ -630,6 +630,18 @@ body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp {
   background: rgba(15, 22, 32, 0.95);
 }
 
+/* Images — scale to fit container, click for full resolution */
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+article a > img {
+  cursor: zoom-in;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   body {
