@@ -23,8 +23,6 @@ body_class: toc-page
 
 **Wisps**
 
-<img class="toc-approval-stamp" src="{{ '/assets/approval.png' | relative_url }}" alt="Approval stamp">
-
 </div>
 
 ---
@@ -111,5 +109,8 @@ body_class: toc-page
 
 <div class="toc-publisher">
   <p>Published by:</p>
-  <img src="{{ '/assets/publisher.png' | relative_url }}" alt="Publisher">
+  <div class="toc-publisher-row">
+    <img src="{{ '/assets/publisher.png' | relative_url }}" alt="Publisher">
+    <img class="toc-approval-stamp" src="{{ '/assets/approval.png' | relative_url }}" alt="Approval stamp">
+  </div>
 </div>
