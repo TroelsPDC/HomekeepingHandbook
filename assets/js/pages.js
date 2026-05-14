@@ -59,7 +59,7 @@
   var activeCharacter = null;
   var isTalking = false;
   var isWispSoundPlaying = false;
-  var wispAudio = new Audio(baseUrl + '/assets/wisp.mp3');
+  var wispAudio = new Audio(baseUrl + '/assets/wispcropped.mp3');
   wispAudio.preload = 'auto';
   wispAudio.loop = true;
 
