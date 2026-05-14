@@ -132,18 +132,18 @@ test('swipe right-to-left on cover advances to TOC', () => {
   expect(page(1).dataset.state).toBe('current');
 });
 
-test('swipe top-to-down on cover advances to TOC', () => {
+test('swipe top-to-bottom on cover advances to TOC', () => {
   swipe(100, 100, 100, 200);
   expect(page(1).dataset.state).toBe('current');
 });
 
-test('swipe bottom-to-up on TOC returns to cover', () => {
+test('swipe bottom-to-top on TOC returns to cover', () => {
   nextBtn().click();
   swipe(100, 200, 100, 120);
   expect(page(0).dataset.state).toBe('current');
 });
 
-test('swipe top-to-down on TOC does not return to cover', () => {
+test('swipe top-to-bottom on TOC does not return to cover', () => {
   nextBtn().click();
   swipe(100, 100, 100, 200);
   expect(page(1).dataset.state).toBe('current');

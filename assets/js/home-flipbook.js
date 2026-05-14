@@ -128,7 +128,7 @@
     absX = Math.abs(deltaX);
     absY = Math.abs(deltaY);
 
-    // Cover -> TOC: swipe right-to-left OR top-to-down.
+    // Cover -> TOC: swipe right-to-left OR top-to-bottom.
     if (currentIndex === 0) {
       if (absX > absY && deltaX <= -swipeThreshold) {
         goTo(1);
@@ -137,7 +137,7 @@
       }
     }
 
-    // TOC -> Cover: only swipe bottom-to-up.
+    // TOC -> Cover: only swipe bottom-to-top.
     if (currentIndex === 1 && absY > absX && deltaY <= -swipeThreshold) {
       goTo(0);
     }
