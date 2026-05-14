@@ -2,6 +2,7 @@
 layout: default
 title: "Table of Contents"
 permalink: /toc/
+body_class: toc-page
 ---
 
 # The Essential Guide to Caring for Everything in Your Domain
