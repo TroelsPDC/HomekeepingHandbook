@@ -15,7 +15,11 @@
     {{ content }}
   </main>
   <footer class="site-footer">
-    <p><a href="{{ '/toc/' | relative_url }}">← Table of Contents</a></p>
+    {% if page.url == '/toc/' %}
+      <p><a href="{{ '/' | relative_url }}">← Go to cover</a></p>
+    {% else %}
+      <p><a href="{{ '/toc/' | relative_url }}">← Table of Contents</a></p>
+    {% endif %}
     <p class="colophon">A Collaborative Household Reference</p>
   </footer>
   <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
