@@ -17,7 +17,7 @@ A dedicated textile cleaner is therefore a civilised thing. Seven hundred and fi
 
 I will add one caution. The existence of a machine does not absolve the household of ordinary standards. Mud on boots should still remain outdoors. Gravy should still be conveyed to the mouth with some dignity. Children should still be told, repeatedly, that the sofa is not a siege engine. A textile cleaner is not permission to live like animals. It is a remedy for the fact that many people do.
 
-![Theodore Furlbrow cleaning]({{ '/assets/peasantCleaning.png' | relative_url }})
+<a href="{{ '/assets/peasantCleaning.png' | relative_url }}" target="_blank" rel="noopener">![Theodore Furlbrow cleaning]({{ '/assets/peasantCleaning.png' | relative_url }})</a>
 
 > *Peon annotation: Machine that sucks dirt from chair is good machine. Chair has been stealing dirt for years. Time for justice.*
 
@@ -35,7 +35,7 @@ Morgum has opinions about cloth. Cloth is weak. Cloth remembers everything. Sit 
 
 Seven hundred and fifty watts sounds strong. Morgum does not know what watt is exactly. Morgum assumes watt is city-person word for how angry the machine can become before it starts helping. Seven hundred and fifty of them seems enough. Not too many. If machine too strong, maybe it eats blanket. If machine too weak, it just licks the stain and leaves. Morgum wants middle strength. Good pull. Serious slurp. If friend receives this as gift, friend should know this means respect. You do not give textile-cleaning beast to someone you dislike. You give it because you want their chair to survive.
 
-![Morgum Soothumb cleaning]({{ '/assets/peonCleaning.png' | relative_url }})
+<a href="{{ '/assets/peonCleaning.png' | relative_url }}" target="_blank" rel="noopener">![Morgum Soothumb cleaning]({{ '/assets/peonCleaning.png' | relative_url }})</a>
 
 > *Peasant annotation: "The chair has been stealing dirt for years" is not how dirt works, but I admit the operational conclusion is sound.*
 
@@ -53,7 +53,7 @@ And yet I find myself admiring the device under discussion. Extraction cleaning 
 
 I would not, however, use such a machine carelessly on ceremonial drapery, ancient hangings, stitched funerary cloth, or anything whose stains have become historically significant. Preservation is not identical with cleanliness. Some marks are damage. Some are record. A wise household distinguishes between the two before introducing moisture and suction. For ordinary domestic upholstery, though — for the chair in which a living man has eaten, slept, worried, perspired, and shed the season into the weave — yes. Clean it. The machine's blunt imperative is correct.
 
-![Vorun the Pallid cleaning]({{ '/assets/AcolyteCleaning.png' | relative_url }})
+<a href="{{ '/assets/AcolyteCleaning.png' | relative_url }}" target="_blank" rel="noopener">![Vorun the Pallid cleaning]({{ '/assets/AcolyteCleaning.png' | relative_url }})</a>
 
 > *Peasant annotation: "The exact volume of inattention your armchair has accumulated" is an excellent and upsetting phrase.*
 
@@ -74,6 +74,6 @@ Seven hundred and fifty is a number the machine carries the way thunder carries 
 
 The roots clean differently. Rain passes down, soil takes what falls, wind dries, sun bleaches, moss covers, time decides what remains. This machine is a faster season for indoor things. The creatures have built a weather system with a handle and a tank and a promise. It is a strange promise. It is not an empty one.
 
-![Wisps cleaning]({{ '/assets/wispCleaning.png' | relative_url }})
+<a href="{{ '/assets/wispCleaning.png' | relative_url }}" target="_blank" rel="noopener">![Wisps cleaning]({{ '/assets/wispCleaning.png' | relative_url }})</a>
 
 ---
