@@ -192,7 +192,6 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
 .author-page-stage {
   position: relative;
   margin-top: 1.5rem;
-  perspective: 1800px;
 }
 
 .author-page-stack {
@@ -212,13 +211,7 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
   box-shadow:
     0 1.35rem 2.4rem var(--page-shadow),
     0 0.2rem 0.45rem var(--page-shadow-soft);
-  transform-origin: left center;
-  backface-visibility: hidden;
-  will-change: transform, opacity;
-  transition:
-    transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1),
-    opacity 0.65s ease,
-    box-shadow 0.65s ease;
+  transition: opacity 0.3s ease;
 }
 
 .chapter-page::before {
@@ -236,42 +229,17 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
   margin-bottom: 0;
 }
 
-.chapter-page[data-state="before"] {
+.chapter-page[data-state="before"],
+.chapter-page[data-state="after"],
+.chapter-page[data-state="leaving-next"],
+.chapter-page[data-state="leaving-prev"] {
   opacity: 0;
   pointer-events: none;
-  transform: translate3d(-1.5rem, 0, 0) rotateY(72deg) scale(0.97);
-  z-index: 1;
-}
-
-.chapter-page[data-state="after"] {
-  opacity: 0.88;
-  pointer-events: none;
-  transform: translate3d(0.9rem, 0.15rem, 0) scale(0.985);
-  box-shadow:
-    0 1rem 1.9rem var(--page-shadow-soft),
-    0 0.15rem 0.35rem rgba(62, 47, 28, 0.06);
-  z-index: 2;
 }
 
 .chapter-page[data-state="current"] {
   opacity: 1;
   pointer-events: auto;
-  transform: translate3d(0, 0, 0) rotateY(0deg) scale(1);
-  z-index: 3;
-}
-
-.chapter-page[data-state="leaving-next"] {
-  opacity: 0;
-  pointer-events: none;
-  transform: translate3d(-1.65rem, 0, 0) rotateY(-78deg) scale(0.975);
-  z-index: 4;
-}
-
-.chapter-page[data-state="leaving-prev"] {
-  opacity: 0;
-  pointer-events: none;
-  transform: translate3d(1.65rem, 0, 0) rotateY(78deg) scale(0.975);
-  z-index: 4;
 }
 
 body.dark-mode .chapter-page {
@@ -286,12 +254,6 @@ body.dark-mode .chapter-page {
 
 body.dark-mode .chapter-page::before {
   background: rgba(255, 255, 255, 0.12);
-}
-
-body.dark-mode .chapter-page[data-state="after"] {
-  box-shadow:
-    0 1rem 1.9rem rgba(0, 0, 0, 0.24),
-    0 0.15rem 0.35rem rgba(0, 0, 0, 0.18);
 }
 
 .author-page-nav {
@@ -395,6 +357,11 @@ body.dark-mode .page-dot:not(.active):hover {
   .chapter-page {
     transition: none;
   }
+}
+
+/* Touch swipe hint — visual cursor on the page stage */
+.author-page-stage {
+  touch-action: pan-y;
 }
 
 /* Chapter navigation */
