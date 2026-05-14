@@ -28,5 +28,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - book
   - vendor

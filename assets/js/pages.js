@@ -15,13 +15,6 @@
 
   var article = document.querySelector('.chapter-content article');
   if (!article) return;
-  var reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-  var animationDuration = 300;
-  var minStackHeight = 1;
-  var cleanupTimer = null;
-  var removeReduceMotionListener = function () {};
-  var currentIndex = 0;
-  var isAnimating = false;
 
   // Group all child nodes by splitting on <hr> elements
   var groups = [];
@@ -54,28 +47,24 @@
   var pages = authorGroups.map(function (nodes, i) {
     var div = document.createElement('div');
     div.className = 'chapter-page';
+    div.setAttribute('aria-hidden', i > 0 ? 'true' : 'false');
+    if (i > 0) div.hidden = true;
     nodes.forEach(function (n) { div.appendChild(n); });
     return div;
   });
 
-  var stage = document.createElement('div');
-  stage.className = 'author-page-stage';
-
-  var stack = document.createElement('div');
-  stack.className = 'author-page-stack';
-  stage.appendChild(stack);
-  pages.forEach(function (div) { stack.appendChild(div); });
-
-  // Rebuild the article: title nodes, then page stage
+  // Rebuild the article: title nodes, then page divs
   article.innerHTML = '';
   titleNodes.forEach(function (n) { article.appendChild(n); });
-  article.appendChild(stage);
+  pages.forEach(function (div) { article.appendChild(div); });
 
   // Navigation bar
   var nav = document.createElement('nav');
   nav.className = 'author-page-nav';
   nav.setAttribute('aria-label', 'Author page navigation');
   article.appendChild(nav);
+
+  var currentIndex = 0;
 
   function render() {
     var total = pages.length;
@@ -114,94 +103,18 @@
     nav.appendChild(nextBtn);
   }
 
-  function clearCleanupTimer() {
-    if (!cleanupTimer) return;
-    window.clearTimeout(cleanupTimer);
-    cleanupTimer = null;
-  }
-
-  function updateStageHeight(indices) {
-    var height = 0;
-    indices.forEach(function (index) {
-      if (index < 0 || index >= pages.length) return;
-      height = Math.max(height, pages[index].offsetHeight);
-    });
-    stack.style.height = (height || minStackHeight) + 'px';
-  }
-
-  function setPageState(page, state, active) {
-    page.dataset.state = state;
-    page.setAttribute('aria-hidden', active ? 'false' : 'true');
-    page.inert = !active;
-  }
-
-  function syncPages() {
-    pages.forEach(function (page, index) {
-      var state = 'after';
-      if (index < currentIndex) state = 'before';
-      if (index === currentIndex) state = 'current';
-      setPageState(page, state, index === currentIndex);
-    });
-    updateStageHeight([currentIndex]);
-    isAnimating = false;
-  }
-
-  function scrollArticleIntoView() {
+  function goTo(index) {
+    if (index < 0 || index >= pages.length) return;
+    pages[currentIndex].hidden = true;
+    pages[currentIndex].setAttribute('aria-hidden', 'true');
+    currentIndex = index;
+    pages[currentIndex].hidden = false;
+    pages[currentIndex].setAttribute('aria-hidden', 'false');
     article.scrollIntoView({
-      behavior: reduceMotionQuery.matches ? 'auto' : 'smooth',
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
       block: 'start'
     });
-  }
-
-  function goTo(index) {
-    var previousIndex = currentIndex;
-    var direction;
-    var currentPage;
-    var targetPage;
-
-    if (index < 0 || index >= pages.length || index === currentIndex || isAnimating) return;
-
-    direction = index > previousIndex ? 'next' : 'prev';
-    currentPage = pages[previousIndex];
-    targetPage = pages[index];
-
-    clearCleanupTimer();
-    updateStageHeight([previousIndex, index]);
-
-    if (reduceMotionQuery.matches) {
-      currentIndex = index;
-      syncPages();
-      render();
-      scrollArticleIntoView();
-      return;
-    }
-
-    isAnimating = true;
-    setPageState(currentPage, 'current', false);
-    setPageState(targetPage, direction === 'next' ? 'after' : 'before', false);
-    // Force reflow so the browser applies the setup states before the flip starts.
-    // `void` makes it explicit that we intentionally discard the layout value.
-    void stack.offsetHeight;
-
-    currentPage.dataset.state = direction === 'next' ? 'leaving-next' : 'leaving-prev';
-    targetPage.dataset.state = 'current';
-    currentIndex = index;
     render();
-    scrollArticleIntoView();
-
-    cleanupTimer = window.setTimeout(function () {
-      syncPages();
-      render();
-      cleanupTimer = null;
-    }, animationDuration);
-  }
-
-  function refreshLayout() {
-    if (isAnimating) {
-      updateStageHeight([currentIndex]);
-      return;
-    }
-    syncPages();
   }
 
   // Arrow-key navigation (only when not focused on a text input)
@@ -212,40 +125,5 @@
     if (e.key === 'ArrowRight') goTo(currentIndex + 1);
   });
 
-  // Touch swipe navigation
-  var swipeStartX = null;
-  var swipeThreshold = 50;
-
-  stage.addEventListener('touchstart', function (e) {
-    swipeStartX = e.changedTouches[0].clientX;
-  }, { passive: true });
-
-  stage.addEventListener('touchend', function (e) {
-    if (swipeStartX === null) return;
-    var dx = e.changedTouches[0].clientX - swipeStartX;
-    swipeStartX = null;
-    if (Math.abs(dx) < swipeThreshold) return;
-    if (dx < 0) goTo(currentIndex + 1);
-    else if (dx > 0) goTo(currentIndex - 1);
-  }, { passive: true });
-
-  window.addEventListener('resize', refreshLayout);
-  if (typeof reduceMotionQuery.addEventListener === 'function') {
-    reduceMotionQuery.addEventListener('change', refreshLayout);
-    removeReduceMotionListener = function () {
-      reduceMotionQuery.removeEventListener('change', refreshLayout);
-    };
-  } else if (typeof reduceMotionQuery.addListener === 'function') {
-    reduceMotionQuery.addListener(refreshLayout);
-    removeReduceMotionListener = function () {
-      reduceMotionQuery.removeListener(refreshLayout);
-    };
-  }
-  window.addEventListener('pagehide', function () {
-    clearCleanupTimer();
-    removeReduceMotionListener();
-  });
-
-  syncPages();
   render();
 }());
