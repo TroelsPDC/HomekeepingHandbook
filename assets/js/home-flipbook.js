@@ -18,6 +18,9 @@
   var animationDuration = 650;
   var isAnimating = false;
   var removeReduceMotionListener = function () {};
+  var swipeStartX = null;
+  var swipeStartY = null;
+  var swipeThreshold = 40;
 
   if (!stack || !nav || pages.length < 2) return;
 
@@ -54,39 +57,14 @@
   }
 
   function renderNav() {
-    var total = pages.length;
     nav.innerHTML = '';
-
-    var prevBtn = document.createElement('button');
-    prevBtn.className = 'page-btn page-btn-prev';
-    prevBtn.innerHTML = '&#8592; Prev';
-    prevBtn.disabled = currentIndex === 0;
-    prevBtn.setAttribute('aria-label', 'Previous page');
-    prevBtn.addEventListener('click', function () { goTo(currentIndex - 1); });
-
-    var dots = document.createElement('span');
-    dots.className = 'page-dots';
-    dots.setAttribute('role', 'list');
-    for (var i = 0; i < total; i++) {
-      (function (idx) {
-        var dot = document.createElement('button');
-        dot.className = 'page-dot' + (idx === currentIndex ? ' active' : '');
-        dot.setAttribute('aria-label', 'Page ' + (idx + 1) + ' of ' + total);
-        dot.setAttribute('role', 'listitem');
-        dot.addEventListener('click', function () { goTo(idx); });
-        dots.appendChild(dot);
-      }(i));
-    }
 
     var nextBtn = document.createElement('button');
     nextBtn.className = 'page-btn page-btn-next';
     nextBtn.innerHTML = 'Next &#8594;';
-    nextBtn.disabled = currentIndex === total - 1;
-    nextBtn.setAttribute('aria-label', 'Next page');
-    nextBtn.addEventListener('click', function () { goTo(currentIndex + 1); });
-
-    nav.appendChild(prevBtn);
-    nav.appendChild(dots);
+    nextBtn.disabled = currentIndex !== 0;
+    nextBtn.setAttribute('aria-label', 'Go to table of contents');
+    nextBtn.addEventListener('click', function () { goTo(1); });
     nav.appendChild(nextBtn);
   }
 
@@ -137,12 +115,46 @@
     syncPages();
   }
 
-  document.addEventListener('keydown', function (e) {
-    var tag = document.activeElement && document.activeElement.tagName;
-    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
-    if (e.key === 'ArrowLeft') goTo(currentIndex - 1);
-    if (e.key === 'ArrowRight') goTo(currentIndex + 1);
-  });
+  function handleSwipeEnd(endX, endY) {
+    var deltaX;
+    var deltaY;
+    var absX;
+    var absY;
+
+    if (swipeStartX === null || swipeStartY === null || isAnimating) return;
+
+    deltaX = endX - swipeStartX;
+    deltaY = endY - swipeStartY;
+    absX = Math.abs(deltaX);
+    absY = Math.abs(deltaY);
+
+    // Cover -> TOC: swipe right-to-left OR top-to-down.
+    if (currentIndex === 0) {
+      if (absX > absY && deltaX <= -swipeThreshold) {
+        goTo(1);
+      } else if (absY > absX && deltaY >= swipeThreshold) {
+        goTo(1);
+      }
+    }
+
+    // TOC -> Cover: only swipe bottom-to-up.
+    if (currentIndex === 1 && absY > absX && deltaY <= -swipeThreshold) {
+      goTo(0);
+    }
+  }
+
+  stage.addEventListener('touchstart', function (e) {
+    if (!e.touches || e.touches.length === 0) return;
+    swipeStartX = e.touches[0].clientX;
+    swipeStartY = e.touches[0].clientY;
+  }, { passive: true });
+
+  stage.addEventListener('touchend', function (e) {
+    if (!e.changedTouches || e.changedTouches.length === 0) return;
+    handleSwipeEnd(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+    swipeStartX = null;
+    swipeStartY = null;
+  }, { passive: true });
 
   window.addEventListener('resize', refreshLayout);
   if (typeof reduceMotionQuery.addEventListener === 'function') {

@@ -59,12 +59,23 @@ function nextBtn() {
   return document.querySelector('.page-btn-next');
 }
 
-function prevBtn() {
-  return document.querySelector('.page-btn-prev');
+function stage() {
+  return document.querySelector('[data-home-flipbook]');
 }
 
-function dots() {
-  return Array.from(document.querySelectorAll('.page-dot'));
+function swipe(startX, startY, endX, endY) {
+  var startEvent = new Event('touchstart', { bubbles: true });
+  Object.defineProperty(startEvent, 'touches', {
+    value: [{ clientX: startX, clientY: startY }],
+  });
+
+  var endEvent = new Event('touchend', { bubbles: true });
+  Object.defineProperty(endEvent, 'changedTouches', {
+    value: [{ clientX: endX, clientY: endY }],
+  });
+
+  stage().dispatchEvent(startEvent);
+  stage().dispatchEvent(endEvent);
 }
 
 beforeEach(() => {
@@ -87,21 +98,14 @@ test('TOC page starts as after (not yet visible)', () => {
   expect(page(1).dataset.state).toBe('after');
 });
 
-test('Prev button is disabled on the first page', () => {
-  expect(prevBtn().disabled).toBe(true);
+test('only a Next button is rendered in front-page nav', () => {
+  expect(nextBtn()).not.toBeNull();
+  expect(document.querySelector('.page-btn-prev')).toBeNull();
+  expect(document.querySelector('.page-dots')).toBeNull();
 });
 
-test('Next button is enabled on the first page', () => {
+test('Next button is enabled on the cover page', () => {
   expect(nextBtn().disabled).toBe(false);
-});
-
-test('two dot indicators are rendered', () => {
-  expect(dots()).toHaveLength(2);
-});
-
-test('first dot is active on the cover page', () => {
-  expect(dots()[0].classList.contains('active')).toBe(true);
-  expect(dots()[1].classList.contains('active')).toBe(false);
 });
 
 // ── Clicking Next (cover → TOC) ──────────────────────────────────────────────
@@ -116,76 +120,38 @@ test('clicking Next sets cover page state to before', () => {
   expect(page(0).dataset.state).toBe('before');
 });
 
-test('Prev button becomes enabled after clicking Next', () => {
-  nextBtn().click();
-  expect(prevBtn().disabled).toBe(false);
-});
-
-test('Next button becomes disabled when on the last page', () => {
+test('Next button becomes disabled on TOC page', () => {
   nextBtn().click();
   expect(nextBtn().disabled).toBe(true);
 });
 
-test('second dot is active after clicking Next', () => {
-  nextBtn().click();
-  expect(dots()[1].classList.contains('active')).toBe(true);
-  expect(dots()[0].classList.contains('active')).toBe(false);
-});
+// ── Swipe navigation ─────────────────────────────────────────────────────────
 
-// ── Clicking Prev (TOC → cover) ──────────────────────────────────────────────
-
-test('clicking Prev returns to the cover page', () => {
-  nextBtn().click();
-  prevBtn().click();
-  expect(page(0).dataset.state).toBe('current');
-});
-
-test('clicking Prev sets TOC page state to after', () => {
-  nextBtn().click();
-  prevBtn().click();
-  expect(page(1).dataset.state).toBe('after');
-});
-
-test('Prev button is disabled again after returning to cover', () => {
-  nextBtn().click();
-  prevBtn().click();
-  expect(prevBtn().disabled).toBe(true);
-});
-
-// ── Dot navigation ───────────────────────────────────────────────────────────
-
-test('clicking second dot navigates to the TOC page', () => {
-  dots()[1].click();
+test('swipe right-to-left on cover advances to TOC', () => {
+  swipe(200, 100, 120, 100);
   expect(page(1).dataset.state).toBe('current');
 });
 
-test('clicking first dot returns to the cover page', () => {
-  dots()[1].click();
-  dots()[0].click();
-  expect(page(0).dataset.state).toBe('current');
-});
-
-// ── Keyboard navigation ──────────────────────────────────────────────────────
-
-test('ArrowRight advances to the TOC page', () => {
-  document.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowRight', bubbles: true }));
+test('swipe top-to-down on cover advances to TOC', () => {
+  swipe(100, 100, 100, 200);
   expect(page(1).dataset.state).toBe('current');
 });
 
-test('ArrowLeft returns to the cover page', () => {
+test('swipe bottom-to-up on TOC returns to cover', () => {
   nextBtn().click();
-  document.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowLeft', bubbles: true }));
+  swipe(100, 200, 100, 120);
   expect(page(0).dataset.state).toBe('current');
 });
 
-test('ArrowLeft on the first page does nothing', () => {
-  document.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowLeft', bubbles: true }));
-  expect(page(0).dataset.state).toBe('current');
+test('swipe top-to-down on TOC does not return to cover', () => {
+  nextBtn().click();
+  swipe(100, 100, 100, 200);
+  expect(page(1).dataset.state).toBe('current');
 });
 
-test('ArrowRight on the last page does nothing', () => {
+test('swipe left-to-right on TOC does not return to cover', () => {
   nextBtn().click();
-  document.dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowRight', bubbles: true }));
+  swipe(100, 100, 200, 100);
   expect(page(1).dataset.state).toBe('current');
 });
 
