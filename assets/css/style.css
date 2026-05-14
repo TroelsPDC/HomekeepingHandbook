@@ -397,6 +397,22 @@ body.dark-mode .nav-next {
   color: #888;
 }
 
+/* Character GIF — lower-right corner, above the audio button */
+.character-gif {
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  width: 80px;
+  height: auto;
+  z-index: 99;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.character-gif.hidden {
+  opacity: 0;
+}
+
 /* Audio player */
 .audio-controls {
   position: fixed;
