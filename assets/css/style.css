@@ -309,6 +309,16 @@ body.dark-mode .nav-next {
   font-size: 0.9rem;
 }
 
+/* Keep chapter reading content in a centered column */
+.chapter-content article,
+.chapter-content .author-page-nav,
+.chapter-content .chapter-nav,
+.chapter-content .toc-link {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Footer */
 .site-footer {
   text-align: center;
