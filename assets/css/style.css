@@ -108,11 +108,6 @@ p {
 
 a {
   color: var(--link);
-  cursor: var(--site-cursor);
-}
-
-button {
-  cursor: var(--site-cursor);
 }
 
 body.dark-mode a {
@@ -286,7 +281,7 @@ body.dark-mode .author-page-nav {
 
 .page-btn:disabled {
   opacity: 0.35;
-  cursor: var(--site-cursor);
+  cursor: not-allowed;
 }
 
 .page-btn:not(:disabled):hover {
