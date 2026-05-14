@@ -35,6 +35,25 @@
   charGif.setAttribute('aria-hidden', 'true');
   document.body.appendChild(charGif);
 
+  function sizeCharacterGif() {
+    var isPhone = window.matchMedia('(max-width: 600px)').matches;
+    if (isPhone) {
+      charGif.style.width = '160px';
+      charGif.style.right = '1rem';
+      return;
+    }
+
+    var content = document.querySelector('.chapter-content') || document.body;
+    var rect = content.getBoundingClientRect();
+    var gutterRight = Math.max(0, window.innerWidth - rect.right);
+    var safeRightPadding = 16;
+    var maxWithoutOverlay = Math.max(0, gutterRight - safeRightPadding);
+    var size = Math.max(80, Math.floor(maxWithoutOverlay));
+
+    charGif.style.width = size + 'px';
+    charGif.style.right = safeRightPadding + 'px';
+  }
+
   // Group all child nodes by splitting on <hr> elements
   var groups = [];
   var current = [];
@@ -183,6 +202,7 @@
       // Append a timestamp to force the GIF to restart from frame 1
       charGif.src = gif + '?t=' + Date.now();
       charGif.classList.remove('hidden');
+      sizeCharacterGif();
     } else {
       charGif.classList.add('hidden');
     }
@@ -213,4 +233,6 @@
 
   render();
   updateGif(0);
+  sizeCharacterGif();
+  window.addEventListener('resize', sizeCharacterGif);
 }());
