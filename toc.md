@@ -11,6 +11,8 @@ body_class: toc-page
 
 ---
 
+<div class="toc-by-section" markdown="1">
+
 **By:**
 
 **Morgum Soothumb**, *Senior Peon*
@@ -20,6 +22,10 @@ body_class: toc-page
 **Vorun the Pallid**, *Acolyte of the Cult*
 
 **Wisps**
+
+<img class="toc-approval-stamp" src="{{ '/assets/approval.png' | relative_url }}" alt="Approval stamp">
+
+</div>
 
 ---
 
@@ -96,6 +102,11 @@ body_class: toc-page
 <p style="text-align: center; margin-top: 2rem;">
   <a href="{{ '/about/' | relative_url }}">About This Book</a>
 </p>
+
+<div class="toc-publisher">
+  <p>Published by:</p>
+  <img src="{{ '/assets/publisher.png' | relative_url }}" alt="Publisher">
+</div>
 
 <p style="text-align: center; margin-top: 1rem;">
   If you're interested in actual housekeeping help, buy the inspiration here:

@@ -209,6 +209,36 @@ body.toc-page::before {
   margin-bottom: 0.3rem;
 }
 
+.toc-by-section {
+  position: relative;
+  padding-right: 6.5rem;
+  padding-bottom: 2.25rem;
+}
+
+.toc-approval-stamp {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: min(24vw, 110px);
+  height: auto;
+  transform: rotate(10deg);
+  opacity: 0.9;
+}
+
+.toc-publisher {
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
+.toc-publisher p {
+  margin-bottom: 0.5rem;
+}
+
+.toc-publisher img {
+  width: min(60vw, 280px);
+  height: auto;
+}
+
 /* Per-author page backgrounds */
 body.chapter-layout {
   position: relative;
@@ -647,5 +677,17 @@ body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp {
   .nav-next {
     margin-left: 0;
     text-align: right;
+  }
+
+  .toc-by-section {
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .toc-approval-stamp {
+    position: static;
+    display: block;
+    margin: 0.75rem 0 0 auto;
+    width: min(40vw, 110px);
   }
 }
