@@ -58,6 +58,21 @@
   var resizeFrame = null;
   var activeCharacter = null;
   var isTalking = false;
+  var isWispSoundPlaying = false;
+  var wispAudio = new Audio(baseUrl + '/assets/wisp.mp3');
+  wispAudio.preload = 'auto';
+  wispAudio.addEventListener('ended', function () {
+    isWispSoundPlaying = false;
+    if (charGif) charGif.setAttribute('aria-pressed', 'false');
+  });
+
+  function stopWispSound() {
+    if (!isWispSoundPlaying) return;
+    wispAudio.pause();
+    wispAudio.currentTime = 0;
+    isWispSoundPlaying = false;
+    if (charGif) charGif.setAttribute('aria-pressed', 'false');
+  }
 
   function sizeCharacterGif() {
     var isPhone = mobileQuery.matches;
@@ -250,6 +265,24 @@
 
   function toggleGif() {
     if (!activeCharacter) return;
+    if (activeCharacter === 'wisp') {
+      if (isWispSoundPlaying) {
+        stopWispSound();
+      } else {
+        wispAudio.currentTime = 0;
+        wispAudio.play().then(function () {
+          isWispSoundPlaying = true;
+          charGif.setAttribute('aria-pressed', 'true');
+        }).catch(function (error) {
+          isWispSoundPlaying = false;
+          charGif.setAttribute('aria-pressed', 'false');
+          console.warn('Unable to play Wisp sound:', error);
+        });
+      }
+      return;
+    }
+
+    stopWispSound();
     isTalking = !isTalking;
     renderGif(activeCharacter, isTalking);
   }
@@ -279,6 +312,9 @@
 
   function goTo(index) {
     if (index < 0 || index >= pages.length) return;
+    if (activeCharacter === 'wisp' && authorKeyForPage(pages[index]) !== 'wisp') {
+      stopWispSound();
+    }
     pages[currentIndex].hidden = true;
     pages[currentIndex].setAttribute('aria-hidden', 'true');
     currentIndex = index;
