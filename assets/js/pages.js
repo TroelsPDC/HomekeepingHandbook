@@ -196,7 +196,9 @@
       'chapter-author-acolyte',
       'chapter-author-wisp'
     ];
-    body.classList.remove.apply(body.classList, bodyClasses);
+    bodyClasses.forEach(function (cls) {
+      body.classList.remove(cls);
+    });
 
     var page = pages[index];
     var classes = page.className.split(' ');
