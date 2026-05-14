@@ -377,36 +377,17 @@ body.dark-mode .page-dot:not(.active):hover {
   background: rgba(255, 255, 255, 0.12);
 }
 
-/* Homepage flipbook */
-.home-flipbook-stage {
-  margin-top: 1rem;
-}
-
-.home-flipbook-stack .chapter-page {
-  border-radius: 0.85rem;
-  /* Allow each page to size itself to its own content.
-     The base .chapter-page rule uses inset: 0 which stretches the element
-     to fill the stack; that creates a circular dependency (stack height is
-     set by JS based on the page's offsetHeight, but the page height is
-     constrained to the stack height, so everything collapses to 0).
-     Overriding bottom to auto lets the height be content-determined so the
-     image and TOC text are actually visible. */
-  bottom: auto;
-}
-
+/* Homepage cover & TOC */
 .home-cover-page {
-  padding: 0;
+  margin-top: 1rem;
   overflow: hidden;
+  border-radius: 0.85rem;
 }
 
 .home-cover-image {
   display: block;
   width: 100%;
   height: auto;
-}
-
-.home-toc-page {
-  overflow: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {
