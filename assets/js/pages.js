@@ -16,6 +16,25 @@
   var article = document.querySelector('.chapter-content article');
   if (!article) return;
 
+  // Resolve base URL from this script's src (e.g. /HomekeepingHandbook)
+  var pageScripts = document.querySelectorAll('script[src*="pages.js"]');
+  var baseUrl = pageScripts.length ? pageScripts[0].src.replace(/\/assets\/js\/pages\.js.*$/, '') : '';
+
+  // Map author CSS class suffix to GIF filename
+  var gifMap = {
+    'peasant': baseUrl + '/assets/PeasantGIF.gif',
+    'peon':    baseUrl + '/assets/PeonGIF.gif',
+    'acolyte': baseUrl + '/assets/AcolyteGIF.gif',
+    'wisp':    baseUrl + '/assets/WispGIF.gif',
+  };
+
+  // Create the character GIF element
+  var charGif = document.createElement('img');
+  charGif.className = 'character-gif hidden';
+  charGif.setAttribute('alt', '');
+  charGif.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(charGif);
+
   // Group all child nodes by splitting on <hr> elements
   var groups = [];
   var current = [];
@@ -149,6 +168,26 @@
     nav.appendChild(nextBtn);
   }
 
+  function updateGif(index) {
+    var page = pages[index];
+    var gif = null;
+    var classes = page.className.split(' ');
+    for (var i = 0; i < classes.length; i++) {
+      var match = classes[i].match(/^page-author-(\w+)$/);
+      if (match && gifMap[match[1]]) {
+        gif = gifMap[match[1]];
+        break;
+      }
+    }
+    if (gif) {
+      // Append a timestamp to force the GIF to restart from frame 1
+      charGif.src = gif + '?t=' + Date.now();
+      charGif.classList.remove('hidden');
+    } else {
+      charGif.classList.add('hidden');
+    }
+  }
+
   function goTo(index) {
     if (index < 0 || index >= pages.length) return;
     pages[currentIndex].hidden = true;
@@ -156,6 +195,7 @@
     currentIndex = index;
     pages[currentIndex].hidden = false;
     pages[currentIndex].setAttribute('aria-hidden', 'false');
+    updateGif(currentIndex);
     article.scrollIntoView({
       behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
       block: 'start'
@@ -172,4 +212,5 @@
   });
 
   render();
+  updateGif(0);
 }());
