@@ -184,6 +184,50 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
   margin-bottom: 0.3rem;
 }
 
+/* Per-author page backgrounds */
+.chapter-page[class*='page-author-'] {
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: -0.5rem -0.75rem;
+}
+
+.chapter-page.page-author-peasant,
+.chapter-page.page-author-peon,
+.chapter-page.page-author-acolyte,
+.chapter-page.page-author-wisp {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.chapter-page.page-author-peasant  { background-image: url('../peasantbackground.png'); }
+.chapter-page.page-author-peon     { background-image: url('../peonbackground.png'); }
+.chapter-page.page-author-acolyte  { background-image: url('../acolytebackground.png'); }
+.chapter-page.page-author-wisp     { background-image: url('../wispbackground.png'); }
+
+body.dark-mode .chapter-page.page-author-peasant,
+body.dark-mode .chapter-page.page-author-peon,
+body.dark-mode .chapter-page.page-author-acolyte,
+body.dark-mode .chapter-page.page-author-wisp {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.dark-mode .chapter-page.page-author-peasant {
+  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peasantbackground.png');
+}
+body.dark-mode .chapter-page.page-author-peon {
+  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peonbackground.png');
+}
+/* Acolyte uses a slightly stronger overlay to suit the darker purple theme */
+body.dark-mode .chapter-page.page-author-acolyte {
+  background-image: linear-gradient(rgba(26, 26, 46, 0.65), rgba(26, 26, 46, 0.65)), url('../acolytebackground.png');
+}
+body.dark-mode .chapter-page.page-author-wisp {
+  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../wispbackground.png');
+}
+
 /* Author page navigation (within a chapter) */
 .author-page-nav {
   display: flex;
