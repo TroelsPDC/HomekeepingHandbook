@@ -59,7 +59,6 @@ The noises that should not occur in a properly maintained consecrated space are 
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 The gap in the northern wall allows wind on certain evenings. The wind has been passing through gaps in things for a very long time. The gap did not fail the wall. The gap is how the outside came inside to understand what the inside was like.
 

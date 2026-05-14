@@ -69,7 +69,6 @@ The undead require acknowledgement. This is one of the few things we have in com
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 The stone remembers every step that has crossed it.
 

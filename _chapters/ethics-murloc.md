@@ -72,7 +72,6 @@ This conclusion is, I think, genuinely elegant. Eating murloc is one of the few 
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 We have watched murlocs since before the word "murloc" existed, which was also before the word "watched," so perhaps we mean something slightly different by both.
 

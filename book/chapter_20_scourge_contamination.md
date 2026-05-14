@@ -59,7 +59,6 @@ For remediation: blessed treatment compounds are effective for early cases, prov
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 The blight is alive. This is the first thing about it, and it is the thing that makes the rest complicated. It grows. It spreads. It changes what it touches. These are things living things do.
 

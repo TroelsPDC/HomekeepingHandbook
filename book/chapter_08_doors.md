@@ -59,7 +59,6 @@ I would also draw the reader's attention to what is not a door but functions as 
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 A door is a wall that has decided to remember what it was before it became a wall. Before it was a wall, it was an opening. Before it was an opening, it was a choice about where the opening should be. Before that, it was simply the place where the outside and the inside had not yet been told they were different things. The door makes that difference possible while keeping a record of the connection. This is a complicated thing to be asked to be.
 

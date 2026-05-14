@@ -59,7 +59,6 @@ I will say this plainly, because the Peasant's section was long and you may be t
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 You walk across the land making assessments. Squeezing its soil between your fingers. Measuring the angle of the sun with your hand held flat like a tool. The land is not waiting for your assessment. The land is not a candidate. The land has been here through several extinctions and has no opinion about your drainage concerns, though it finds them, in a minor way, endearing.
 

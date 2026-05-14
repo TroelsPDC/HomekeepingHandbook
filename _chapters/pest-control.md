@@ -60,7 +60,6 @@ Candles placed at threshold intervals have shown some deterrent effect. This is 
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 There were no pests before you invented walls.
 

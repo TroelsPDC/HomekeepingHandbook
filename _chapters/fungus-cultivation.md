@@ -64,7 +64,6 @@ For completeness, I should note that fungal cultivation is among the most philos
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 The forest does not plant itself. Or rather: it does, and has, and was doing so before there was a word for the action. The part that reaches downward is older than the part that reaches up. This is not a metaphor. This is botany.
 

@@ -64,7 +64,6 @@ If the guest will not be leaving, the arrangement becomes more permanent. At tha
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 The grove receives all things.
 

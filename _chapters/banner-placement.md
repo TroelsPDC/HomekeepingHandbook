@@ -66,7 +66,6 @@ The fabric of the insignia should be maintained. I inspect every banner on a cyc
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 A tree that has grown for three hundred years at the edge of a meadow does not require a sign. The meadow already knows. The stones at the base already know. The deer that pass in the morning pass exactly as far from the trunk as they have always passed, not because they have read a marker but because they understand, the way living things understand the edges of other living things, where one presence ends and another begins.
 

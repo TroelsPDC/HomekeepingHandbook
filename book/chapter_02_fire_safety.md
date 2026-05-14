@@ -49,7 +49,6 @@ If you insist upon maintaining a structure that can burn, the following is advis
 ---
 
 ## Wisps
-### *(translated from ambient moonlight)*
 
 Fire remembers the sun.
 
