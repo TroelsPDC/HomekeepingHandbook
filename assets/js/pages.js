@@ -35,10 +35,15 @@
   charGif.setAttribute('aria-hidden', 'true');
   document.body.appendChild(charGif);
 
+  var BASE_GIF_SIZE = 80;
+  var MOBILE_GIF_SIZE = BASE_GIF_SIZE * 2;
+  var MOBILE_BREAKPOINT = 600;
+  var DESKTOP_RIGHT_PADDING = 16;
+
   function sizeCharacterGif() {
-    var isPhone = window.matchMedia('(max-width: 600px)').matches;
+    var isPhone = window.matchMedia('(max-width: ' + MOBILE_BREAKPOINT + 'px)').matches;
     if (isPhone) {
-      charGif.style.width = '160px';
+      charGif.style.width = MOBILE_GIF_SIZE + 'px';
       charGif.style.right = '1rem';
       return;
     }
@@ -46,12 +51,11 @@
     var content = document.querySelector('.chapter-content') || document.body;
     var rect = content.getBoundingClientRect();
     var gutterRight = Math.max(0, window.innerWidth - rect.right);
-    var safeRightPadding = 16;
-    var maxWithoutOverlay = Math.max(0, gutterRight - safeRightPadding);
-    var size = Math.max(80, Math.floor(maxWithoutOverlay));
+    var maxWithoutOverlay = Math.max(0, gutterRight - DESKTOP_RIGHT_PADDING);
+    var size = Math.max(BASE_GIF_SIZE, Math.floor(maxWithoutOverlay));
 
     charGif.style.width = size + 'px';
-    charGif.style.right = safeRightPadding + 'px';
+    charGif.style.right = DESKTOP_RIGHT_PADDING + 'px';
   }
 
   // Group all child nodes by splitting on <hr> elements
