@@ -78,6 +78,8 @@ The underground forest tends itself. It does not need your logs, or your substra
 
 
 > *Peasant annotation: I have no objection to mushrooms. I do object to being told my floorboards are agricultural correspondence.*
+
 > *Peon annotation: Morgum was feeling competent about fungus bed until Wisp said underground already doing bigger fungus. Hard to compete with invisible empire.*
+
 > *Acolyte annotation: I dislike the implication that careful cultivation is merely arriving late to a process. It is, unfortunately, often true.*
 ---

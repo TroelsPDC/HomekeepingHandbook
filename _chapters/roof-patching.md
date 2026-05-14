@@ -80,6 +80,8 @@ There is a tree that has fallen and is now very wet and is becoming something ot
 
 
 > *Peasant annotation: Rain may not negotiate, but that is no reason to surrender the roof as a matter of policy.*
+
 > *Peon annotation: Morgum appreciates sky having no favourites. Still plans to hit leak with mud.*
+
 > *Acolyte annotation: Calling a ceiling stain "information" is elegant in the way only a person not sleeping beneath it could manage.*
 ---

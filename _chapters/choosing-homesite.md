@@ -80,6 +80,8 @@ Something is being communicated by the place where you stopped reading this. Tha
 
 
 > *Peasant annotation: A homesite has not, in my experience, ever completed any paperwork, and if the land has chosen me I wish it had been plainer about drainage.*
+
 > *Peon annotation: Morgum does not trust place that chooses Morgum without asking. Sounds like trap with excellent scenery.*
+
 > *Acolyte annotation: I dislike how often the Wisps arrive at a mystical version of the same conclusion as proper site assessment.*
 ---

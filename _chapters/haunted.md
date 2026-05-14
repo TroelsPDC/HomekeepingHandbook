@@ -85,6 +85,8 @@ If you cannot hear it yet — sit in the oldest part of the room, after midnight
 
 
 > *Peasant annotation: If the house has something to say, I would prefer it say it in daylight and without moving objects.*
+
 > *Peon annotation: Morgum does not sit in dark room after midnight waiting for wall to talk. Morgum has standards.*
+
 > *Acolyte annotation: For once, the Wisps are only describing hauntings accurately. I resent how smugly they do it.*
 ---

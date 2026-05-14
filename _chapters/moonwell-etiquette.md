@@ -82,6 +82,8 @@ This is what the chapter is about. Not leaning. Not dropping things. Not drinkin
 
 
 > *Peasant annotation: Etiquette remains the right word if only because "do not lean into the eternal memory pool" ought to be teachable at table.*
+
 > *Peon annotation: Morgum does not want pool remembering Morgum. Morgum already has enough things remembering Morgum.*
+
 > *Acolyte annotation: Their explanation is imprecise, circular, and annoyingly close to the truth. I dislike being reminded that language has limits.*
 ---

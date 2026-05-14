@@ -80,6 +80,8 @@ We have never used a door. We are not entirely clear on the concept of *arriving
 
 
 > *Peasant annotation: A door is not a philosophical compromise. It is a board arrangement intended to keep weather and opportunists out.*
+
 > *Peon annotation: Morgum understands arriving. You stop walking because food is here. Very simple. Wisp making this too slippery.*
+
 > *Acolyte annotation: The threshold meditation is tolerable. The suggestion that a door is merely a mark is the sort of thing said by beings who never had to bar one.*
 ---
