@@ -214,6 +214,29 @@
     }
   }
 
+  function updateBodyBackground(index) {
+    var body = document.body;
+    var bodyClasses = [
+      'chapter-author-peasant',
+      'chapter-author-peon',
+      'chapter-author-acolyte',
+      'chapter-author-wisp'
+    ];
+    bodyClasses.forEach(function (cls) {
+      body.classList.remove(cls);
+    });
+
+    var page = pages[index];
+    var classes = page.className.split(' ');
+    for (var i = 0; i < classes.length; i++) {
+      var match = classes[i].match(/^page-author-(\w+)$/);
+      if (match) {
+        body.classList.add('chapter-author-' + match[1]);
+        break;
+      }
+    }
+  }
+
   function goTo(index) {
     if (index < 0 || index >= pages.length) return;
     pages[currentIndex].hidden = true;
@@ -221,6 +244,7 @@
     currentIndex = index;
     pages[currentIndex].hidden = false;
     pages[currentIndex].setAttribute('aria-hidden', 'false');
+    updateBodyBackground(currentIndex);
     updateGif(currentIndex);
     article.scrollIntoView({
       behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
@@ -238,6 +262,7 @@
   });
 
   render();
+  updateBodyBackground(0);
   updateGif(0);
   sizeCharacterGif();
   window.addEventListener('resize', function () {
