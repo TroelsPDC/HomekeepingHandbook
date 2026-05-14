@@ -43,10 +43,34 @@
   var titleNodes  = groups[0];
   var authorGroups = groups.slice(1);
 
+  // Map author name fragments to CSS class suffixes
+  var authorClasses = [
+    { match: 'Morgum',   cls: 'peon'    },
+    { match: 'Theodore', cls: 'peasant' },
+    { match: 'Vorun',    cls: 'acolyte' },
+    { match: 'Wisps',    cls: 'wisp'   },
+  ];
+
+  function authorClassForNodes(nodes) {
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      if (n.nodeType === Node.ELEMENT_NODE && n.tagName === 'H2') {
+        var text = n.textContent || '';
+        for (var j = 0; j < authorClasses.length; j++) {
+          if (text.indexOf(authorClasses[j].match) !== -1) {
+            return 'page-author-' + authorClasses[j].cls;
+          }
+        }
+      }
+    }
+    return '';
+  }
+
   // Wrap each author group in a page <div>
   var pages = authorGroups.map(function (nodes, i) {
     var div = document.createElement('div');
-    div.className = 'chapter-page';
+    var authorCls = authorClassForNodes(nodes);
+    div.className = 'chapter-page' + (authorCls ? ' ' + authorCls : '');
     div.setAttribute('aria-hidden', i > 0 ? 'true' : 'false');
     if (i > 0) div.hidden = true;
     nodes.forEach(function (n) { div.appendChild(n); });

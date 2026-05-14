@@ -184,6 +184,40 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
   margin-bottom: 0.3rem;
 }
 
+/* Per-author page backgrounds */
+.chapter-page.page-author-peasant {
+  background: rgba(107, 142, 35, 0.06);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: -0.5rem -0.75rem;
+}
+
+.chapter-page.page-author-peon {
+  background: rgba(184, 134, 11, 0.06);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: -0.5rem -0.75rem;
+}
+
+.chapter-page.page-author-acolyte {
+  background: rgba(74, 14, 78, 0.06);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: -0.5rem -0.75rem;
+}
+
+.chapter-page.page-author-wisp {
+  background: rgba(46, 139, 139, 0.06);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: -0.5rem -0.75rem;
+}
+
+body.dark-mode .chapter-page.page-author-peasant { background: rgba(107, 142, 35, 0.12); }
+body.dark-mode .chapter-page.page-author-peon    { background: rgba(184, 134, 11, 0.12); }
+body.dark-mode .chapter-page.page-author-acolyte { background: rgba(74, 14, 78, 0.18); }
+body.dark-mode .chapter-page.page-author-wisp    { background: rgba(46, 139, 139, 0.12); }
+
 /* Author page navigation (within a chapter) */
 .author-page-nav {
   display: flex;
