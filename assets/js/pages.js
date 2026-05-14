@@ -20,19 +20,34 @@
   var pageScripts = document.querySelectorAll('script[src*="pages.js"]');
   var baseUrl = pageScripts.length ? pageScripts[0].src.replace(/\/assets\/js\/pages\.js.*$/, '') : '';
 
-  // Map author CSS class suffix to GIF filename
+  // Map author CSS class suffix to GIF filenames
   var gifMap = {
-    'peasant': baseUrl + '/assets/PeasantGIF.gif',
-    'peon':    baseUrl + '/assets/PeonGIF.gif',
-    'acolyte': baseUrl + '/assets/AcolyteGIF.gif',
-    'wisp':    baseUrl + '/assets/WispGIF.gif',
+    'peasant': {
+      idle: baseUrl + '/assets/peasantIddle.gif',
+      talking: baseUrl + '/assets/peasantTalking.gif'
+    },
+    'peon': {
+      idle: baseUrl + '/assets/peonIddle.gif',
+      talking: baseUrl + '/assets/peonTalking.gif'
+    },
+    'acolyte': {
+      idle: baseUrl + '/assets/AcolyteIddle.gif',
+      talking: baseUrl + '/assets/AcolyteTalking.gif'
+    },
+    'wisp': {
+      idle: baseUrl + '/assets/WispGIF.gif',
+      talking: baseUrl + '/assets/WispGIF.gif'
+    }
   };
 
   // Create the character GIF element
   var charGif = document.createElement('img');
   charGif.className = 'character-gif hidden';
-  charGif.setAttribute('alt', '');
-  charGif.setAttribute('aria-hidden', 'true');
+  charGif.setAttribute('alt', 'Toggle character animation');
+  charGif.setAttribute('role', 'button');
+  charGif.setAttribute('tabindex', '0');
+  charGif.setAttribute('aria-label', 'Toggle character animation');
+  charGif.setAttribute('aria-pressed', 'false');
   document.body.appendChild(charGif);
 
   var BASE_GIF_SIZE = 80;
@@ -41,6 +56,8 @@
   var DESKTOP_RIGHT_PADDING = 16;
   var mobileQuery = window.matchMedia('(max-width: ' + MOBILE_BREAKPOINT + 'px)');
   var resizeFrame = null;
+  var activeCharacter = null;
+  var isTalking = false;
 
   function sizeCharacterGif() {
     var isPhone = mobileQuery.matches;
@@ -193,25 +210,48 @@
     nav.appendChild(nextBtn);
   }
 
-  function updateGif(index) {
-    var page = pages[index];
-    var gif = null;
+  function authorKeyForPage(page) {
     var classes = page.className.split(' ');
     for (var i = 0; i < classes.length; i++) {
       var match = classes[i].match(/^page-author-(\w+)$/);
       if (match && gifMap[match[1]]) {
-        gif = gifMap[match[1]];
-        break;
+        return match[1];
       }
     }
-    if (gif) {
-      // Append a timestamp to force the GIF to restart from frame 1
-      charGif.src = gif + '?t=' + Date.now();
+    return null;
+  }
+
+  function renderGif(character, talking) {
+    var animation = gifMap[character];
+    if (!animation) return;
+
+    var nextSrc = talking ? animation.talking : animation.idle;
+    charGif.src = nextSrc + '?t=' + Date.now();
+    charGif.setAttribute('aria-pressed', talking ? 'true' : 'false');
+  }
+
+  function updateGif(index) {
+    var page = pages[index];
+    var character = authorKeyForPage(page);
+    if (character) {
+      activeCharacter = character;
+      isTalking = false;
+      renderGif(character, isTalking);
       charGif.classList.remove('hidden');
       sizeCharacterGif();
     } else {
+      activeCharacter = null;
+      isTalking = false;
+      charGif.removeAttribute('src');
+      charGif.setAttribute('aria-pressed', 'false');
       charGif.classList.add('hidden');
     }
+  }
+
+  function toggleGif() {
+    if (!activeCharacter) return;
+    isTalking = !isTalking;
+    renderGif(activeCharacter, isTalking);
   }
 
   function updateBodyBackground(index) {
@@ -259,6 +299,13 @@
     if (tag === 'INPUT' || tag === 'TEXTAREA') return;
     if (e.key === 'ArrowLeft')  goTo(currentIndex - 1);
     if (e.key === 'ArrowRight') goTo(currentIndex + 1);
+  });
+
+  charGif.addEventListener('click', toggleGif);
+  charGif.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    toggleGif();
   });
 
   render();
