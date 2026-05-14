@@ -211,7 +211,7 @@ body.toc-page::before {
 
 .toc-by-section {
   position: relative;
-  padding-right: 6.5rem;
+  padding-right: 5rem;
   padding-bottom: 2.25rem;
 }
 
@@ -219,7 +219,7 @@ body.toc-page::before {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: min(24vw, 110px);
+  width: min(16vw, 78px);
   height: auto;
   transform: rotate(10deg);
   opacity: 0.9;
@@ -235,7 +235,7 @@ body.toc-page::before {
 }
 
 .toc-publisher img {
-  width: min(60vw, 280px);
+  width: min(46vw, 220px);
   height: auto;
 }
 
@@ -700,6 +700,26 @@ article a > img {
     position: static;
     display: block;
     margin: 0.75rem 0 0 auto;
-    width: min(40vw, 110px);
+    width: min(30vw, 88px);
+  }
+
+  .toc-publisher img {
+    width: min(52vw, 190px);
+  }
+}
+
+@media (max-width: 380px) {
+  .toc-by-section {
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .toc-approval-stamp {
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    margin: 0;
+    width: min(34vw, 82px);
+    transform: rotate(-12deg);
   }
 }
