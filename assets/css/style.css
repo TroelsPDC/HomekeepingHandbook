@@ -350,6 +350,7 @@ body.chapter-layout.chapter-author-wisp .page-dot:not(.active):hover {
 .toc-link {
   margin-top: 0.5rem;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 /* Keep chapter reading content in a centered column */
