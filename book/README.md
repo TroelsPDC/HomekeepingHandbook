@@ -115,6 +115,9 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 ### Part V — Beauty
 - [Beauty](chapter_21_beauty.md) *(Symmetry & Copper · Big Axe on Wall · Geometric Bone Arrangements · Morning Dew on Roots)*
 
+### Bonus
+- [The Tefal Clean It Textile Cleaner, 750 Watt](chapter_22_tefal_clean_it.md) *(Clean Thresholds for Upholstery · Serious Slurp · Ritual of Reversal · A Faster Season for Indoor Things)*
+
 ---
 
 ## Voice Notes
