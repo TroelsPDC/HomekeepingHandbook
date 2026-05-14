@@ -21,6 +21,7 @@
   --acolyte: #4a0e4e;
   --wisp: #2e8b8b;
   --site-cursor: url('../cursors/wow-normal-select.cur'), auto;
+  --link-cursor: url('../cursors/WoW Link Select.cur'), pointer;
 }
 
 @font-face {
@@ -107,6 +108,7 @@ p {
 
 a {
   color: var(--page-link);
+  cursor: var(--link-cursor);
 }
 
 hr {
@@ -259,7 +261,7 @@ body.chapter-layout.chapter-author-wisp {
   border-radius: 4px;
   color: var(--page-link);
   background: transparent;
-  cursor: var(--site-cursor);
+  cursor: var(--link-cursor);
   transition: background 0.15s;
 }
 
@@ -289,7 +291,7 @@ body.chapter-layout.chapter-author-wisp .page-btn:not(:disabled):hover {
   border-radius: 50%;
   border: 1.5px solid var(--page-border);
   background: transparent;
-  cursor: var(--site-cursor);
+  cursor: var(--link-cursor);
   padding: 0;
   transition: background 0.15s, border-color 0.15s;
 }
@@ -374,7 +376,7 @@ body.chapter-layout.chapter-author-wisp .page-dot:not(.active):hover {
   background: transparent;
   height: auto;
   z-index: 99;
-  cursor: pointer;
+  cursor: var(--link-cursor);
   transition: opacity 0.3s;
 }
 
@@ -404,7 +406,7 @@ body.chapter-layout.chapter-author-wisp .page-dot:not(.active):hover {
   height: 3rem;
   border-radius: 50%;
   font-size: 1.3rem;
-  cursor: var(--site-cursor);
+  cursor: var(--link-cursor);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
@@ -444,7 +446,7 @@ body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp.wisp-encoded 
   background: transparent;
   border: 1px solid var(--wisp);
   border-radius: 4px;
-  cursor: var(--site-cursor);
+  cursor: var(--link-cursor);
   opacity: 0.85;
   transition: opacity 0.15s, background 0.15s;
 }
