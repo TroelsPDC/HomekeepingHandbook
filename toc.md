@@ -103,13 +103,13 @@ body_class: toc-page
   <a href="{{ '/about/' | relative_url }}">About This Book</a>
 </p>
 
-<div class="toc-publisher">
-  <p>Published by:</p>
-  <img src="{{ '/assets/publisher.png' | relative_url }}" alt="Publisher">
-</div>
-
 <p style="text-align: center; margin-top: 1rem;">
   If you're interested in actual housekeeping help, buy the inspiration here:
   <a href="https://www.saxo.com/dk/martha-stewarts-homekeeping-handbook_martha-stewart_hardback_9780517577004">Martha Stewart's Homekeeping Handbook</a>.
   This is a direct Saxo link and does not support this site.
 </p>
+
+<div class="toc-publisher">
+  <p>Published by:</p>
+  <img src="{{ '/assets/publisher.png' | relative_url }}" alt="Publisher">
+</div>
