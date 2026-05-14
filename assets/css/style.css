@@ -21,7 +21,7 @@
   --acolyte: #4a0e4e;
   --wisp: #2e8b8b;
   --site-cursor: url('../cursors/wow-normal-select.cur'), auto;
-  --link-cursor: url('../cursors/WoW Link Select.cur'), pointer;
+  --link-cursor: url('../cursors/wow-link-select.cur'), pointer;
 }
 
 @font-face {
