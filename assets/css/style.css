@@ -408,14 +408,23 @@ body.dark-mode .nav-next {
   bottom: 5rem;
   right: 1rem;
   width: 80px;
+  padding: 0;
+  border: 0;
+  background: transparent;
   height: auto;
   z-index: 99;
-  pointer-events: none;
+  cursor: pointer;
   transition: opacity 0.3s;
 }
 
 .character-gif.hidden {
   opacity: 0;
+  pointer-events: none;
+}
+
+.character-gif:focus-visible {
+  outline: 2px solid var(--heading);
+  outline-offset: 0.25rem;
 }
 
 /* Audio player */
