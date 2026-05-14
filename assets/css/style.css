@@ -36,9 +36,14 @@
 }
 
 body {
+  --page-bg: var(--bg);
+  --page-text: var(--text);
+  --page-heading: var(--heading);
+  --page-link: var(--link);
+  --page-border: var(--border);
   font-family: 'Folkard', 'Georgia', 'Times New Roman', serif;
-  background-color: var(--bg);
-  color: var(--text);
+  background-color: var(--page-bg);
+  color: var(--page-text);
   cursor: var(--site-cursor);
   line-height: 1.7;
   max-width: 48rem;
@@ -46,29 +51,29 @@ body {
   padding: 1rem;
 }
 
-body.dark-mode {
-  background-color: var(--bg-dark);
-  color: var(--text-dark);
+body.chapter-layout.chapter-author-acolyte,
+body.chapter-layout.chapter-author-wisp {
+  --page-bg: var(--bg-dark);
+  --page-text: var(--text-dark);
+  --page-heading: var(--heading-dark);
+  --page-link: var(--link-dark);
+  --page-border: var(--border-dark);
 }
 
 /* Header */
 .site-header {
   text-align: center;
   padding: 1.5rem 0 1rem;
-  border-bottom: 2px solid var(--border);
+  border-bottom: 2px solid var(--page-border);
   margin-bottom: 2rem;
 }
 
 .site-title {
   font-size: 1.2rem;
-  color: var(--heading);
+  color: var(--page-heading);
   text-decoration: none;
   font-variant: small-caps;
   letter-spacing: 0.05em;
-}
-
-body.dark-mode .site-title {
-  color: var(--heading-dark);
 }
 
 /* Content */
@@ -78,28 +83,22 @@ body.dark-mode .site-title {
 
 h1 {
   font-size: 1.8rem;
-  color: var(--heading);
+  color: var(--page-heading);
   margin: 1.5rem 0 1rem;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--page-border);
   padding-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 1.4rem;
-  color: var(--heading);
+  color: var(--page-heading);
   margin: 1.5rem 0 0.75rem;
 }
 
 h3 {
   font-size: 1.15rem;
-  color: var(--heading);
+  color: var(--page-heading);
   margin: 1.2rem 0 0.5rem;
-}
-
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3 {
-  color: var(--heading-dark);
 }
 
 p {
@@ -107,21 +106,13 @@ p {
 }
 
 a {
-  color: var(--link);
-}
-
-body.dark-mode a {
-  color: var(--link-dark);
+  color: var(--page-link);
 }
 
 hr {
   border: none;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--page-border);
   margin: 2rem 0;
-}
-
-body.dark-mode hr {
-  border-color: var(--border-dark);
 }
 
 em {
@@ -130,7 +121,7 @@ em {
 
 /* Annotation blockquotes — styled per author */
 blockquote {
-  border-left: 4px solid var(--border);
+  border-left: 4px solid var(--page-border);
   margin: 1rem 0;
   padding: 0.6rem 1rem;
   border-radius: 0 6px 6px 0;
@@ -138,7 +129,8 @@ blockquote {
   background: rgba(0, 0, 0, 0.03);
 }
 
-body.dark-mode blockquote {
+body.chapter-layout.chapter-author-acolyte blockquote,
+body.chapter-layout.chapter-author-wisp blockquote {
   background: rgba(255, 255, 255, 0.05);
 }
 
@@ -167,10 +159,14 @@ blockquote.annotation-wisp {
   background: rgba(46, 139, 139, 0.08);
 }
 
-body.dark-mode blockquote.annotation-peasant { background: rgba(107, 142, 35, 0.15); }
-body.dark-mode blockquote.annotation-peon { background: rgba(184, 134, 11, 0.15); }
-body.dark-mode blockquote.annotation-acolyte { background: rgba(74, 14, 78, 0.2); }
-body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15); }
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-peasant,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-peasant { background: rgba(107, 142, 35, 0.15); }
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-peon,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-peon { background: rgba(184, 134, 11, 0.15); }
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-acolyte,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-acolyte { background: rgba(74, 14, 78, 0.2); }
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-wisp,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15); }
 
 /* TOC page — peasant parchment background */
 body.toc-page {
@@ -189,11 +185,6 @@ body.toc-page::before {
   transform: scaleX(-1);
   z-index: -1;
   opacity: 0.35;
-}
-
-body.dark-mode.toc-page::before {
-  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peasantbackground.png');
-  opacity: 0.55;
 }
 
 /* Table of Contents */
@@ -240,21 +231,13 @@ body.chapter-layout::before {
 
 body.chapter-layout.chapter-author-peasant { --chapter-bg-image: url('../peasantbackground.png'); }
 body.chapter-layout.chapter-author-peon    { --chapter-bg-image: url('../peonbackground.png'); }
-body.chapter-layout.chapter-author-acolyte { --chapter-bg-image: url('../acolytebackground.png'); }
-body.chapter-layout.chapter-author-wisp    { --chapter-bg-image: url('../wispbackground.png'); }
-
-body.dark-mode.chapter-layout.chapter-author-peasant {
-  --chapter-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peasantbackground.png');
-}
-body.dark-mode.chapter-layout.chapter-author-peon {
-  --chapter-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peonbackground.png');
-}
-/* Acolyte uses a slightly stronger overlay to suit the darker purple theme */
-body.dark-mode.chapter-layout.chapter-author-acolyte {
+body.chapter-layout.chapter-author-acolyte {
   --chapter-bg-image: linear-gradient(rgba(26, 26, 46, 0.65), rgba(26, 26, 46, 0.65)), url('../acolytebackground.png');
+  --chapter-bg-opacity: 0.55;
 }
-body.dark-mode.chapter-layout.chapter-author-wisp {
+body.chapter-layout.chapter-author-wisp {
   --chapter-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../wispbackground.png');
+  --chapter-bg-opacity: 0.55;
 }
 
 /* Author page navigation (within a chapter) */
@@ -265,20 +248,16 @@ body.dark-mode.chapter-layout.chapter-author-wisp {
   gap: 1rem;
   margin: 2rem 0 0.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-}
-
-body.dark-mode .author-page-nav {
-  border-color: var(--border-dark);
+  border-top: 1px solid var(--page-border);
 }
 
 .page-btn {
   font-family: inherit;
   font-size: 0.95rem;
   padding: 0.4rem 0.8rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--page-border);
   border-radius: 4px;
-  color: var(--link);
+  color: var(--page-link);
   background: transparent;
   cursor: var(--site-cursor);
   transition: background 0.15s;
@@ -293,12 +272,8 @@ body.dark-mode .author-page-nav {
   background: rgba(0, 0, 0, 0.05);
 }
 
-body.dark-mode .page-btn {
-  border-color: var(--border-dark);
-  color: var(--link-dark);
-}
-
-body.dark-mode .page-btn:not(:disabled):hover {
+body.chapter-layout.chapter-author-acolyte .page-btn:not(:disabled):hover,
+body.chapter-layout.chapter-author-wisp .page-btn:not(:disabled):hover {
   background: rgba(255, 255, 255, 0.05);
 }
 
@@ -312,7 +287,7 @@ body.dark-mode .page-btn:not(:disabled):hover {
   width: 0.65rem;
   height: 0.65rem;
   border-radius: 50%;
-  border: 1.5px solid var(--border);
+  border: 1.5px solid var(--page-border);
   background: transparent;
   cursor: var(--site-cursor);
   padding: 0;
@@ -320,24 +295,16 @@ body.dark-mode .page-btn:not(:disabled):hover {
 }
 
 .page-dot.active {
-  background: var(--heading);
-  border-color: var(--heading);
+  background: var(--page-heading);
+  border-color: var(--page-heading);
 }
 
 .page-dot:not(.active):hover {
   background: rgba(0, 0, 0, 0.12);
 }
 
-body.dark-mode .page-dot {
-  border-color: var(--border-dark);
-}
-
-body.dark-mode .page-dot.active {
-  background: var(--heading-dark);
-  border-color: var(--heading-dark);
-}
-
-body.dark-mode .page-dot:not(.active):hover {
+body.chapter-layout.chapter-author-acolyte .page-dot:not(.active):hover,
+body.chapter-layout.chapter-author-wisp .page-dot:not(.active):hover {
   background: rgba(255, 255, 255, 0.12);
 }
 
@@ -349,7 +316,7 @@ body.dark-mode .page-dot:not(.active):hover {
   gap: 1rem;
   margin: 2rem 0 1rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--page-border);
 }
 
 .nav-prev,
@@ -357,20 +324,14 @@ body.dark-mode .page-dot:not(.active):hover {
   font-size: 0.95rem;
   text-decoration: none;
   padding: 0.4rem 0.8rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--page-border);
   border-radius: 4px;
-  color: var(--link);
+  color: var(--page-link);
 }
 
 .nav-prev:hover,
 .nav-next:hover {
   background: rgba(0, 0, 0, 0.05);
-}
-
-body.dark-mode .nav-prev,
-body.dark-mode .nav-next {
-  border-color: var(--border-dark);
-  color: var(--link-dark);
 }
 
 .nav-next {
@@ -397,7 +358,7 @@ body.dark-mode .nav-next {
   text-align: center;
   padding: 1.5rem 0;
   margin-top: 2rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--page-border);
   font-size: 0.85rem;
   color: #888;
 }
@@ -450,23 +411,6 @@ body.dark-mode .nav-next {
   display: none;
 }
 
-/* Dark mode toggle */
-.theme-toggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background: var(--heading);
-  color: var(--bg);
-  border: none;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  font-size: 1.1rem;
-  cursor: var(--site-cursor);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  z-index: 100;
-}
-
 /* Wisp translation filter */
 .wisp-section.wisp-encoded,
 blockquote.annotation-wisp.wisp-encoded {
@@ -474,8 +418,10 @@ blockquote.annotation-wisp.wisp-encoded {
   letter-spacing: 0.04em;
 }
 
-body.dark-mode .wisp-section.wisp-encoded,
-body.dark-mode blockquote.annotation-wisp.wisp-encoded {
+body.chapter-layout.chapter-author-acolyte .wisp-section.wisp-encoded,
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-wisp.wisp-encoded,
+body.chapter-layout.chapter-author-wisp .wisp-section.wisp-encoded,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp.wisp-encoded {
   color: #5ecece;
 }
 
@@ -499,12 +445,14 @@ body.dark-mode blockquote.annotation-wisp.wisp-encoded {
   background: rgba(46, 139, 139, 0.1);
 }
 
-body.dark-mode .wisp-translate-btn {
+body.chapter-layout.chapter-author-acolyte .wisp-translate-btn,
+body.chapter-layout.chapter-author-wisp .wisp-translate-btn {
   color: #5ecece;
   border-color: #5ecece;
 }
 
-body.dark-mode .wisp-translate-btn:hover {
+body.chapter-layout.chapter-author-acolyte .wisp-translate-btn:hover,
+body.chapter-layout.chapter-author-wisp .wisp-translate-btn:hover {
   background: rgba(94, 206, 206, 0.1);
 }
 
@@ -561,9 +509,6 @@ body.dark-mode .wisp-translate-btn:hover {
 .page-acolyte {
   font-family: 'Cinzel Decorative', 'Georgia', serif;
   color: #9bb6b3;
-  background: #181825;
-  border-radius: 4px;
-  padding: 1rem 1.25rem;
   letter-spacing: 0.5px;
   line-height: 1.6;
   text-shadow:
@@ -586,9 +531,6 @@ body.dark-mode .wisp-translate-btn:hover {
 .page-wisp {
   font-family: 'Marcellus SC', 'Cinzel', Georgia, serif;
   color: #c7d8c5;
-  background: #111820;
-  border-radius: 4px;
-  padding: 1rem 1.25rem;
   letter-spacing: 0.5px;
   line-height: 1.6;
 }
@@ -616,6 +558,32 @@ blockquote.annotation-peon {
     1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 
+body.chapter-layout.chapter-author-acolyte .page-peasant,
+body.chapter-layout.chapter-author-acolyte .page-peasant h1,
+body.chapter-layout.chapter-author-acolyte .page-peasant h2,
+body.chapter-layout.chapter-author-acolyte .page-peasant h3,
+body.chapter-layout.chapter-author-wisp .page-peasant,
+body.chapter-layout.chapter-author-wisp .page-peasant h1,
+body.chapter-layout.chapter-author-wisp .page-peasant h2,
+body.chapter-layout.chapter-author-wisp .page-peasant h3,
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-peasant,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-peasant {
+  color: #ead8c4;
+}
+
+body.chapter-layout.chapter-author-acolyte .page-peon,
+body.chapter-layout.chapter-author-acolyte .page-peon h1,
+body.chapter-layout.chapter-author-acolyte .page-peon h2,
+body.chapter-layout.chapter-author-acolyte .page-peon h3,
+body.chapter-layout.chapter-author-wisp .page-peon,
+body.chapter-layout.chapter-author-wisp .page-peon h1,
+body.chapter-layout.chapter-author-wisp .page-peon h2,
+body.chapter-layout.chapter-author-wisp .page-peon h3,
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-peon,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-peon {
+  color: #f0cba2;
+}
+
 blockquote.annotation-acolyte {
   font-family: 'Cinzel Decorative', Georgia, serif;
   color: #9bb6b3;
@@ -633,11 +601,13 @@ blockquote.annotation-wisp {
   border-left-color: #4a7a5a;
 }
 
-body.dark-mode blockquote.annotation-acolyte {
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-acolyte,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-acolyte {
   background: rgba(20, 20, 38, 0.95);
 }
 
-body.dark-mode blockquote.annotation-wisp {
+body.chapter-layout.chapter-author-acolyte blockquote.annotation-wisp,
+body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp {
   background: rgba(15, 22, 32, 0.95);
 }
 

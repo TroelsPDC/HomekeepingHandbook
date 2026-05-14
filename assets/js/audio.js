@@ -5,7 +5,6 @@
  *  - Per-chapter ambient audio (place files in /assets/audio/ named by chapter slug)
  *  - Author annotation sounds (optional)
  *  - Play/pause toggle button
- *  - Dark mode toggle
  *
  * HOW TO ADD SOUNDS:
  *  1. Place .mp3 files in /assets/audio/
@@ -29,24 +28,6 @@
     // e.g. /HomekeepingHandbook/assets/js/audio.js -> /HomekeepingHandbook
     baseUrl = scripts[0].src.replace(/\/assets\/js\/audio\.js.*$/, '');
   }
-
-  // ---- Dark mode toggle ----
-  var themeBtn = document.createElement('button');
-  themeBtn.className = 'theme-toggle';
-  themeBtn.setAttribute('aria-label', 'Toggle dark mode');
-  themeBtn.textContent = '🌙';
-  document.body.appendChild(themeBtn);
-
-  var isDark = localStorage.getItem('darkMode') === 'true';
-  if (isDark) document.body.classList.add('dark-mode');
-
-  themeBtn.addEventListener('click', function () {
-    isDark = !isDark;
-    document.body.classList.toggle('dark-mode', isDark);
-    localStorage.setItem('darkMode', String(isDark));
-    themeBtn.textContent = isDark ? '☀️' : '🌙';
-  });
-  themeBtn.textContent = isDark ? '☀️' : '🌙';
 
   // ---- Colorize annotation blockquotes ----
   document.querySelectorAll('blockquote').forEach(function (bq) {
