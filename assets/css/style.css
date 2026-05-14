@@ -231,6 +231,13 @@ body.chapter-layout::before {
   pointer-events: none;
 }
 
+@media (max-width: 600px) {
+  body.toc-page::before,
+  body.chapter-layout::before {
+    display: none;
+  }
+}
+
 body.chapter-layout.chapter-author-peasant { --chapter-bg-image: url('../peasantbackground.png'); }
 body.chapter-layout.chapter-author-peon    { --chapter-bg-image: url('../peonbackground.png'); }
 body.chapter-layout.chapter-author-acolyte {
