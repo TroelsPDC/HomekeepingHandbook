@@ -50,17 +50,17 @@
 
     // Detect author from the first h2 in this group and apply a style class
     var authorClass = '';
-    for (var j = 0; j < nodes.length; j++) {
-      var n = nodes[j];
-      if (n.nodeType === Node.ELEMENT_NODE && n.tagName === 'H2') {
-        var t = n.textContent.toLowerCase();
-        if (t.indexOf('furlbrow') !== -1 || t.indexOf('master mason') !== -1) {
+    for (var nodeIndex = 0; nodeIndex < nodes.length; nodeIndex++) {
+      var node = nodes[nodeIndex];
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'H2') {
+        var headingText = node.textContent.toLowerCase();
+        if (headingText.indexOf('furlbrow') !== -1 || headingText.indexOf('master mason') !== -1) {
           authorClass = 'page-peasant';
-        } else if (t.indexOf('soothumb') !== -1 || t.indexOf('senior peon') !== -1) {
+        } else if (headingText.indexOf('soothumb') !== -1 || headingText.indexOf('senior peon') !== -1) {
           authorClass = 'page-peon';
-        } else if (t.indexOf('vorun') !== -1 || t.indexOf('acolyte') !== -1) {
+        } else if (headingText.indexOf('vorun') !== -1 || headingText.indexOf('acolyte') !== -1) {
           authorClass = 'page-acolyte';
-        } else if (t.indexOf('wisp') !== -1) {
+        } else if (headingText.indexOf('wisp') !== -1) {
           authorClass = 'page-wisp';
         }
         break;
