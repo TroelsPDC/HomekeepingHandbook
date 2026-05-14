@@ -20,7 +20,7 @@
     o: 'ᛟ', p: 'ᛈ', q: 'ᚦ', r: 'ᚱ', s: 'ᛊ', t: 'ᛏ', u: 'ᚢ',
     v: 'ᚠ', w: 'ᚹ', x: 'ᛉ', y: 'ᛇ', z: 'ᛉ'
   };
-  var ANNOTATION_PATTERN = /^(\s*[^:]*annotation:\s*)([\s\S]*)$/i;
+  var ANNOTATION_PATTERN = /^(\s*([A-Za-z][A-Za-z\s'-]*)\s+annotation:\s*)([\s\S]*)$/i;
   var WISP_ANNOTATION_PREFIX = 'wisp annotation:';
 
   function encodeChar(ch) {
@@ -76,7 +76,8 @@
     nodes.forEach(function (n) {
       originalText.set(n, n.textContent);
       var m = n.textContent.match(ANNOTATION_PATTERN);
-      if (m && m[1].toLowerCase().indexOf(WISP_ANNOTATION_PREFIX) === -1) {
+      var annotationLabel = m ? m[1].toLowerCase().trim() : '';
+      if (m && annotationLabel !== WISP_ANNOTATION_PREFIX) {
         n.textContent = m[1] + '???';
       } else {
         n.textContent = encodeString(n.textContent);
