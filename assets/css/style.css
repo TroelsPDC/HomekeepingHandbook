@@ -190,6 +190,7 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
   padding: 0.5rem 0.75rem;
   margin: -0.5rem -0.75rem;
   position: relative;
+  /* Keep the mirrored ::before background behind content within this element only. */
   isolation: isolate;
   overflow: hidden;
 }
