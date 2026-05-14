@@ -16,7 +16,7 @@
   var article = document.querySelector('.chapter-content article');
   if (!article) return;
   var reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-  var animationDuration = 650;
+  var animationDuration = 300;
   var minStackHeight = 1;
   var cleanupTimer = null;
   var removeReduceMotionListener = function () {};
@@ -211,6 +211,23 @@
     if (e.key === 'ArrowLeft')  goTo(currentIndex - 1);
     if (e.key === 'ArrowRight') goTo(currentIndex + 1);
   });
+
+  // Touch swipe navigation
+  var swipeStartX = null;
+  var swipeThreshold = 50;
+
+  stage.addEventListener('touchstart', function (e) {
+    swipeStartX = e.changedTouches[0].clientX;
+  }, { passive: true });
+
+  stage.addEventListener('touchend', function (e) {
+    if (swipeStartX === null) return;
+    var dx = e.changedTouches[0].clientX - swipeStartX;
+    swipeStartX = null;
+    if (Math.abs(dx) < swipeThreshold) return;
+    if (dx < 0) goTo(currentIndex + 1);
+    else if (dx > 0) goTo(currentIndex - 1);
+  }, { passive: true });
 
   window.addEventListener('resize', refreshLayout);
   if (typeof reduceMotionQuery.addEventListener === 'function') {
