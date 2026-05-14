@@ -89,10 +89,10 @@
         break;
       }
     }
-    if (authorClass) div.classList.add(authorClass);
-
     var authorCls = authorClassForNodes(nodes);
-    div.className = 'chapter-page' + (authorCls ? ' ' + authorCls : '');
+    div.className = 'chapter-page'
+      + (authorClass ? ' ' + authorClass : '')
+      + (authorCls ? ' ' + authorCls : '');
     div.setAttribute('aria-hidden', i > 0 ? 'true' : 'false');
     if (i > 0) div.hidden = true;
     nodes.forEach(function (n) { div.appendChild(n); });
