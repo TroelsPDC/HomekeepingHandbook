@@ -173,7 +173,6 @@ body.chapter-layout.chapter-author-wisp blockquote.annotation-wisp { background:
 /* TOC page — peasant parchment background */
 body.toc-page {
   position: relative;
-  isolation: isolate;
 }
 
 body.toc-page::before {
@@ -244,7 +243,6 @@ body.toc-page::before {
 /* Per-author page backgrounds */
 body.chapter-layout {
   position: relative;
-  isolation: isolate;
   --chapter-bg-image: none;
   --chapter-bg-opacity: 0.35;
 }
@@ -266,7 +264,7 @@ body.chapter-layout::before {
 @media (max-width: 600px) {
   body.toc-page::before,
   body.chapter-layout::before {
-    display: none;
+    opacity: 0.12;
   }
 }
 
