@@ -78,4 +78,8 @@ The Fel-touched ground glows because it has retained something that wants to be 
 
 You built your shelter from wood that was living, on stone that is moving, over water that arrived before the concept of arrival. The rot is the wood forgiving you for the interruption. The least you can do is notice that it is taking its time about it, which is its way of being generous.
 
+
+> *Peasant annotation: Rot is not punctuation. It is rot. If the beam wishes to make a literary point it can do so after I have replaced it.*
+> *Peon annotation: Morgum does not like wall "making progress" toward floor. That is bad kind of progress.*
+> *Acolyte annotation: Their composure about decay is respectable; their optimism about fel numbness is not.*
 ---

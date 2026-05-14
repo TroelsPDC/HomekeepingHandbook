@@ -78,4 +78,8 @@ And yet. The creatures with their poles and their chosen colours — there is so
 
 The cloth tears. The pole rusts. The loyalty, if it was real, does not require the cloth to continue. The forest watches the banners rise and fall across the centuries and finds the whole arrangement both understandable and, in the way that very large things regard very small things that are trying very hard, quietly endearing.
 
+
+> *Peasant annotation: A banner is simpler than a tree, yes, because most of us cannot plant a Lord and wait three hundred years for him to root properly.*
+> *Peon annotation: Morgum likes that forest thinks banner trying hard. Banner is trying hard. This is why Morgum respects banner.*
+> *Acolyte annotation: I do not need the Wisps to find heraldry "endearing." It diminishes the pole without clarifying the principle.*
 ---

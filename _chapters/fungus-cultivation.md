@@ -76,4 +76,8 @@ You worry about which ones will kill you, and this worry is reasonable and we do
 
 The underground forest tends itself. It does not need your logs, or your substrate, or your spawn plugs, or your classified northern cultivars retrieved under cover of military administration. It is grateful for your floors. The darkness under your floor is the same darkness it has always preferred. You built down into the garden without knowing it was a garden. The garden noticed. The garden continued.
 
+
+> *Peasant annotation: I have no objection to mushrooms. I do object to being told my floorboards are agricultural correspondence.*
+> *Peon annotation: Morgum was feeling competent about fungus bed until Wisp said underground already doing bigger fungus. Hard to compete with invisible empire.*
+> *Acolyte annotation: I dislike the implication that careful cultivation is merely arriving late to a process. It is, unfortunately, often true.*
 ---

@@ -74,4 +74,8 @@ There is another tree, younger, that grew up from the soil that the fallen tree 
 
 Build, or do not build. The soil will be good either way, eventually. We are not troubled. We are watching the light move. We are noting how the light moves differently through a clearing than it moved through the canopy before. This is interesting. This is all of it, interesting.
 
+
+> *Peasant annotation: Very poetic. Unfortunately most families cannot simply become soil while considering the philosophical possibilities.*
+> *Peon annotation: Morgum hears tree speech: "maybe do not rebuild." Morgum hears rain speech too. Morgum still wants roof.*
+> *Acolyte annotation: Transformation is not always loss, no. Still, the Wisps have an infuriating habit of phrasing practical ruin as serene inevitability.*
 ---

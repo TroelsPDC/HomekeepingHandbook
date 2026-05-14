@@ -76,4 +76,8 @@ The Acolyte's bone holds longer. The Peon's many pieces of wood hold sideways. T
 
 The sky has not fallen. You did not need to catch it. But something is held in the gesture of trying, in the beam placed carefully across the span, in the two years of patient waiting, and perhaps that something was worth holding all along. We are not certain. The moon has opinions on this subject but has not shared them with us either. We are all, in the end, waiting for the wood to be ready.
 
+
+> *Peasant annotation: This is almost complimentary, in an infuriating way. Yes, one reads the grain. That does not make carpentry a séance.*
+> *Peon annotation: Morgum likes that wood has handwriting. Morgum still cannot read, so this does not improve repair work much.*
+> *Acolyte annotation: I object to being grouped into a shared domestic metaphor with both oak seasoning and lateral scrap towers, however structurally apt it may be.*
 ---

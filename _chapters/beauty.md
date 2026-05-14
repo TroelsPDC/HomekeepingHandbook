@@ -74,4 +74,8 @@ The mushroom that rises overnight knows nothing of the morning that is coming. T
 
 The forest was beautiful before you came to live in it. Not for you — not for anything — just: beautiful, in the way things are when no one has asked them to be. The roof you built does not take the forest's beauty away. It makes a shadow where the beauty continues in the dark without your knowing it, which is exactly how beauty prefers to work. You can polish the copper and arrange the bones and place the light sources at precise intervals and clean the threshold and you will have made something good. Underneath it, in the dark, in the part you built on top of, the root is still there, and the moss still doesn't know.
 
+
+> *Peasant annotation: This is all very lovely until one tries to sweep it. Beauty may live in attention; dust certainly lives on surfaces.*
+> *Peon annotation: Morgum does not like being told beauty is not in thing. Big axe is beautiful even when nobody looking. Morgum checked.*
+> *Acolyte annotation: Their insistence that beauty only exists in the moment before anyone understands it is sentimental, evasive, and irritatingly graceful.*
 ---

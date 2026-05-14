@@ -84,4 +84,8 @@ But the standing, and the candle, and the bread — we think we understand why y
 
 We are made of light and the memory of trees, and even we sometimes rest against the bark.
 
+
+> *Peasant annotation: I followed most of that until the bit where memory was apparently in my knuckles. I do not care for being described like a shelf full of ghosts, though I admit I knew what they meant.*
+> *Peon annotation: Morgum understands rocks seeing each other. Good arrangement. Rest of this is like being hit in head with soft light.*
+> *Acolyte annotation: Their refusal to distinguish memory from presence is philosophically untidy and, regrettably, not entirely wrong. I resent this.*
 ---

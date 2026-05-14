@@ -78,4 +78,8 @@ The Peasant is right that the door should fit the frame. The frame should fit th
 
 We have never used a door. We are not entirely clear on the concept of *arriving*. But we recognize a threshold when we encounter one — the moment when what you were and what you are about to be occupy the same location briefly, before the door swings shut. We cross many thresholds. We do not mark them. Perhaps marking them is not wrong. Perhaps that is what a door has always been: not a barrier, but a mark.
 
+
+> *Peasant annotation: A door is not a philosophical compromise. It is a board arrangement intended to keep weather and opportunists out.*
+> *Peon annotation: Morgum understands arriving. You stop walking because food is here. Very simple. Wisp making this too slippery.*
+> *Acolyte annotation: The threshold meditation is tolerable. The suggestion that a door is merely a mark is the sort of thing said by beings who never had to bar one.*
 ---

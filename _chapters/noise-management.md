@@ -78,4 +78,8 @@ The complaint is always that sound is unwanted. But the house speaks continuousl
 
 Silence, here, does not mean no sound. It means you have finally stopped speaking long enough to hear what was already being said.
 
+
+> *Peasant annotation: I am willing to hear what a house is saying provided it says it before the joist gives way and not after.*
+> *Peon annotation: Morgum knew walls talk. Usually they say wind coming in. This is less mystical than Wisp makes it.*
+> *Acolyte annotation: The sentence about silence was insufferable. It was also, against my preference, well put.*
 ---

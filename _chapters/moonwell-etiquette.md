@@ -80,4 +80,8 @@ When you stand at the edge of a moonwell and you feel the pull — the sense tha
 
 This is what the chapter is about. Not leaning. Not dropping things. Not drinking from it on a dare, though we agree you should not do that either. The chapter is about what it means to stand next to something that does not forget, when you have spent your whole life learning how.
 
+
+> *Peasant annotation: Etiquette remains the right word if only because "do not lean into the eternal memory pool" ought to be teachable at table.*
+> *Peon annotation: Morgum does not want pool remembering Morgum. Morgum already has enough things remembering Morgum.*
+> *Acolyte annotation: Their explanation is imprecise, circular, and annoyingly close to the truth. I dislike being reminded that language has limits.*
 ---
