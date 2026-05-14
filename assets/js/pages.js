@@ -69,6 +69,28 @@
   // Wrap each author group in a page <div>
   var pages = authorGroups.map(function (nodes, i) {
     var div = document.createElement('div');
+    div.className = 'chapter-page';
+
+    // Detect author from the first h2 in this group and apply a style class
+    var authorClass = '';
+    for (var nodeIndex = 0; nodeIndex < nodes.length; nodeIndex++) {
+      var node = nodes[nodeIndex];
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'H2') {
+        var headingText = node.textContent.toLowerCase();
+        if (headingText.indexOf('furlbrow') !== -1 || headingText.indexOf('master mason') !== -1) {
+          authorClass = 'page-peasant';
+        } else if (headingText.indexOf('soothumb') !== -1 || headingText.indexOf('senior peon') !== -1) {
+          authorClass = 'page-peon';
+        } else if (headingText.indexOf('vorun') !== -1 || headingText.indexOf('acolyte') !== -1) {
+          authorClass = 'page-acolyte';
+        } else if (headingText.indexOf('wisp') !== -1) {
+          authorClass = 'page-wisp';
+        }
+        break;
+      }
+    }
+    if (authorClass) div.classList.add(authorClass);
+
     var authorCls = authorClassForNodes(nodes);
     div.className = 'chapter-page' + (authorCls ? ' ' + authorCls : '');
     div.setAttribute('aria-hidden', i > 0 ? 'true' : 'false');

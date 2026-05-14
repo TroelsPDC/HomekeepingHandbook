@@ -470,6 +470,132 @@ body.dark-mode .wisp-translate-btn:hover {
   font-size: 0.78rem;
 }
 
+/* ============================================
+   Per-Author Page Fonts & Styles (Warcraft 3)
+   ============================================ */
+
+/* Human Peasant — Theodore Furlbrow
+   IM Fell English: old parchment, "farmer writing by candlelight" */
+.page-peasant {
+  font-family: 'IM Fell English', Georgia, 'Times New Roman', serif;
+  color: #3b2a1d;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  text-shadow: 1px 1px 1px rgba(255, 220, 180, 0.15);
+}
+
+.page-peasant h1,
+.page-peasant h2,
+.page-peasant h3 {
+  font-family: 'IM Fell English', Georgia, 'Times New Roman', serif;
+  color: #3b2a1d;
+}
+
+/* Orc Peon — Morgum Soothumb
+   Pirata One: rough, thick strokes, crude fantasy */
+.page-peon {
+  font-family: 'Pirata One', 'Georgia', serif;
+  color: #3b1f14;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  text-shadow:
+    0 0 2px rgba(0, 0, 0, 0.4),
+    1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.page-peon h1,
+.page-peon h2,
+.page-peon h3 {
+  font-family: 'Pirata One', Georgia, serif;
+  color: #24150d;
+}
+
+/* Undead Acolyte — Vorun the Pallid
+   Cinzel Decorative: ancient cult, forbidden scripture.
+   Dark background required for the necromantic cyan text. */
+.page-acolyte {
+  font-family: 'Cinzel Decorative', 'Georgia', serif;
+  color: #9bb6b3;
+  background: #181825;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  text-shadow:
+    0 0 4px rgba(120, 180, 180, 0.35),
+    0 0 8px rgba(120, 180, 180, 0.15);
+}
+
+.page-acolyte h1,
+.page-acolyte h2,
+.page-acolyte h3 {
+  font-family: 'Cinzel Decorative', Georgia, serif;
+  color: #c8c2b8;
+  text-shadow:
+    0 0 4px rgba(120, 180, 180, 0.35),
+    0 0 8px rgba(120, 180, 180, 0.15);
+}
+
+/* Night Elf / Wisp
+   Marcellus SC: soft moonlight, ancient elven */
+.page-wisp {
+  font-family: 'Marcellus SC', 'Cinzel', Georgia, serif;
+  color: #c7d8c5;
+  background: #111820;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+.page-wisp h1,
+.page-wisp h2,
+.page-wisp h3 {
+  font-family: 'Marcellus SC', Cinzel, Georgia, serif;
+  color: #b9b2d9;
+}
+
+/* ---- Annotation blockquotes: per-author fonts & colors ---- */
+
+blockquote.annotation-peasant {
+  font-family: 'IM Fell English', Georgia, 'Times New Roman', serif;
+  color: #3b2a1d;
+  text-shadow: 1px 1px 1px rgba(255, 220, 180, 0.15);
+}
+
+blockquote.annotation-peon {
+  font-family: 'Pirata One', Georgia, serif;
+  color: #3b1f14;
+  text-shadow:
+    0 0 2px rgba(0, 0, 0, 0.4),
+    1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+blockquote.annotation-acolyte {
+  font-family: 'Cinzel Decorative', Georgia, serif;
+  color: #9bb6b3;
+  background: rgba(20, 20, 38, 0.88);
+  border-left-color: #4a6f6e;
+  text-shadow:
+    0 0 4px rgba(120, 180, 180, 0.35),
+    0 0 8px rgba(120, 180, 180, 0.15);
+}
+
+blockquote.annotation-wisp {
+  font-family: 'Marcellus SC', Cinzel, Georgia, serif;
+  color: #c7d8c5;
+  background: rgba(15, 22, 32, 0.85);
+  border-left-color: #4a7a5a;
+}
+
+body.dark-mode blockquote.annotation-acolyte {
+  background: rgba(20, 20, 38, 0.95);
+}
+
+body.dark-mode blockquote.annotation-wisp {
+  background: rgba(15, 22, 32, 0.95);
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   body {
