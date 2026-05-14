@@ -22,6 +22,12 @@
   --wisp: #2e8b8b;
 }
 
+@font-face {
+  font-family: 'Folkard';
+  src: url('../fonts/folkard_.ttf') format('truetype');
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,7 +35,7 @@
 }
 
 body {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Folkard', 'Georgia', 'Times New Roman', serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.7;
