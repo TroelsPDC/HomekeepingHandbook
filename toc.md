@@ -79,6 +79,14 @@ body_class: toc-page
 
 </div>
 
+<div class="toc-section" markdown="1">
+
+### Bonus
+
+- [The Tefal Clean It Textile Cleaner, 750 Watt]({{ '/chapters/tefal-clean-it/' | relative_url }}) *(Clean Thresholds for Upholstery · Serious Slurp · Ritual of Reversal · A Faster Season for Indoor Things)*
+
+</div>
+
 ---
 
 *"The domain will not maintain itself. Or it will. That depends entirely on who you ask."*
