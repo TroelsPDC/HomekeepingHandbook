@@ -2,6 +2,7 @@
 layout: default
 title: "About This Book"
 permalink: /about/
+body_class: toc-page
 ---
 
 # About This Book
