@@ -21,7 +21,7 @@
     v: 'ᚠ', w: 'ᚹ', x: 'ᛉ', y: 'ᛇ', z: 'ᛉ'
   };
   var ANNOTATION_PATTERN = /^(\s*([A-Za-z][A-Za-z\s'-]*)\s+annotation:\s*)([\s\S]*)$/i;
-  var WISP_ANNOTATION_PREFIX = 'wisp annotation:';
+  var WISP_ANNOTATION_AUTHOR = 'wisp';
 
   function encodeChar(ch) {
     return RUNE[ch.toLowerCase()] || ch;
@@ -76,8 +76,8 @@
     nodes.forEach(function (n) {
       originalText.set(n, n.textContent);
       var m = n.textContent.match(ANNOTATION_PATTERN);
-      var annotationLabel = m ? m[1].toLowerCase().trim() : '';
-      if (m && annotationLabel !== WISP_ANNOTATION_PREFIX) {
+      var annotationAuthor = m ? m[2].toLowerCase().trim() : '';
+      if (m && annotationAuthor !== WISP_ANNOTATION_AUTHOR) {
         n.textContent = m[1] + '???';
       } else {
         n.textContent = encodeString(n.textContent);
