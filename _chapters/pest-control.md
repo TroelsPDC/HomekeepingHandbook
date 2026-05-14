@@ -72,6 +72,8 @@ We are puzzled by the proposal to spike the passage. The spike would not underst
 
 
 > *Peasant annotation: If I hear one more creature tell me the rats were here first, I shall remind it whose grain is being eaten now.*
+
 > *Peon annotation: Morgum still thinks spike is good. Wisp not understanding spike is spike problem, not Morgum problem.*
+
 > *Acolyte annotation: Their objection to categories is predictable. Their inability to propose an actual remedy remains consistent.*
 ---

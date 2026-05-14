@@ -78,6 +78,8 @@ The sky has not fallen. You did not need to catch it. But something is held in t
 
 
 > *Peasant annotation: This is almost complimentary, in an infuriating way. Yes, one reads the grain. That does not make carpentry a séance.*
+
 > *Peon annotation: Morgum likes that wood has handwriting. Morgum still cannot read, so this does not improve repair work much.*
+
 > *Acolyte annotation: I object to being grouped into a shared domestic metaphor with both oak seasoning and lateral scrap towers, however structurally apt it may be.*
 ---

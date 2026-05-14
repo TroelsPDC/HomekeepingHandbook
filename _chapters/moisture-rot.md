@@ -80,6 +80,8 @@ You built your shelter from wood that was living, on stone that is moving, over 
 
 
 > *Peasant annotation: Rot is not punctuation. It is rot. If the beam wishes to make a literary point it can do so after I have replaced it.*
+
 > *Peon annotation: Morgum does not like wall "making progress" toward floor. That is bad kind of progress.*
+
 > *Acolyte annotation: Their composure about decay is respectable; their optimism about fel numbness is not.*
 ---

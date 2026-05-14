@@ -88,6 +88,8 @@ You do not have to. The salt is probably fine.
 
 
 > *Peasant annotation: I appreciate, I suppose, that they are not judging the cooking. I am less pleased by being told to sit by the water until I become different.*
+
 > *Peon annotation: Morgum listened to murloc once. Result was still murloc. Maybe Wisp ears built different.*
+
 > *Acolyte annotation: Their fascination with unresolved categories is familiar and tiresome. One can acknowledge depth in a thing without surrendering supper to it.*
 ---

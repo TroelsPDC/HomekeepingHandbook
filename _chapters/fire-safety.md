@@ -68,6 +68,8 @@ We are sorry your roof burned. The roof was briefly free. This is not a comforta
 
 
 > *Peasant annotation: No, my roof was not "briefly free." It was on fire. There is a meaningful difference.*
+
 > *Peon annotation: Morgum agrees wood always wanted something. Morgum thought that something was axe. Fire also possible, apparently.*
+
 > *Acolyte annotation: This is precisely the sort of cosmic reframing that becomes intolerable when one is holding a bucket.*
 ---

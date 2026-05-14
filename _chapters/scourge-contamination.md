@@ -80,6 +80,8 @@ Life does not require approval to be life. It does not ask. This is not an argum
 
 
 > *Peasant annotation: I appreciate the distinction about direction. I would appreciate it more if the direction were not toward my doorstep.*
+
 > *Peon annotation: Morgum understands current. If blight has current, Morgum stands somewhere else. Finally, useful Wisp sentence.*
+
 > *Acolyte annotation: Their refusal to moralise about the blight is intellectually tidy and socially exhausting.*
 ---

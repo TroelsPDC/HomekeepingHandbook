@@ -82,6 +82,8 @@ The people who fight the fungus win eventually. The forest does not argue. It wa
 
 
 > *Peasant annotation: I was already troubled by fungus in the cellar before learning the entire forest had apparently taken notes on it.*
+
 > *Peon annotation: Morgum does not want network knowing basement. Basement already knows enough.*
+
 > *Acolyte annotation: Their description of mycelium as a record without pages is elegant. Their lack of concern about the record entering the walls is infuriating.*
 ---

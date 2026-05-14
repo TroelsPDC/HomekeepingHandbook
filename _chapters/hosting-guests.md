@@ -76,6 +76,8 @@ We have never had a guest. We have also never been alone. We offer this not as i
 
 
 > *Peasant annotation: Remove the walls and you remove the concept of guests, yes, along with privacy, warmth, and several other advantages of civilisation.*
+
 > *Peon annotation: Morgum has had many uninvited visitors. Wisp calls this grove. Morgum calls it problem unless visitor brings meat.*
+
 > *Acolyte annotation: Their refusal to distinguish welcome from mere permeability is precisely why no one asks Wisps to host formal occasions.*
 ---
