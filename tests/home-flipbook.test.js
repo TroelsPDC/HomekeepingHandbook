@@ -63,15 +63,15 @@ function stage() {
   return document.querySelector('[data-home-flipbook]');
 }
 
-function swipe(startX, startY, endX, endY) {
+function swipe(startClientX, startClientY, endClientX, endClientY) {
   var startEvent = new Event('touchstart', { bubbles: true });
   Object.defineProperty(startEvent, 'touches', {
-    value: [{ clientX: startX, clientY: startY }],
+    value: [{ clientX: startClientX, clientY: startClientY }],
   });
 
   var endEvent = new Event('touchend', { bubbles: true });
   Object.defineProperty(endEvent, 'changedTouches', {
-    value: [{ clientX: endX, clientY: endY }],
+    value: [{ clientX: endClientX, clientY: endClientY }],
   });
 
   stage().dispatchEvent(startEvent);

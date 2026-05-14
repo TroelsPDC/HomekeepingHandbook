@@ -63,10 +63,7 @@
     nextBtn.className = 'page-btn page-btn-next';
     nextBtn.innerHTML = 'Next &#8594;';
     nextBtn.disabled = currentIndex !== 0;
-    nextBtn.setAttribute(
-      'aria-label',
-      currentIndex === 0 ? 'Go to table of contents' : 'Already on table of contents'
-    );
+    nextBtn.setAttribute('aria-label', 'Next page');
     nextBtn.addEventListener('click', function () { goTo(1); });
     nav.appendChild(nextBtn);
   }
