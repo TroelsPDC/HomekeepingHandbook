@@ -39,9 +39,11 @@
   var MOBILE_GIF_SIZE = BASE_GIF_SIZE * 2;
   var MOBILE_BREAKPOINT = 600;
   var DESKTOP_RIGHT_PADDING = 16;
+  var mobileQuery = window.matchMedia('(max-width: ' + MOBILE_BREAKPOINT + 'px)');
+  var resizeFrame = null;
 
   function sizeCharacterGif() {
-    var isPhone = window.matchMedia('(max-width: ' + MOBILE_BREAKPOINT + 'px)').matches;
+    var isPhone = mobileQuery.matches;
     if (isPhone) {
       charGif.style.width = MOBILE_GIF_SIZE + 'px';
       charGif.style.right = '1rem';
@@ -238,5 +240,11 @@
   render();
   updateGif(0);
   sizeCharacterGif();
-  window.addEventListener('resize', sizeCharacterGif);
+  window.addEventListener('resize', function () {
+    if (resizeFrame !== null) return;
+    resizeFrame = window.requestAnimationFrame(function () {
+      resizeFrame = null;
+      sizeCharacterGif();
+    });
+  });
 }());
