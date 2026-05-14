@@ -63,7 +63,7 @@
   wispAudio.preload = 'auto';
   wispAudio.addEventListener('ended', function () {
     isWispSoundPlaying = false;
-    charGif.setAttribute('aria-pressed', 'false');
+    if (charGif) charGif.setAttribute('aria-pressed', 'false');
   });
 
   function stopWispSound() {
@@ -71,7 +71,7 @@
     wispAudio.pause();
     wispAudio.currentTime = 0;
     isWispSoundPlaying = false;
-    charGif.setAttribute('aria-pressed', 'false');
+    if (charGif) charGif.setAttribute('aria-pressed', 'false');
   }
 
   function sizeCharacterGif() {
@@ -273,10 +273,10 @@
         wispAudio.play().then(function () {
           isWispSoundPlaying = true;
           charGif.setAttribute('aria-pressed', 'true');
-        }).catch(function () {
+        }).catch(function (error) {
           isWispSoundPlaying = false;
           charGif.setAttribute('aria-pressed', 'false');
-          console.warn('Unable to play Wisp sound.');
+          console.warn('Unable to play Wisp sound:', error);
         });
       }
       return;
