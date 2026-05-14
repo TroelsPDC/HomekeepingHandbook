@@ -17,6 +17,8 @@ A dedicated textile cleaner is therefore a civilised thing. Seven hundred and fi
 
 I will add one caution. The existence of a machine does not absolve the household of ordinary standards. Mud on boots should still remain outdoors. Gravy should still be conveyed to the mouth with some dignity. Children should still be told, repeatedly, that the sofa is not a siege engine. A textile cleaner is not permission to live like animals. It is a remedy for the fact that many people do.
 
+![Theodore Furlbrow cleaning](/assets/peasantCleaning.png)
+
 > *Peon annotation: Machine that sucks dirt from chair is good machine. Chair has been stealing dirt for years. Time for justice.*
 
 > *Acolyte annotation: His distinction between routine domestic order and curative intervention is sound. Remediation is not the same thing as absolution, though many households attempt to purchase them together.*
@@ -33,6 +35,8 @@ Morgum has opinions about cloth. Cloth is weak. Cloth remembers everything. Sit 
 
 Seven hundred and fifty watts sounds strong. Morgum does not know what watt is exactly. Morgum assumes watt is city-person word for how angry the machine can become before it starts helping. Seven hundred and fifty of them seems enough. Not too many. If machine too strong, maybe it eats blanket. If machine too weak, it just licks the stain and leaves. Morgum wants middle strength. Good pull. Serious slurp. If friend receives this as gift, friend should know this means respect. You do not give textile-cleaning beast to someone you dislike. You give it because you want their chair to survive.
 
+![Morgum Soothumb cleaning](/assets/peonCleaning.png)
+
 > *Peasant annotation: "The chair has been stealing dirt for years" is not how dirt works, but I admit the operational conclusion is sound.*
 
 > *Acolyte annotation: The Peon's instinct that textiles "remember everything" is, expressed less scientifically than I might prefer, entirely correct.*
@@ -48,6 +52,8 @@ Textiles are troublesome. Stone can be brushed. Bone can be polished. Metal can 
 And yet I find myself admiring the device under discussion. Extraction cleaning is, at heart, a ritual of reversal: what entered the fibres is compelled to leave them. The machine applies water in measured quantity, agitates the contamination loose, and removes it before the textile has time to make peace with its condition. This is good practice. The wattage is, as the Peasant notes, respectable. One need not make a performance of power when addressing decay. One requires only sufficient authority. There is something deeply satisfying in the visible collection of what was formerly hidden. It gives form to neglect. It says: here is the exact volume of inattention your armchair has accumulated.
 
 I would not, however, use such a machine carelessly on ceremonial drapery, ancient hangings, stitched funerary cloth, or anything whose stains have become historically significant. Preservation is not identical with cleanliness. Some marks are damage. Some are record. A wise household distinguishes between the two before introducing moisture and suction. For ordinary domestic upholstery, though — for the chair in which a living man has eaten, slept, worried, perspired, and shed the season into the weave — yes. Clean it. The machine's blunt imperative is correct.
+
+![Vorun the Pallid cleaning](/assets/AcolyteCleaning.png)
 
 > *Peasant annotation: "The exact volume of inattention your armchair has accumulated" is an excellent and upsetting phrase.*
 
@@ -67,5 +73,7 @@ Then a new creature arrives: not hand, not rain, not wind. It speaks in a single
 Seven hundred and fifty is a number the machine carries the way thunder carries distance: as a declaration that something will happen soon. The room hears it. The cloth hears it. The stain hears it last. Then the fibres loosen their grip on the small remains of living, and the water carries them away in a temporary river through a plastic chamber. The chair becomes lighter. Not innocent. Not new. Simply less burdened by what it no longer needs to remember.
 
 The roots clean differently. Rain passes down, soil takes what falls, wind dries, sun bleaches, moss covers, time decides what remains. This machine is a faster season for indoor things. The creatures have built a weather system with a handle and a tank and a promise. It is a strange promise. It is not an empty one.
+
+![Wisps cleaning](/assets/wispCleaning.png)
 
 ---
