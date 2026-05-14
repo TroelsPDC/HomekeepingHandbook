@@ -29,7 +29,3 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
-  - peasantbackground.png
-  - peonbackground.png
-  - acolytebackground.png
-  - wispbackground.png

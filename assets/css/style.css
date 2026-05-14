@@ -20,6 +20,7 @@
   --peon: #b8860b;
   --acolyte: #4a0e4e;
   --wisp: #2e8b8b;
+  --site-cursor: url('../cursors/wow-normal-select.cur'), auto;
 }
 
 @font-face {
@@ -38,6 +39,7 @@ body {
   font-family: 'Folkard', 'Georgia', 'Times New Roman', serif;
   background-color: var(--bg);
   color: var(--text);
+  cursor: var(--site-cursor);
   line-height: 1.7;
   max-width: 48rem;
   margin: 0 auto;
@@ -273,13 +275,13 @@ body.dark-mode .author-page-nav {
   border-radius: 4px;
   color: var(--link);
   background: transparent;
-  cursor: pointer;
+  cursor: var(--site-cursor);
   transition: background 0.15s;
 }
 
 .page-btn:disabled {
   opacity: 0.35;
-  cursor: default;
+  cursor: not-allowed;
 }
 
 .page-btn:not(:disabled):hover {
@@ -307,7 +309,7 @@ body.dark-mode .page-btn:not(:disabled):hover {
   border-radius: 50%;
   border: 1.5px solid var(--border);
   background: transparent;
-  cursor: pointer;
+  cursor: var(--site-cursor);
   padding: 0;
   transition: background 0.15s, border-color 0.15s;
 }
@@ -411,7 +413,7 @@ body.dark-mode .nav-next {
   height: 3rem;
   border-radius: 50%;
   font-size: 1.3rem;
-  cursor: pointer;
+  cursor: var(--site-cursor);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
@@ -439,7 +441,7 @@ body.dark-mode .nav-next {
   height: 2.5rem;
   border-radius: 50%;
   font-size: 1.1rem;
-  cursor: pointer;
+  cursor: var(--site-cursor);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   z-index: 100;
 }
@@ -466,7 +468,7 @@ body.dark-mode blockquote.annotation-wisp.wisp-encoded {
   background: transparent;
   border: 1px solid var(--wisp);
   border-radius: 4px;
-  cursor: pointer;
+  cursor: var(--site-cursor);
   opacity: 0.85;
   transition: opacity 0.15s, background 0.15s;
 }
