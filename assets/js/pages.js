@@ -35,8 +35,8 @@
       talking: baseUrl + '/assets/AcolyteTalking.gif'
     },
     'wisp': {
-      idle: baseUrl + '/assets/WispGIF.gif',
-      talking: baseUrl + '/assets/WispGIF.gif'
+      idle: baseUrl + '/assets/wisp.gif',
+      talking: baseUrl + '/assets/wisp.gif'
     }
   };
 
@@ -61,10 +61,7 @@
   var isWispSoundPlaying = false;
   var wispAudio = new Audio(baseUrl + '/assets/wisp.mp3');
   wispAudio.preload = 'auto';
-  wispAudio.addEventListener('ended', function () {
-    isWispSoundPlaying = false;
-    if (charGif) charGif.setAttribute('aria-pressed', 'false');
-  });
+  wispAudio.loop = true;
 
   function stopWispSound() {
     if (!isWispSoundPlaying) return;
