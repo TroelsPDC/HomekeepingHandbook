@@ -189,43 +189,59 @@ body.dark-mode blockquote.annotation-wisp { background: rgba(46, 139, 139, 0.15)
   border-radius: 6px;
   padding: 0.5rem 0.75rem;
   margin: -0.5rem -0.75rem;
+  position: relative;
+  /* Keep the mirrored ::before background behind content within this element only. */
+  isolation: isolate;
+  overflow: hidden;
 }
 
 .chapter-page.page-author-peasant,
 .chapter-page.page-author-peon,
 .chapter-page.page-author-acolyte,
 .chapter-page.page-author-wisp {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  --page-bg-position: center;
 }
 
-.chapter-page.page-author-peasant  { background-image: url('../peasantbackground.png'); }
-.chapter-page.page-author-peon     { background-image: url('../peonbackground.png'); }
-.chapter-page.page-author-acolyte  { background-image: url('../acolytebackground.png'); }
-.chapter-page.page-author-wisp     { background-image: url('../wispbackground.png'); }
+.chapter-page.page-author-peasant::before,
+.chapter-page.page-author-peon::before,
+.chapter-page.page-author-acolyte::before,
+.chapter-page.page-author-wisp::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-image: var(--page-bg-image);
+  background-size: cover;
+  background-position: var(--page-bg-position);
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.chapter-page.page-author-peasant  { --page-bg-image: url('../peasantbackground.png'); }
+.chapter-page.page-author-peon     { --page-bg-image: url('../peonbackground.png'); }
+.chapter-page.page-author-acolyte  { --page-bg-image: url('../acolytebackground.png'); }
+.chapter-page.page-author-wisp     { --page-bg-image: url('../wispbackground.png'); }
 
 body.dark-mode .chapter-page.page-author-peasant,
 body.dark-mode .chapter-page.page-author-peon,
 body.dark-mode .chapter-page.page-author-acolyte,
 body.dark-mode .chapter-page.page-author-wisp {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  --page-bg-position: center;
 }
 
 body.dark-mode .chapter-page.page-author-peasant {
-  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peasantbackground.png');
+  --page-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peasantbackground.png');
 }
 body.dark-mode .chapter-page.page-author-peon {
-  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peonbackground.png');
+  --page-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../peonbackground.png');
 }
 /* Acolyte uses a slightly stronger overlay to suit the darker purple theme */
 body.dark-mode .chapter-page.page-author-acolyte {
-  background-image: linear-gradient(rgba(26, 26, 46, 0.65), rgba(26, 26, 46, 0.65)), url('../acolytebackground.png');
+  --page-bg-image: linear-gradient(rgba(26, 26, 46, 0.65), rgba(26, 26, 46, 0.65)), url('../acolytebackground.png');
 }
 body.dark-mode .chapter-page.page-author-wisp {
-  background-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../wispbackground.png');
+  --page-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../wispbackground.png');
 }
 
 /* Author page navigation (within a chapter) */
