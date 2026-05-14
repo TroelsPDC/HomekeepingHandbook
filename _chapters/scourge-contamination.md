@@ -78,4 +78,8 @@ A river goes where rivers go. The water does not choose the direction; the direc
 
 Life does not require approval to be life. It does not ask. This is not an argument in the blight's favour. It is a fact about what things are. Choose clearly where you stand, and then stand there without ambiguity, because ambiguity is the condition the current requires.
 
+
+> *Peasant annotation: I appreciate the distinction about direction. I would appreciate it more if the direction were not toward my doorstep.*
+> *Peon annotation: Morgum understands current. If blight has current, Morgum stands somewhere else. Finally, useful Wisp sentence.*
+> *Acolyte annotation: Their refusal to moralise about the blight is intellectually tidy and socially exhausting.*
 ---

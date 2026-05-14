@@ -76,4 +76,8 @@ When you eat the boar, you eat none of that. We understand. These things do not 
 
 Put salt on what you have made. Salt is honest. The forest approves of salt.
 
+
+> *Peasant annotation: I do not deny the boar had a life before supper. I only maintain that one can respect that fact without turning carving into theology.*
+> *Peon annotation: Morgum likes that forest approves of salt. This is most useful thing Wisp has ever said about cooking.*
+> *Acolyte annotation: The line about the bones remembering is irritating because it is exactly the sort of observation I would have preferred to make first.*
 ---

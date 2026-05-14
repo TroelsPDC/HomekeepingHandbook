@@ -83,4 +83,8 @@ Be still. Listen. What is the house saying?
 
 If you cannot hear it yet — sit in the oldest part of the room, after midnight, without a candle. Wait. The house will find its voice. It always does. This is not something to fear. It is something that was always going to happen, and it is good that it is happening now, while you are there to hear it.
 
+
+> *Peasant annotation: If the house has something to say, I would prefer it say it in daylight and without moving objects.*
+> *Peon annotation: Morgum does not sit in dark room after midnight waiting for wall to talk. Morgum has standards.*
+> *Acolyte annotation: For once, the Wisps are only describing hauntings accurately. I resent how smugly they do it.*
 ---

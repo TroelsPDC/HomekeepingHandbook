@@ -78,4 +78,8 @@ The oven is the only part of this process that is entirely yours. Heat, duration
 
 We do not think less of you for this. We merely think you should know.
 
+
+> *Peasant annotation: I should like it noted that most people making bread are trying to feed a household, not philosophise about eating decisions.*
+> *Peon annotation: Morgum knew bread was old. Morgum did not need to know flour has arms. Now Morgum unhappy while kneading.*
+> *Acolyte annotation: The reverence for fermentation is understandable. The theatricality about destiny in loaf form is excessive.*
 ---

@@ -78,4 +78,8 @@ The ones who patch roof with mud, and the ones who patch with slate, and the one
 
 There is a tree that has fallen and is now very wet and is becoming something other than a tree. It did not patch itself. It is not worse for this. It is continuing. The rain that falls on the roof that is patched and the rain that falls on the tree that has given up on being a tree — it is the same rain, going to the same place, unhurried, accurate, correct.
 
+
+> *Peasant annotation: Rain may not negotiate, but that is no reason to surrender the roof as a matter of policy.*
+> *Peon annotation: Morgum appreciates sky having no favourites. Still plans to hit leak with mud.*
+> *Acolyte annotation: Calling a ceiling stain "information" is elegant in the way only a person not sleeping beneath it could manage.*
 ---
