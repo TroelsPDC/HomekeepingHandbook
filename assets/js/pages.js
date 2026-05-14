@@ -35,18 +35,18 @@
       talking: baseUrl + '/assets/AcolyteTalking.gif'
     },
     'wisp': {
-      idle: baseUrl + '/assets/WispGIF.gif',
-      talking: baseUrl + '/assets/WispGIF.gif'
+      idle: baseUrl + '/assets/wisp.gif',
+      talking: baseUrl + '/assets/wisp.gif'
     }
   };
 
   // Create the character GIF element
   var charGif = document.createElement('img');
   charGif.className = 'character-gif hidden';
-  charGif.setAttribute('alt', 'Toggle character animation');
+  charGif.setAttribute('alt', '');
   charGif.setAttribute('role', 'button');
   charGif.setAttribute('tabindex', '0');
-  charGif.setAttribute('aria-label', 'Toggle character animation');
+  charGif.setAttribute('aria-label', 'Click to play sound');
   charGif.setAttribute('aria-pressed', 'false');
   document.body.appendChild(charGif);
 
@@ -61,10 +61,7 @@
   var isWispSoundPlaying = false;
   var wispAudio = new Audio(baseUrl + '/assets/wisp.mp3');
   wispAudio.preload = 'auto';
-  wispAudio.addEventListener('ended', function () {
-    isWispSoundPlaying = false;
-    if (charGif) charGif.setAttribute('aria-pressed', 'false');
-  });
+  wispAudio.loop = true;
 
   function stopWispSound() {
     if (!isWispSoundPlaying) return;
