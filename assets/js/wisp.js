@@ -62,6 +62,26 @@
     });
   }
 
+  // Encode text nodes in the Wisps section. Non-wisp annotation content is
+  // obscured as "???" while preserving each annotation label.
+  function encodeWispSectionTextNodes(el) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+    var nodes = [];
+    var node;
+    while ((node = walker.nextNode())) {
+      nodes.push(node);
+    }
+    nodes.forEach(function (n) {
+      originalText.set(n, n.textContent);
+      var m = n.textContent.match(/^(\s*[^:]*annotation:\s*)([\s\S]*)$/i);
+      if (m && m[1].toLowerCase().indexOf('wisp annotation:') === -1) {
+        n.textContent = m[1] + '???';
+      } else {
+        n.textContent = encodeString(n.textContent);
+      }
+    });
+  }
+
   // ---- Main Wisp section ----
   document.querySelectorAll('h2').forEach(function (h2) {
     if (h2.textContent.trim() !== 'Wisps') return;
@@ -93,7 +113,7 @@
 
     // Encode text on page load
     targets.forEach(function (el) {
-      encodeTextNodes(el);
+      encodeWispSectionTextNodes(el);
     });
 
     // Translate button (inserted between subtitle and wrapper)
@@ -112,7 +132,7 @@
         btn.textContent = '✦ Obscure again';
         btn.setAttribute('aria-pressed', 'true');
       } else {
-        targets.forEach(function (el) { encodeTextNodes(el); });
+        targets.forEach(function (el) { encodeWispSectionTextNodes(el); });
         wrapper.classList.remove('wisp-translated');
         wrapper.classList.add('wisp-encoded');
         btn.textContent = '✦ Translate from Moonlight';
