@@ -79,4 +79,10 @@ The roots clean differently. Rain passes down, soil takes what falls, wind dries
 
 <a href="{{ '/assets/wispCleaning.png' | relative_url }}" target="_blank" rel="noopener">![Wisps cleaning]({{ '/assets/wispCleaning.png' | relative_url }})</a>
 
+> *Peasant annotation: I will not have my furniture described as having withheld truth from me. The armchair was dirty. I cleaned it. 'Not innocent' is a description for courts of law, not upholstery.*
+
+> *Peon annotation: Chair was keeping secrets. Machine finds secrets and puts in bucket. Morgum can respect this. Morgum also likes bucket approach to solving problems.*
+
+> *Acolyte annotation: 'A faster season for indoor things.' Seven words. I have spent considerably more than seven words attempting to describe the same principle in a separate document. I am choosing not to be irritated.*
+
 ---
