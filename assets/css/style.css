@@ -641,6 +641,7 @@ body.chapter-layout.chapter-author-wisp blockquote.annotation-peon {
 
 blockquote.annotation-acolyte {
   font-family: 'Cinzel Decorative', Georgia, serif;
+  font-size: 0.82rem;
   color: #9bb6b3;
   background: rgba(20, 20, 38, 0.88);
   border-left-color: #4a6f6e;
