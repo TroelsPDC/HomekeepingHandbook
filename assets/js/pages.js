@@ -131,20 +131,38 @@
 
     var probeAudio = new Audio();
     probeAudio.preload = 'metadata';
+    var settled = false;
+
     function cleanupProbe() {
+      probeAudio.removeEventListener('canplay', onPlayable);
+      probeAudio.removeEventListener('canplaythrough', onPlayable);
+      probeAudio.removeEventListener('loadedmetadata', onPlayable);
+      probeAudio.removeEventListener('error', onError);
       probeAudio.pause();
       probeAudio.removeAttribute('src');
       probeAudio.load();
     }
-    probeAudio.addEventListener('canplaythrough', function () {
+
+    function onPlayable() {
+      if (settled) return;
+      settled = true;
       cleanupProbe();
       callback(candidates[position]);
-    }, { once: true });
-    probeAudio.addEventListener('error', function () {
+    }
+
+    function onError() {
+      if (settled) return;
+      settled = true;
       cleanupProbe();
       resolvePlayableAudio(candidates, callback, position + 1);
-    }, { once: true });
+    }
+
+    probeAudio.addEventListener('canplay', onPlayable);
+    probeAudio.addEventListener('canplaythrough', onPlayable);
+    probeAudio.addEventListener('loadedmetadata', onPlayable);
+    probeAudio.addEventListener('error', onError);
     probeAudio.src = candidates[position];
+    probeAudio.load();
   }
 
   function playCharacterAudio(character) {
