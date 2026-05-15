@@ -371,7 +371,7 @@
   function toggleGif() {
     if (!activeCharacter) return;
 
-    if (!chapterAudio.paused && currentAudioCharacter === activeCharacter) {
+    if (currentAudioCharacter === activeCharacter && !chapterAudio.classList.contains('hidden')) {
       stopChapterAudio(true);
       return;
     }
