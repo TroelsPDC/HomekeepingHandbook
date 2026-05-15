@@ -12,6 +12,9 @@ Learn their names before they sleep under your roof. Use the names. People know 
 
 After three days, a guest who has not offered to help is not a guest. He is a problem of a different category, and you may treat him as such without apology. This is not inhospitality. It is an accurate description of the situation.
 
+
+If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+
 > *Peon annotation: After three days, also check if still breathing. Guest sometimes fall asleep long time. Morgum made this mistake.*
 
 > *Acolyte annotation: The guest who arrives uninvited and stays indefinitely has, arguably, joined the household. This is how most of ours were assembled.*

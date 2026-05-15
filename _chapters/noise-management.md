@@ -19,6 +19,8 @@ For neighbour noise, speak when calm. Ask for help fixing the source instead of 
 
 Children remain unsolved by all known masonry. Use thicker walls, move play further from bedrooms, and accept that silence later in life sounds almost as loud as the noise.
 
+Keep one simple routine: evening walk-through, hand on shutters, ear to doors, check for new rattles before night turns them into legends. Most household noise is small work delayed too long.
+
 > *Peon annotation: Noise very good usually. Children noise very much noise. But goat noise — goat noise okay. Goat mean food nearby.*
 
 > *Acolyte annotation: The third rafter on the left. Interesting. That is precisely the resonant frequency of minor warding sigils. I am not suggesting a connection. I am simply noting it.*

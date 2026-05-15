@@ -12,6 +12,9 @@ Keep water within reach of the hearth at all times. Not so close as to steam, bu
 
 I have witnessed both outcomes. Neither is pleasant, but one is considerably more expensive, and the embarrassment does not diminish with distance.
 
+
+If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+
 > *Peon annotation: Also keep bucket near bed. Peon knows.*
 
 > *Acolyte annotation: Stone does not burn. Consider stone.*

@@ -12,6 +12,11 @@ Find leaks from the top, not from the drip mark over your bed. Water travels alo
 
 Patch only when dry. Two dry days minimum; longer for thatch or mortar. Wet patching is how you create a second leak while trying to fix the first. If you catch yourself debating roof theory like scholars arguing about swallows, get off the ladder and seal the hole.
 
+Bring chalk, spare nails, and one bucket of plain sense. Mark every suspect spot before you start pulling material, then patch from highest damage downward so runoff stops helping the leak. A modest patch done methodically beats heroic improvisation done in panic.
+
+
+If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+
 > *Peon annotation: Morgum also check roof in dry time. Dry time is when Morgum notice roof need check because Morgum not wet and have time to notice things.*
 
 > *Acolyte annotation: The gap between the visible drip and the true source of decay is a principle that extends well beyond roofing. One appreciates the Peasant's forensic instincts, misdirected as they sometimes are.*

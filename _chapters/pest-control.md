@@ -17,6 +17,9 @@ Replace any compromised beam within the fortnight. Rot travels. You would not gi
 
 A cat is useful. Two cats is confusion. Three cats is a problem of a different sort, and at that point you have merely replaced one infestation with another.
 
+
+If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+
 > *Peon annotation: Cat fight good for ears. Louder than rats. Morgum approve.*
 
 > *Acolyte annotation: The granary dead outnumber the granary living. Seal the grain; leave the rats their corner. Balance.*

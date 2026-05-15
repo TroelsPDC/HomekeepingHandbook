@@ -19,6 +19,9 @@ Seasoning time is two years minimum for timber intended for structural use. I wi
 
 Grain direction matters and I will not apologize for how much I care about this. Quarter-sawn timber — where the growth rings run roughly perpendicular to the face — is far more stable than flat-sawn timber. It is more expensive. It is worth it. Flat-sawn timber will cup. Quarter-sawn will not. If you insist on flat-sawn for financial or stubbornness reasons, at minimum install it crown-up in flooring applications so that the natural cupping works against the load rather than with it. This is not complicated. It requires only that you think for a moment before swinging the hammer, which is apparently too much to ask of certain individuals I have worked with who know who they are. Finally: end grain must never be exposed to moisture. End grain is where water enters wood fastest — it wicks up like a wick in candle wax, and rot follows with enthusiasm. Cap your end grain. Seal it. Treat it with linseed oil or pitch. The man who built the granary on the Westfall road did not do this. I know because I was called in four years later to help pull down what remained of it. There was not much.
 
+
+If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+
 > *Peon annotation: Morgum not understand why wood must wait two year. Rock is ready now. Perhaps use rock. Rock already seasoned. Rock has been seasoning since before Morgum's grandfather.*
 
 > *Acolyte annotation: The Peasant's frustration with green wood is understandable. One notes, as a point of gentle information, that bone requires no seasoning period whatsoever. It arrives patient.*
