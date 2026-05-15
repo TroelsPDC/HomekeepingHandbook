@@ -64,8 +64,9 @@ Geometric bone arrangements are a logical beauty, and I arrived at this position
 
 ---
 
-## Morning Dew on Roots — Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
+#### *Morning Dew on Roots*
 
 Beauty is a morning that has not decided what it is yet. The light arrives before it knows what it will fall on. There is a moment — brief, without edges — when the light is present and the world has not yet arranged itself into the day's version of itself. The day is useful. The moment before the day is something that does not have a use, and this is precisely what it is.
 

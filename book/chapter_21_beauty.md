@@ -57,8 +57,9 @@ Geometric bone arrangements are a logical beauty, and I arrived at this position
 
 ---
 
-## Morning Dew on Roots — Wisps
+## Wisps
 ### *(translated from ambient moonlight)*
+#### *Morning Dew on Roots*
 
 Beauty is a morning that has not decided what it is yet. The light arrives before it knows what it will fall on. There is a moment — brief, without edges — when the light is present and the world has not yet arranged itself into the day's version of itself. The day is useful. The moment before the day is something that does not have a use, and this is precisely what it is.
 
@@ -69,6 +70,10 @@ Morning dew collects on surfaces because it came from the air and the air was fu
 The mushroom that rises overnight knows nothing of the morning that is coming. The morning comes anyway. The dew is on the cap before either of them has had a chance to negotiate the arrangement. The light arrives and finds both of them at once. No one planned this. No one positioned the light source. No one considered the proportional relationship between the cap and the surrounding moss, though the proportion is correct. It was beautiful for a moment, entirely and without remainder, and then the morning decided what it was, and the moment was over, and no one who was not there will ever fully know what it was like to be there, and this is not a loss. This is the nature of that kind of beauty. It happens once and means it.
 
 The forest was beautiful before you came to live in it. Not for you — not for anything — just: beautiful, in the way things are when no one has asked them to be. The roof you built does not take the forest's beauty away. It makes a shadow where the beauty continues in the dark without your knowing it, which is exactly how beauty prefers to work. You can polish the copper and arrange the bones and place the light sources at precise intervals and clean the threshold and you will have made something good. Underneath it, in the dark, in the part you built on top of, the root is still there, and the moss still doesn't know.
+
+> *Peasant annotation: This is all very lovely until one tries to sweep it. Beauty may live in attention; dust certainly lives on surfaces.*
+> *Peon annotation: Morgum does not like being told beauty is not in thing. Big axe is beautiful even when nobody looking. Morgum checked.*
+> *Acolyte annotation: I have read this section three times. Each reading arrives at the same conclusion, which I find irritating. I will not be specifying the conclusion.*
 
 ---
 
