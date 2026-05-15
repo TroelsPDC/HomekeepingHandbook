@@ -130,10 +130,17 @@
 
     var probeAudio = new Audio();
     probeAudio.preload = 'metadata';
+    function cleanupProbe() {
+      probeAudio.pause();
+      probeAudio.removeAttribute('src');
+      probeAudio.load();
+    }
     probeAudio.addEventListener('canplaythrough', function () {
+      cleanupProbe();
       callback(candidates[position]);
     }, { once: true });
     probeAudio.addEventListener('error', function () {
+      cleanupProbe();
       resolvePlayableAudio(candidates, callback, position + 1);
     }, { once: true });
     probeAudio.src = candidates[position];
