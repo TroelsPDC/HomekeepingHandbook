@@ -130,6 +130,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Resentful but warm; the voice should feel lived-in, not stylized
 - Hidden tone: British absurdist peasant-sketch energy
 - Occasionally drop Monty Python-adjacent references when they fit naturally
+- Never reuse the same quote/reference line across chapters; each chapter gets its own phrasing
 - Keep sections compact and practical; avoid long monologues
 - **Fast recipe: "friendly exhausted medieval workman"**
 
@@ -138,6 +139,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Use broken but legible English over heavy phonetic spelling
 - Short, direct, rough — sounds like an overworked laborer thinking out loud
 - Rhythm, repetition, and blunt word choice carry the voice
+- Keep character voice consistent, but avoid repeating the same sentence constructions across chapters
 - Humor comes from low-status worker energy, sincere simplicity, and occasional unexpected warmth
 - **Fast recipe: "friendly cave troll with a union job"**
 

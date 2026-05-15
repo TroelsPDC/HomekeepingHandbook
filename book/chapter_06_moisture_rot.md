@@ -15,7 +15,7 @@ Ventilation is where most people go wrong in the second phase. You seal the wall
 There is a specific sound a beam makes when it has given up. It is not a crack. A crack is sudden; a crack is honest; a crack at least respects your time. The sound of a failing beam is a long, low, considered creak, like a man in a chair reconsidering every decision that led him here. When you hear this sound, you have a short window. A season, perhaps. Go and look at the beam immediately. After that window, the beam will share its conclusion with the floor, and then you will be having a much longer conversation.
 
 
-If this moisture rot debate turns into African-or-European swallow theory, someone is dodging the actual work.
+Rot will not pause while you reenact constitutional debates in a muddy field.
 
 > *Peon annotation: Morgum hear beam make noise like that once. Morgum hit beam. Beam stop noise. Problem gone. Why Peasant make everything so complicated.*
 

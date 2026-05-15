@@ -13,7 +13,7 @@ If the clergyman is unavailable — or has recently fled — you may attempt the
 Document the haunting. Time of occurrence, location, nature of disturbance. A pattern is a problem you can solve. A pattern is *always* a problem you can solve, and this holds as true for apparitions as for a leaking gutter. If the haunting persists for more than one season, consider whether the spirit has any legitimate grievance regarding the property. In my experience, a ghost with a grievance is correct more often than it is wrong.
 
 
-If this haunted debate turns into African-or-European swallow theory, someone is dodging the actual work.
+If the haunting report includes a killer rabbit, verify tracks before writing theology.
 
 > *Peon annotation: Bread idea is good. Morgum tried. Ghost ate bread. Haunting continue but now ghost less angry. Overall: improvement.*
 

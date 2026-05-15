@@ -20,7 +20,7 @@ Learn their names before they sleep under your roof. Use the names. People know 
 After three days, a guest who has not offered to help is not a guest. He is a problem of a different category, and you may treat him as such without apology. This is not inhospitality. It is an accurate description of the situation.
 
 
-If this hosting guests debate turns into African-or-European swallow theory, someone is dodging the actual work.
+Guest etiquette does not improve when someone claps coconuts in the hallway.
 
 > *Peon annotation: After three days, also check if still breathing. Guest sometimes fall asleep long time. Morgum made this mistake.*
 

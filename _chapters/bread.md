@@ -22,7 +22,7 @@ Proving time: once, until doubled; shape; prove again, until nearly doubled. Do 
 I want to say something plainly: if you have never made your own bread, you should examine what that says about you. I don't mean to be unkind. I mean it practically. Bread is the most fundamental act of domesticity. Hunting is older, yes, but bread is *civilisation*. Every man, woman, and — I won't be exclusionary — every peon who has ever called a place a home has at some point stood in front of a fire with grain and water and made something. If you haven't done this, you are, with respect, merely *renting* the concept of home without paying full price.
 
 
-If this bread debate turns into African-or-European swallow theory, someone is dodging the actual work.
+The loaf will not rise faster because a knight approved the crust.
 
 > *Peon annotation: Morgum also uses strong flour. Morgum uses all flour. All flour is strong when you use enough.*
 

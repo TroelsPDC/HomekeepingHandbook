@@ -20,7 +20,7 @@ I will add one caution. The existence of a machine does not absolve the househol
 <a href="{{ '/assets/peasantCleaning.png' | relative_url }}" target="_blank" rel="noopener">![Theodore Furlbrow cleaning]({{ '/assets/peasantCleaning.png' | relative_url }})</a>
 
 
-If this tefal clean it debate turns into African-or-European swallow theory, someone is dodging the actual work.
+No cleaner improves because someone introduces it as 'the machine that goes ping.'
 
 > *Peon annotation: Machine that sucks dirt from chair is good machine. Chair has been stealing dirt for years. Time for justice.*
 

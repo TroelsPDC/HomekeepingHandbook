@@ -20,7 +20,7 @@ Do not drop anything in. Not a coin, not a tool, not a bit of bread, not your ha
 Do not, under any circumstances, drink from it on a dare. I say this because there will be a dare. There is always a dare when you are standing near something you shouldn't touch. The water is very clean — I will grant it that; it is the clearest water I have ever seen, and I have seen a lot of water in the course of structural waterproofing work — but "very clean" and "safe to drink" are not the same category when the item in question is enchanted to a degree that makes most human mages go quiet and look at their shoes. Bring a waterskin. Fill the waterskin before you leave. Drink from the waterskin like a person.
 
 
-If this moonwell etiquette debate turns into African-or-European swallow theory, someone is dodging the actual work.
+If moonwell manners require chanting 'Ni,' lower your voice and stop waving branches.
 
 > *Peon annotation: Morgum did not bring waterskin. Moonwell was wet. This was enough.*
 

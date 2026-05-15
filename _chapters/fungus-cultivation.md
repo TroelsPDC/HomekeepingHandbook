@@ -20,7 +20,7 @@ Oyster mushrooms are what you want, if you are sensible. They grow on dead wood,
 Shiitake are more work but worth the effort if you are feeling ambitious, which I rarely am anymore. You inoculate a hardwood log — oak is best, avoid pine, the resin does something I am not qualified to explain — with spawn plugs obtained from any reputable agricultural supplier. Then you wait. You wait for what feels like an insult. Mushrooms do not care about your schedule. They care about moisture, and temperature, and some further variables that seem largely philosophical. Soak your logs twice a year. Your shiitake will arrive when they feel the conditions are right, which is apparently a decision only they can make. In this respect, they are not unlike most workers I have employed.
 
 
-If this fungus cultivation debate turns into African-or-European swallow theory, someone is dodging the actual work.
+When spore timing gets argued with bridge-keeper questions, everyone needs fresh air.
 
 > *Peon annotation: Morgum has log. Morgum does not soak log. Mushroom comes anyway. Maybe soaking is extra step.*
 

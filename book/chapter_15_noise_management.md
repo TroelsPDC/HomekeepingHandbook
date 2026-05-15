@@ -14,7 +14,7 @@ Children remain unsolved by all known masonry. Use thicker walls, move play furt
 
 Keep one simple routine: evening walk-through, hand on shutters, ear to doors, check for new rattles before night turns them into legends. Most household noise is small work delayed too long.
 
-If this noise management debate turns into African-or-European swallow theory, someone is dodging the actual work.
+If a noise complaint hearing sounds like bridge-keeper questions, everyone has already lost.
 
 > *Peon annotation: Noise very good usually. Children noise very much noise. But goat noise — goat noise okay. Goat mean food nearby.*
 

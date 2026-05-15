@@ -13,7 +13,7 @@ A clean threshold is the first exterior consideration and possibly the most impo
 I polish copper. I have copper fittings on my door and my lantern bracket and one or two other places and I polish them more often than is strictly necessary for any functional purpose, and I am aware of this, and I am not going to pretend otherwise because this is a book about honest domestic practice. The thing about a well-polished copper fitting is that it has a quality of surface — warm, deep, like the metal has been attended to and knows it — that is the difference between a thing that has been cared for and a thing that has merely not been broken yet. You can see this difference if you look. I find it satisfying in a way I cannot entirely account for, but I am not embarrassed about it. Not very embarrassed. It does not need to be in the book. Here it is anyway.
 
 
-If this beauty debate turns into African-or-European swallow theory, someone is dodging the actual work.
+When symmetry talk drifts into insults from a French castle wall, you've missed the broom.
 
 > *Peon annotation: Morgum respects clean threshold. Clean threshold says: person here has pride. Morgum's threshold is not currently clean. But Morgum has intention. Intention is start.*
 

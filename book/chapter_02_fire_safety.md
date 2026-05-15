@@ -13,7 +13,7 @@ Keep water within reach of the hearth at all times. Not so close as to steam, bu
 I have witnessed both outcomes. Neither is pleasant, but one is considerably more expensive, and the embarrassment does not diminish with distance.
 
 
-If this fire safety debate turns into African-or-European swallow theory, someone is dodging the actual work.
+Do not wait for a dramatic cry of 'Burn her'; inspect the chimney now.
 
 > *Peon annotation: Also keep bucket near bed. Peon knows.*
 

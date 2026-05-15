@@ -11,7 +11,7 @@ Replace any compromised beam within the fortnight. Rot travels. You would not gi
 A cat is useful. Two cats is confusion. Three cats is a problem of a different sort, and at that point you have merely replaced one infestation with another.
 
 
-If this pest control debate turns into African-or-European swallow theory, someone is dodging the actual work.
+Before discussing vermin speed by swallow class, close the grain bins.
 
 > *Peon annotation: Cat fight good for ears. Louder than rats. Morgum approve.*
 
