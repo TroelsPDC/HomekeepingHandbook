@@ -83,6 +83,7 @@
       'scourge-contamination': 'Source-contamination'
     },
     peon: {
+      'ancestor-shrines': 'Anscestor-shrines',
       'moonwell-etiquette': 'Moonwell-etiquet'
     },
     acolyte: {
