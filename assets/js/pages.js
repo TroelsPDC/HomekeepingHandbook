@@ -132,12 +132,16 @@
     var probeAudio = new Audio();
     probeAudio.preload = 'metadata';
     var settled = false;
+    var listenersBound = false;
 
     function cleanupProbe() {
+      if (listenersBound) {
       probeAudio.removeEventListener('canplay', onPlayable);
       probeAudio.removeEventListener('canplaythrough', onPlayable);
       probeAudio.removeEventListener('loadedmetadata', onPlayable);
       probeAudio.removeEventListener('error', onError);
+      listenersBound = false;
+      }
       probeAudio.pause();
       probeAudio.removeAttribute('src');
       probeAudio.load();
@@ -161,6 +165,7 @@
     probeAudio.addEventListener('canplaythrough', onPlayable);
     probeAudio.addEventListener('loadedmetadata', onPlayable);
     probeAudio.addEventListener('error', onError);
+    listenersBound = true;
     probeAudio.src = candidates[position];
     probeAudio.load();
   }

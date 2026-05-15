@@ -71,12 +71,15 @@
     var testAudio = new Audio();
     testAudio.preload = 'metadata';
     var settled = false;
+    var listenersBound = false;
 
     function cleanup() {
+      if (!listenersBound) return;
       testAudio.removeEventListener('canplay', onPlayable);
       testAudio.removeEventListener('canplaythrough', onPlayable);
       testAudio.removeEventListener('loadedmetadata', onPlayable);
       testAudio.removeEventListener('error', onError);
+      listenersBound = false;
     }
 
     function onPlayable() {
@@ -100,6 +103,7 @@
     testAudio.addEventListener('canplaythrough', onPlayable);
     testAudio.addEventListener('loadedmetadata', onPlayable);
     testAudio.addEventListener('error', onError);
+    listenersBound = true;
 
     testAudio.src = sources[index];
     testAudio.load();
