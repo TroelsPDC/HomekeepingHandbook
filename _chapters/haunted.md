@@ -19,6 +19,9 @@ If the clergyman is unavailable — or has recently fled — you may attempt the
 
 Document the haunting. Time of occurrence, location, nature of disturbance. A pattern is a problem you can solve. A pattern is *always* a problem you can solve, and this holds as true for apparitions as for a leaking gutter. If the haunting persists for more than one season, consider whether the spirit has any legitimate grievance regarding the property. In my experience, a ghost with a grievance is correct more often than it is wrong.
 
+
+If the haunting report includes a killer rabbit, verify tracks before writing theology.
+
 > *Peon annotation: Bread idea is good. Morgum tried. Ghost ate bread. Haunting continue but now ghost less angry. Overall: improvement.*
 
 > *Acolyte annotation: If the haunting has persisted for one season, you have not resolved it. You have extended an informal offer of residency. There are implications to this.*
@@ -71,9 +74,9 @@ The undead require acknowledgement. This is one of the few things we have in com
 ## Wisps
 ### *(translated from ambient moonlight)*
 
-The stone remembers every step that has crossed it.
+Every stone holds what has crossed it.
 
-The threshold remembers every hand that has touched it.
+Every threshold holds what has touched it.
 
 What you call a haunting is a home that has accumulated enough memory to speak. You are surprised by this. You were walking through memories every day, and only now — when one remembers loudly enough to startle you — do you notice where you have been living.
 

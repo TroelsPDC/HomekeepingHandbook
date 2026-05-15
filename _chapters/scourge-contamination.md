@@ -21,6 +21,9 @@ Structural assessment of contaminated foundations is not a task for the untraine
 
 The Light district clergy offer blessed treatment compounds, purpose-made solvents, and in serious cases what they call a ritual seal — a containment procedure rather than a removal, which is, in practice, often the realistic outcome of a serious remediation conversation. I will not tell you I have always succeeded at removal. It would not be honest, and dishonesty in this particular subject causes outcomes that are worse than the honesty. The residue stays in stone for longer than you would like to know. I know this. The chapter has said what it needs to say.
 
+
+If quarantine planning becomes a Grail procession, you are already behind.
+
 > *Peon annotation: Morgum confirms smell. Smelled it once. Left. Did not go back for long time. Body knew. Morgum was proud of body that day. Body was right.*
 
 > *Acolyte annotation: The Peasant is correct that residue persists in stone. The stone remembers, which is distinct from the contamination reconstituting, but not entirely unrelated to it. I offer this as a useful practical distinction, not as cause for additional alarm. For most readers.*
@@ -49,7 +52,7 @@ Containment means: here, and there, and everyone knows which is which. The area 
 
 ## Vorun the Pallid, Acolyte of the Cult
 
-I should disclose, at the outset of this chapter, that I have a professional relationship with the Scourge that may create the appearance of a conflict of interest in my writing of it. I acknowledge this. I am going to write the chapter anyway, because the living need accurate information and because my knowledge of the subject is, I think the reader will find, considerably more detailed than that of most contributors who would be considered objective.
+I note, at the outset of this chapter, that I have a professional relationship with the Scourge that may create the appearance of a conflict of interest in my writing of it. I acknowledge this. I am going to write the chapter anyway, because the living need accurate information and because my knowledge of the subject is, I think the reader will find, considerably more detailed than that of most contributors who would be considered objective.
 
 Blight contamination presents consistently, and I find that living people are better served by specificity than by reassurance. The initial presentation occurs at foundation contact points — where earth meets stone, where courses of masonry meet each other, anywhere the sub-structural material is in direct contact with interior building surfaces. The colour progression is: grey-green in the first weeks, deepening through a blue-tinged grey to dark violet across the following months. Advanced cases develop a phosphorescence at the margins — this is not the same phenomenon as bioluminescent fungus, a distinction worth maintaining for practical reasons — that is identifiable to anyone who has seen it once. The edges, at every stage, are clean. Blight edges are always clean. Moisture damage feathers. Mould blooms. Blight has a precision to its boundaries that I find, considered purely formally, quite elegant. I understand this is not the reaction most living people have, and I am not recommending it as a response.
 
@@ -61,7 +64,7 @@ For remediation: blessed treatment compounds are effective for early cases, prov
 
 > *Peon annotation: Acolyte confirms: offerings are correct! Morgum knew it. Acolyte also says "not elaborating" about lower chambers, same as Morgum. Some things you do not look at more closely. This is something Morgum and Acolyte agree on. There are several of these things now. Interesting.*
 
-> *Wisp annotation: He writes what the living can use. He keeps the rest in the lower chambers. This is a kind of generosity.*
+> *Wisp annotation: What the living can use is written here. What cannot be used is kept in the lower chambers. Viewed from outside, this resembles generosity.*
 
 ---
 
@@ -83,5 +86,5 @@ Life does not require approval to be life. It does not ask. This is not an argum
 
 > *Peon annotation: Morgum understands current. If blight has current, Morgum stands somewhere else. Finally, useful Wisp sentence.*
 
-> *Acolyte annotation: Their refusal to moralise about the blight is intellectually tidy and socially exhausting.*
+> *Acolyte annotation: The blight has been described accurately and without judgment. This is tidy. Living near the blight, one finds that tidiness has a shelf life.*
 ---

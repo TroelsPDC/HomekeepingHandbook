@@ -12,6 +12,9 @@ I will add one caution. The existence of a machine does not absolve the househol
 
 ![Theodore Furlbrow cleaning](/assets/peasantCleaning.png)
 
+
+No cleaner improves because someone introduces it as 'the machine that goes ping.'
+
 > *Peon annotation: Machine that sucks dirt from chair is good machine. Chair has been stealing dirt for years. Time for justice.*
 
 > *Acolyte annotation: His distinction between routine domestic order and curative intervention is sound. Remediation is not the same thing as absolution, though many households attempt to purchase them together.*

@@ -21,11 +21,14 @@ Here is the method that works. Scale and gut the murloc immediately — do not w
 
 The ethics of the thing are as follows: I thought about it. I was hungry. The murlocs were there, and aggressive besides. I made my decision and I stand by it, though I would not frame it as a triumph of virtue. There are those who argue the murloc is a sapient creature possessed of dignity and community and perhaps something approaching language. I have heard this argument. I have also heard them scream at me for forty solid seconds while I tried to collect water from a stream I had every right to use. I will not be lectured on murloc dignity by someone who has not been screamed at by a murloc. That is my final word on the ethics.
 
+
+If moral philosophy reaches fish-slapping energy, we've left ethics and entered lunch.
+
 > *Peon annotation: Ethics part confuse Morgum. Murloc taste bad but less bad than nothing. Recipe good. Peon has note about ginger: if no ginger, put in more salt instead. Is same.*
 
 > *Acolyte annotation: The smell, as Master Furlbrow notes, is the primary text. Everything else is commentary.*
 
-> *Wisp annotation: The brine remembers the sea. The murloc does too. This is either an argument for or against. We do not say which.*
+> *Wisp annotation: The sea is still in the murloc, and the brine is the part still acknowledging it. Whether this is an argument for eating it or against, we do not say.*
 
 ---
 
@@ -49,7 +52,7 @@ Morgum also note: murlocs live in groups. If take too many from same group, grou
 
 > *Acolyte annotation: "Until smell become different smell." This is the whole of transformation philosophy in six words. I have written eleven hundred pages that arrive at the same place.*
 
-> *Wisp annotation: He has solved the problem by not having it. We admire this without being able to explain why.*
+> *Wisp annotation: The problem dissolved before he looked at it directly. We admire the result without being able to explain it.*
 
 ---
 

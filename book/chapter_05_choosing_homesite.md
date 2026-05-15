@@ -14,6 +14,9 @@ Water proximity is a question of balance. You want water close — an hour's wal
 
 Regarding neighbours: I recommend a distance of no less than four furlongs. Close enough that you might borrow a tool in an emergency. Far enough that you cannot, under any circumstances, hear them argue about the tool after you return it. The ideal neighbour is visible from a hill on a clear day and no closer.
 
+
+Before anyone maps the lot by swallow flight speed, check where rain actually pools.
+
 > *Peon annotation: Morgum agree with dirt squeeze test. Also good for making mud. Mud very useful. Peasant not mention mud.*
 
 > *Acolyte annotation: The grey-blue clay he dismisses has its uses. It retains impressions remarkably well — footprints, handprints, the outlines of things that lay upon it. A site with clay subsoil is, effectively, a living archive. I have found this professionally invaluable.*

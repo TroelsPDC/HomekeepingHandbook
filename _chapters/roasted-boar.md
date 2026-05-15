@@ -19,6 +19,9 @@ Heat management is the whole of roasting. I will say this as many times as neces
 
 Resting. The boar must rest. When you pull it from the heat, you tent it loosely — loosely, not tightly, you are not tucking it in, you are giving it some privacy — and you leave it for at least thirty minutes. I recommend forty. What is happening during this rest is that the muscle fibres, which have contracted under heat, are relaxing and reabsorbing the juices that have been driven toward the centre. If you cut into a boar that has not rested, those juices run out onto your board and are lost, and the boar is dry, and your guests think it is your fault. It is not your fault. It is theirs, for demanding to eat immediately. But you will be the one who hears about it. You are always the one who hears about it.
 
+
+Roast by temperature, not by whichever knight shouts 'It's only a flesh wound.'
+
 > *Peon annotation: Morgum does not wait. Meat is ready when meat is on plate. Resting is for people who have not already eaten meat.*
 
 > *Acolyte annotation: The resting period is not unlike the quiet interval between death and the first binding. Processes are completing. One should not interfere.*
@@ -47,7 +50,7 @@ For cooking: you build big fire. Much bigger than you think. Fire must be seriou
 
 ## Vorun the Pallid, Acolyte of the Cult
 
-The Cult does not eat. I say this not to create distance between myself and this chapter's subject matter, but as a practical clarification intended to head off several questions I received at previous handbook meetings. We do not require sustenance in the conventional sense. This frees us, I think, to offer a more dispassionate perspective on the boar — which is to say, we have no investment in the boar's flavour, and can therefore attend entirely to the boar's aftermath.
+I write this section without the complication of appetite. The Cult does not eat — I offer this not to create distance from the subject, but as a practical clarification intended to head off several questions I received at previous handbook meetings. We do not require sustenance in the conventional sense. This frees us, I think, to offer a more dispassionate perspective on the boar — which is to say, we have no investment in the boar's flavour, and can therefore attend entirely to the boar's aftermath.
 
 The bones, first. Boar bones are dense and oily and last a very long time when properly maintained. After the meal, the bones should be collected — all of them, insofar as this is possible; the Cult is understanding about small bones going missing at a large dinner — and cleaned. Not sterilised. Cleaned. There is a distinction. You are not trying to remove the boar from the bones. You are trying to remove what is not the boar. Set them aside in a dry place for three days. This is called the quiet interval. Do not disturb them. Do not move them to dust. They are not ready.
 

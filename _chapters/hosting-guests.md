@@ -19,6 +19,9 @@ Learn their names before they sleep under your roof. Use the names. People know 
 
 After three days, a guest who has not offered to help is not a guest. He is a problem of a different category, and you may treat him as such without apology. This is not inhospitality. It is an accurate description of the situation.
 
+
+Guest etiquette does not improve when someone claps coconuts in the hallway.
+
 > *Peon annotation: After three days, also check if still breathing. Guest sometimes fall asleep long time. Morgum made this mistake.*
 
 > *Acolyte annotation: The guest who arrives uninvited and stays indefinitely has, arguably, joined the household. This is how most of ours were assembled.*
@@ -79,5 +82,5 @@ We have never had a guest. We have also never been alone. We offer this not as i
 
 > *Peon annotation: Morgum has had many uninvited visitors. Wisp calls this grove. Morgum calls it problem unless visitor brings meat.*
 
-> *Acolyte annotation: Their refusal to distinguish welcome from mere permeability is precisely why no one asks Wisps to host formal occasions.*
+> *Acolyte annotation: Welcome without distinction becomes permeability. Permeability is not hospitality, and no one asks Wisps to host formal occasions. The policy has sound structural reasoning behind it.*
 ---
