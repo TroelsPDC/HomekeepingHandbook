@@ -83,6 +83,6 @@ The roots clean differently. Rain passes down, soil takes what falls, wind dries
 
 > *Peon annotation: Chair was keeping secrets. Machine finds secrets and puts in bucket. Morgum can respect this. Morgum also likes bucket approach to solving problems.*
 
-> *Acolyte annotation: 'A faster season for indoor things.' Seven words. I have spent considerably more than seven words attempting to describe the same principle in a separate document. I am choosing not to be irritated.*
+> *Acolyte annotation: 'A faster season for indoor things.' Six words. I have spent considerably more than six words attempting to describe the same principle in a separate document. I am choosing not to be irritated.*
 
 ---
