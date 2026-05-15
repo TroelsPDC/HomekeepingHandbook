@@ -22,7 +22,7 @@ Here is the method that works. Scale and gut the murloc immediately — do not w
 The ethics of the thing are as follows: I thought about it. I was hungry. The murlocs were there, and aggressive besides. I made my decision and I stand by it, though I would not frame it as a triumph of virtue. There are those who argue the murloc is a sapient creature possessed of dignity and community and perhaps something approaching language. I have heard this argument. I have also heard them scream at me for forty solid seconds while I tried to collect water from a stream I had every right to use. I will not be lectured on murloc dignity by someone who has not been screamed at by a murloc. That is my final word on the ethics.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this ethics murloc debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Ethics part confuse Morgum. Murloc taste bad but less bad than nothing. Recipe good. Peon has note about ginger: if no ginger, put in more salt instead. Is same.*
 

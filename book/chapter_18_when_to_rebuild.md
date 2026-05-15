@@ -13,7 +13,7 @@ When you are assessing a structure, work from the foundation up. A compromised f
 Rebuilding is not defeat. I want to say that clearly because I have met men who treat a complete rebuild as an admission of failure, as though a building that required rebuilding is a building that judged them. It is not. Sometimes a building is simply old, or badly made, or was built by someone who was working with what they had and what they had was not enough and they knew it at the time and built anyway, which I understand, I do not judge that, but the building is the result and the result is what you are looking at now. When you do rebuild: do it properly. Use better material than the original where better material is available. Do not reproduce the errors. Study why it failed before you decide how to replace it. And do it with some gravity, because a structure has served you, however poorly, and a moment of recognition costs nothing.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this when to rebuild debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Peasant say look at building on grey morning and know. Morgum also know. Morgum know when building fall down. That is when Morgum know. This also work.*
 

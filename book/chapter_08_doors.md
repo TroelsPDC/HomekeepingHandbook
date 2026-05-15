@@ -15,7 +15,7 @@ The fit of the door in its frame is a precise thing, not an approximate one. A d
 I have hung forty-seven doors in my career as of this writing. Of those, perhaps thirty-two fit correctly on the first installation. The other fifteen I think about. Not often. But sometimes in the quiet hours I think about the door in Hillsbrad that closed but did not quite latch, and the one in Dalaran that opened toward the wall when the frame was clearly marked *pull*, and the beautiful ash door in Stratholme — before Stratholme, obviously — that was hung on hinges so poorly cast they wore down to nothing inside a single season. I think about these doors. They are part of me now. They follow me.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this doors debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Morgum agree, door is good. But if door is locked from inside, Morgum cannot get in. This has happen. Many, many times. Sometimes Morgum solve this with log.*
 

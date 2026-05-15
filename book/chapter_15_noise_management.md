@@ -8,11 +8,13 @@ I know household noise too well: loose rafters, shouting goats, bad cart wheels,
 
 Treat noise like a leak. Stand in corners during wind, mark gaps with chalk, then seal them in dry weather. Rattling shutters need weight; settling beams need patience; roof creaks need inspection before winter.
 
-For neighbour noise, speak when calm. Ask for help fixing the source instead of declaring war at dawn. If someone insists their midnight goat choir is "quiet," treat the claim as a dead parrot: admired by no one and plainly not true.
+For neighbour noise, speak when calm. Ask for help fixing the source instead of declaring war at dawn. If someone insists their midnight goat choir is "quiet," ask what can be adjusted and when.
 
 Children remain unsolved by all known masonry. Use thicker walls, move play further from bedrooms, and accept that silence later in life sounds almost as loud as the noise.
 
 Keep one simple routine: evening walk-through, hand on shutters, ear to doors, check for new rattles before night turns them into legends. Most household noise is small work delayed too long.
+
+If this noise management debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Noise very good usually. Children noise very much noise. But goat noise — goat noise okay. Goat mean food nearby.*
 

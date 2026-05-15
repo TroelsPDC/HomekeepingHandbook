@@ -22,7 +22,7 @@ Patch only when dry. Two dry days minimum; longer for thatch or mortar. Wet patc
 Bring chalk, spare nails, and one bucket of plain sense. Mark every suspect spot before you start pulling material, then patch from highest damage downward so runoff stops helping the leak. A modest patch done methodically beats heroic improvisation done in panic.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this roof patching debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Morgum also check roof in dry time. Dry time is when Morgum notice roof need check because Morgum not wet and have time to notice things.*
 

@@ -22,7 +22,7 @@ Water proximity is a question of balance. You want water close — an hour's wal
 Regarding neighbours: I recommend a distance of no less than four furlongs. Close enough that you might borrow a tool in an emergency. Far enough that you cannot, under any circumstances, hear them argue about the tool after you return it. The ideal neighbour is visible from a hill on a clear day and no closer.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this choosing homesite debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Morgum agree with dirt squeeze test. Also good for making mud. Mud very useful. Peasant not mention mud.*
 

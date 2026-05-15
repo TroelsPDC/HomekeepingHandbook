@@ -20,7 +20,7 @@ Heat management is the whole of roasting. I will say this as many times as neces
 Resting. The boar must rest. When you pull it from the heat, you tent it loosely — loosely, not tightly, you are not tucking it in, you are giving it some privacy — and you leave it for at least thirty minutes. I recommend forty. What is happening during this rest is that the muscle fibres, which have contracted under heat, are relaxing and reabsorbing the juices that have been driven toward the centre. If you cut into a boar that has not rested, those juices run out onto your board and are lost, and the boar is dry, and your guests think it is your fault. It is not your fault. It is theirs, for demanding to eat immediately. But you will be the one who hears about it. You are always the one who hears about it.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this roasted boar debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: Morgum does not wait. Meat is ready when meat is on plate. Resting is for people who have not already eaten meat.*
 

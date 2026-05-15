@@ -15,7 +15,7 @@ Damp fungus: scrape it off with a flat tool, not your hands, as spores are real 
 Ventilation is not a suggestion I am making for your comfort. Moving air disrupts spore colonisation. This is a fact with no exceptions that I have encountered. A basement vent costs almost nothing. Two vents, one on each side if the space is wide, cost slightly more than nothing. The alternative, in the worst cases, costs you the floor and possibly the wall and quite possibly several months of skilled labour at rates that reflect, fairly, the unpleasantness of the work. Check existing vents for blockage. They are very often blocked with old sacking and the remains of something's nest. Clear them. Make the air move.
 
 
-If anyone asks whether this maintenance plan can be carried by an African or European swallow, hand them a ladder and let them prove it.
+If this fungus basement debate turns into African-or-European swallow theory, someone is dodging the actual work.
 
 > *Peon annotation: If you put in vent and vent lets in air, does vent also let in more spores from outside? Asking because Morgum wants to know. Asking for Morgum.*
 
