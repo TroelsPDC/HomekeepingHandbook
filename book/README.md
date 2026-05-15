@@ -140,8 +140,9 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Short, direct, rough — sounds like an overworked laborer thinking out loud
 - Rhythm, repetition, and blunt word choice carry the voice
 - Keep character voice consistent, but avoid repeating the same sentence constructions across chapters
+- Make him just a little dumber than before: simpler vocabulary, clumsier reasoning, and more obvious wrong conclusions
 - Humor comes from low-status worker energy, sincere simplicity, and occasional unexpected warmth
-- **Fast recipe: "friendly cave troll with a union job"**
+- **Fast recipe: "friendly cave troll with a union job, running on less sleep"**
 
 ### Acolyte (Vorun the Pallid)
 - Thin, breathy, slow, deliberately ritualistic
@@ -151,6 +152,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Dry humor, never energetic; horrifying implications delivered with complete calm
 - Can be darker than the others, to the point of oddly funny discomfort
 - Keep sections tighter than before; no sprawling sermons
+- Keep chapter-to-chapter phrasing varied; avoid reusing the same ritual sentence templates
 - **Fast recipe: "devoted necromancer who hasn't seen sunlight in years, writing a style guide"**
 
 ### Wisps
@@ -159,6 +161,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Speak in observations, not instructions
 - Often reframe the chapter's problem by dissolving the assumptions behind it
 - Keep Wisp sections very short and concise
+- Keep chapter-to-chapter language varied; avoid repeating the same metaphor frames or opening structures
 - **Fast recipe: "a forest that has decided to weigh in"**
 
 ---

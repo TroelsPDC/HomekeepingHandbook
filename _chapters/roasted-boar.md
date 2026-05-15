@@ -50,7 +50,7 @@ For cooking: you build big fire. Much bigger than you think. Fire must be seriou
 
 ## Vorun the Pallid, Acolyte of the Cult
 
-The Cult does not eat. I say this not to create distance between myself and this chapter's subject matter, but as a practical clarification intended to head off several questions I received at previous handbook meetings. We do not require sustenance in the conventional sense. This frees us, I think, to offer a more dispassionate perspective on the boar — which is to say, we have no investment in the boar's flavour, and can therefore attend entirely to the boar's aftermath.
+I write this section without the complication of appetite. The Cult does not eat — I offer this not to create distance from the subject, but as a practical clarification intended to head off several questions I received at previous handbook meetings. We do not require sustenance in the conventional sense. This frees us, I think, to offer a more dispassionate perspective on the boar — which is to say, we have no investment in the boar's flavour, and can therefore attend entirely to the boar's aftermath.
 
 The bones, first. Boar bones are dense and oily and last a very long time when properly maintained. After the meal, the bones should be collected — all of them, insofar as this is possible; the Cult is understanding about small bones going missing at a large dinner — and cleaned. Not sterilised. Cleaned. There is a distinction. You are not trying to remove the boar from the bones. You are trying to remove what is not the boar. Set them aside in a dry place for three days. This is called the quiet interval. Do not disturb them. Do not move them to dust. They are not ready.
 

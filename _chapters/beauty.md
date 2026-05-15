@@ -44,7 +44,7 @@ The bone collection is on the long shelf, arranged. Morgum cannot fully explain 
 
 > *Acolyte annotation: The bone collection reflects intuitive geometric understanding that would, with small adjustments, meet formal compositional principles. Morgum should not make the adjustments. Intuition at its best arrives somewhere deliberation cannot follow, and the following would ruin it.*
 
-> *Wisp annotation: The bones already knew their shapes before the shelf. He recognised something that was already true.*
+> *Wisp annotation: The bones already knew their shapes before the shelf. Something already true was found.*
 
 ---
 
@@ -58,7 +58,7 @@ Geometric bone arrangements are a logical beauty, and I arrived at this position
 
 > *Peasant annotation: I observed the light plane arrangement in his lower chambers on one occasion and it is geometrically coherent. I have nothing further to say about that visit. Regarding the bone arrangement philosophy: his arrangements have a formal precision that the Peon's, which he describes as entirely intuitive, somehow achieves by different means but to similar ends. I will think about what this implies at some point when I am not writing a book chapter.*
 
-> *Peon annotation: Morgum agrees about seven. Good number. Also Acolyte is right about bones not needing water — this is something Morgum has appreciated about the bone collection for a long time but did not have words for until now. Bones have solved the problem of requiring care in order to stay beautiful. Morgum will think about this differently from now on.*
+> *Peon annotation: Seven good. Morgum also has many bones. Bones not need water, Morgum know this because Morgum never watered them and they are fine. Good to find out this is correct choice and not just Morgum forgetting.*
 
 > *Wisp annotation: He built silence into a room and calls it décor. The room was waiting to be silent. He found it.*
 
@@ -80,5 +80,5 @@ The forest was beautiful before you came to live in it. Not for you — not for 
 
 > *Peasant annotation: This is all very lovely until one tries to sweep it. Beauty may live in attention; dust certainly lives on surfaces.*
 > *Peon annotation: Morgum does not like being told beauty is not in thing. Big axe is beautiful even when nobody looking. Morgum checked.*
-> *Acolyte annotation: Their insistence that beauty only exists in the moment before anyone understands it is sentimental, evasive, and irritatingly graceful.*
+> *Acolyte annotation: I have read this section three times. Each reading arrives at the same conclusion, which I find irritating. I will not be specifying the conclusion.*
 ---

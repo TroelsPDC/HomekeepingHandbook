@@ -24,7 +24,7 @@ The pole should be attached with iron brackets, not wooden pegs. Wood rots. The 
 
 Any banner-height debate that needs coconut horse sounds has gone theoretical.
 
-> *Peon annotation: Morgum agree. Put banner where you can hit it with thing if needed. High banner hard to hit with thing. Why put high.*
+> *Peon annotation: Morgum think this right. Put banner where you can hit it with thing if needed. High banner hard to hit with thing. Why put high.*
 
 > *Acolyte annotation: The footnote framing is interesting. The Scourge insignia is never a footnote. But I understand that not all banners carry the same weight of intent.*
 

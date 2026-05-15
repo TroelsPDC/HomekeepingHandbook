@@ -44,7 +44,7 @@ If someone tell you that you must wait two years for the wood to be ready, ask t
 
 > *Acolyte annotation: "The tree would hold up the ceiling right now." This is, structurally speaking, not entirely wrong. The Peon has arrived at a truth by a path that no engineering education could have produced.*
 
-> *Wisp annotation: He remembers the tree. This is rarer than it sounds.*
+> *Wisp annotation: The tree is still present to him. This is rarer than it sounds.*
 
 ---
 

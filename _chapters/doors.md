@@ -24,7 +24,7 @@ I have hung forty-seven doors in my career as of this writing. Of those, perhaps
 
 If hinge arguments end with 'None shall pass,' oil the hinge and pass anyway.
 
-> *Peon annotation: Morgum agree, door is good. But if door is locked from inside, Morgum cannot get in. This has happen. Many, many times. Sometimes Morgum solve this with log.*
+> *Peon annotation: Door is good. Morgum say yes to door. But if door is locked from inside, Morgum cannot get in. This has happen. Many, many times. Sometimes Morgum solve this with log.*
 
 > *Acolyte annotation: The Peasant is correct that the threshold is the critical element. He arrives at this conclusion through carpentry. The destination is the same regardless.*
 
