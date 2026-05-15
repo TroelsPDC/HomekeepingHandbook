@@ -129,7 +129,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Keeps prose slightly rough: simple phrasing, occasional mild ungrammaticality, worker-like turns of speech
 - Resentful but warm; the voice should feel lived-in, not stylized
 - Hidden tone: British absurdist peasant-sketch energy
-- Occasionally drop Monty Python-adjacent references when they fit naturally
+- Include one Monty Python-adjacent reference per Theodore chapter section, phrased uniquely each time
 - Never reuse the same quote/reference line across chapters; each chapter gets its own phrasing
 - Keep sections compact and practical; avoid long monologues
 - **Fast recipe: "friendly exhausted medieval workman"**
