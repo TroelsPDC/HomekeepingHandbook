@@ -270,14 +270,8 @@ body.chapter-layout::before {
 
 body.chapter-layout.chapter-author-peasant { --chapter-bg-image: url('../peasantbackground.png'); }
 body.chapter-layout.chapter-author-peon    { --chapter-bg-image: url('../peonbackground.png'); }
-body.chapter-layout.chapter-author-acolyte {
-  --chapter-bg-image: linear-gradient(rgba(26, 26, 46, 0.65), rgba(26, 26, 46, 0.65)), url('../acolytebackground.png');
-  --chapter-bg-opacity: 0.55;
-}
-body.chapter-layout.chapter-author-wisp {
-  --chapter-bg-image: linear-gradient(rgba(26, 26, 46, 0.55), rgba(26, 26, 46, 0.55)), url('../wispbackground.png');
-  --chapter-bg-opacity: 0.55;
-}
+body.chapter-layout.chapter-author-acolyte { --chapter-bg-image: url('../acolytebackground.png'); }
+body.chapter-layout.chapter-author-wisp    { --chapter-bg-image: url('../wispbackground.png'); }
 
 /* Author page navigation (within a chapter) */
 .author-page-nav {
