@@ -21,6 +21,9 @@ The banner should be of a size appropriate to the structure. I have a formula, a
 
 The pole should be attached with iron brackets, not wooden pegs. Wood rots. The angle should be slightly outward — no more than fifteen degrees from the wall — so that in still air the banner falls free and is visible, and in wind the angle gives room to move without fouling on the stonework. This is an afternoon's work. Done properly, it should not need revisiting for several years. I am always faintly amazed that it is not more often done correctly the first time.
 
+
+Any banner-height debate that needs coconut horse sounds has gone theoretical.
+
 > *Peon annotation: Morgum agree. Put banner where you can hit it with thing if needed. High banner hard to hit with thing. Why put high.*
 
 > *Acolyte annotation: The footnote framing is interesting. The Scourge insignia is never a footnote. But I understand that not all banners carry the same weight of intent.*

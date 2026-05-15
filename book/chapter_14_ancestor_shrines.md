@@ -12,6 +12,9 @@ My father's object is a chisel. He was a stonemason — it is in the blood, appa
 
 Now. I am aware that some of my co-authors have what they would term "more elaborate" approaches to ancestor veneration. I want to say clearly: a shelf is sufficient. A shelf is not a consolation prize for someone who lacks the resources or ambition to do something grander. A shelf is a considered, deliberate choice made by someone who has thought about what memory requires and concluded: not much, actually. The ancestors do not need more than your attention. The bread is symbolic. I know this. I am not confused about this. The shelf is fine.
 
+
+If shrine planning starts expecting the Spanish Inquisition, return to the actual ancestors.
+
 > *Peon annotation: Shelf is good start. Morgum suggest adding rocks. Not many rocks. Three rock, arranged in triangle. Triangle mean "we remember." Maybe also second shelf for more bread? One shelf per ancestor more respectful.*
 
 > *Acolyte annotation: The chisel is doing more work than he realises. Objects remember being used. He knows this, which is why he chose it. He is more correct about ancestor veneration than he will ever be comfortable knowing.*

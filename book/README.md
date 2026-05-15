@@ -129,6 +129,9 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Keeps prose slightly rough: simple phrasing, occasional mild ungrammaticality, worker-like turns of speech
 - Resentful but warm; the voice should feel lived-in, not stylized
 - Hidden tone: British absurdist peasant-sketch energy
+- Include one Monty Python-adjacent reference per Theodore chapter section, phrased uniquely each time
+- Never reuse the same quote/reference line across chapters; each chapter gets its own phrasing
+- Keep sections compact and practical; avoid long monologues
 - **Fast recipe: "friendly exhausted medieval workman"**
 
 ### Peon (Morgum Soothumb)
@@ -136,6 +139,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Use broken but legible English over heavy phonetic spelling
 - Short, direct, rough — sounds like an overworked laborer thinking out loud
 - Rhythm, repetition, and blunt word choice carry the voice
+- Keep character voice consistent, but avoid repeating the same sentence constructions across chapters
 - Humor comes from low-status worker energy, sincere simplicity, and occasional unexpected warmth
 - **Fast recipe: "friendly cave troll with a union job"**
 
@@ -145,6 +149,8 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - Long vowel drags, slightly too-long pauses, downward-trailing endings
 - Treats necromancy as a perfectly ordinary domestic subject
 - Dry humor, never energetic; horrifying implications delivered with complete calm
+- Can be darker than the others, to the point of oddly funny discomfort
+- Keep sections tighter than before; no sprawling sermons
 - **Fast recipe: "devoted necromancer who hasn't seen sunlight in years, writing a style guide"**
 
 ### Wisps
@@ -152,6 +158,7 @@ All four authors annotate each other's sections, indicated by a blockquote with 
 - No direct address; no acknowledgement that anyone is listening
 - Speak in observations, not instructions
 - Often reframe the chapter's problem by dissolving the assumptions behind it
+- Keep Wisp sections very short and concise
 - **Fast recipe: "a forest that has decided to weigh in"**
 
 ---

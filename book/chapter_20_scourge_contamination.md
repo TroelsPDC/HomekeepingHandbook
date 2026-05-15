@@ -14,6 +14,9 @@ Structural assessment of contaminated foundations is not a task for the untraine
 
 The Light district clergy offer blessed treatment compounds, purpose-made solvents, and in serious cases what they call a ritual seal — a containment procedure rather than a removal, which is, in practice, often the realistic outcome of a serious remediation conversation. I will not tell you I have always succeeded at removal. It would not be honest, and dishonesty in this particular subject causes outcomes that are worse than the honesty. The residue stays in stone for longer than you would like to know. I know this. The chapter has said what it needs to say.
 
+
+If quarantine planning becomes a Grail procession, you are already behind.
+
 > *Peon annotation: Morgum confirms smell. Smelled it once. Left. Did not go back for long time. Body knew. Morgum was proud of body that day. Body was right.*
 
 > *Acolyte annotation: The Peasant is correct that residue persists in stone. The stone remembers, which is distinct from the contamination reconstituting, but not entirely unrelated to it. I offer this as a useful practical distinction, not as cause for additional alarm. For most readers.*

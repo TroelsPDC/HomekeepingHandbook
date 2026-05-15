@@ -14,6 +14,9 @@ Damp fungus: scrape it off with a flat tool, not your hands, as spores are real 
 
 Ventilation is not a suggestion I am making for your comfort. Moving air disrupts spore colonisation. This is a fact with no exceptions that I have encountered. A basement vent costs almost nothing. Two vents, one on each side if the space is wide, cost slightly more than nothing. The alternative, in the worst cases, costs you the floor and possibly the wall and quite possibly several months of skilled labour at rates that reflect, fairly, the unpleasantness of the work. Check existing vents for blockage. They are very often blocked with old sacking and the remains of something's nest. Clear them. Make the air move.
 
+
+If basement mold control turns into a Grail quest, bring vinegar instead of trumpets.
+
 > *Peon annotation: If you put in vent and vent lets in air, does vent also let in more spores from outside? Asking because Morgum wants to know. Asking for Morgum.*
 
 > *Acolyte annotation: The Peasant's anxiety regarding dry rot crossing stone is medically precise but emotionally insufficient. The mycelium is not being audacious. It is being thorough. These are different qualities, and I say this as someone who has observed the distinction at length in my own lower chambers.*
