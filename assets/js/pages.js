@@ -50,6 +50,13 @@
   charGif.setAttribute('aria-pressed', 'false');
   document.body.appendChild(charGif);
 
+  var chapterAudio = document.createElement('audio');
+  chapterAudio.className = 'avatar-audio-controls hidden';
+  chapterAudio.setAttribute('controls', '');
+  chapterAudio.setAttribute('aria-label', 'Character chapter audio player');
+  chapterAudio.preload = 'metadata';
+  document.body.appendChild(chapterAudio);
+
   var BASE_GIF_SIZE = 80;
   var MOBILE_GIF_SIZE = BASE_GIF_SIZE * 2;
   var MOBILE_BREAKPOINT = 600;
@@ -58,17 +65,117 @@
   var resizeFrame = null;
   var activeCharacter = null;
   var isTalking = false;
-  var isWispSoundPlaying = false;
-  var wispAudio = new Audio(baseUrl + '/assets/wispcropped.mp3');
-  wispAudio.preload = 'auto';
-  wispAudio.loop = true;
+  var currentAudioCharacter = null;
+  var isResolvingAudio = false;
+  var chapterSlug = window.location.pathname.replace(/\/$/, '').split('/').pop() || '';
+  var audioSourceCache = {};
+  var audioDirByCharacter = {
+    peasant: 'Peasant',
+    peon: 'Peon',
+    acolyte: 'Acolyte',
+    wisp: 'Wisp'
+  };
+  var chapterAudioOverrides = {
+    peasant: {
+      'ancestor-shrines': 'Ancestor-Shrine',
+      'fungus-cultivation': 'Fungus-cultivator',
+      'banner-placement': 'Banner-placemennt',
+      'scourge-contamination': 'Source-contamination'
+    },
+    peon: {
+      'moonwell-etiquette': 'Moonwell-etiquet'
+    },
+    acolyte: {
+      'scourge-contamination': 'Source-contamination'
+    }
+  };
 
-  function stopWispSound() {
-    if (!isWispSoundPlaying) return;
-    wispAudio.pause();
-    wispAudio.currentTime = 0;
-    isWispSoundPlaying = false;
-    if (charGif) charGif.setAttribute('aria-pressed', 'false');
+  function stopChapterAudio(hideControls) {
+    if (!chapterAudio.paused) chapterAudio.pause();
+    chapterAudio.currentTime = 0;
+    if (hideControls) {
+      chapterAudio.classList.add('hidden');
+      currentAudioCharacter = null;
+    }
+    isTalking = false;
+    if (activeCharacter) renderGif(activeCharacter, false);
+  }
+
+  function chapterAudioNameFromSlug(slug) {
+    if (!slug) return '';
+    return slug.charAt(0).toUpperCase() + slug.slice(1);
+  }
+
+  function audioCandidatesForCharacter(character) {
+    var dirName = audioDirByCharacter[character];
+    if (!dirName || !chapterSlug) return [];
+    var prefix = dirName;
+    var overrideMap = chapterAudioOverrides[character] || {};
+    var overriddenName = overrideMap[chapterSlug];
+    var defaultName = chapterAudioNameFromSlug(chapterSlug);
+    var names = [];
+    if (overriddenName) names.push(overriddenName);
+    if (defaultName) names.push(defaultName);
+    return names.map(function (name) {
+      return baseUrl + '/assets/audio/' + dirName + '/' + prefix + name + '.mp3';
+    });
+  }
+
+  function resolvePlayableAudio(candidates, callback, index) {
+    var position = typeof index === 'number' ? index : 0;
+    if (position >= candidates.length) {
+      callback(null);
+      return;
+    }
+
+    var probeAudio = new Audio();
+    probeAudio.preload = 'metadata';
+    probeAudio.addEventListener('canplaythrough', function () {
+      callback(candidates[position]);
+    }, { once: true });
+    probeAudio.addEventListener('error', function () {
+      resolvePlayableAudio(candidates, callback, position + 1);
+    }, { once: true });
+    probeAudio.src = candidates[position];
+  }
+
+  function playCharacterAudio(character) {
+    if (!character || isResolvingAudio) return;
+
+    if (currentAudioCharacter === character && chapterAudio.classList.contains('hidden') === false) {
+      chapterAudio.play().catch(function () {});
+      return;
+    }
+
+    var cachedSource = audioSourceCache[character];
+    if (typeof cachedSource === 'string') {
+      if (chapterAudio.src !== cachedSource) {
+        chapterAudio.src = cachedSource;
+      }
+      chapterAudio.classList.remove('hidden');
+      currentAudioCharacter = character;
+      chapterAudio.play().catch(function () {});
+      return;
+    }
+
+    if (cachedSource === null) return;
+
+    var candidates = audioCandidatesForCharacter(character);
+    if (!candidates.length) {
+      audioSourceCache[character] = null;
+      return;
+    }
+
+    isResolvingAudio = true;
+    resolvePlayableAudio(candidates, function (resolvedSrc) {
+      isResolvingAudio = false;
+      audioSourceCache[character] = resolvedSrc;
+      if (!resolvedSrc) return;
+      chapterAudio.src = resolvedSrc;
+      chapterAudio.classList.remove('hidden');
+      currentAudioCharacter = character;
+      chapterAudio.play().catch(function () {});
+    });
   }
 
   function sizeCharacterGif() {
@@ -243,6 +350,7 @@
   }
 
   function updateGif(index) {
+    stopChapterAudio(true);
     var page = pages[index];
     var character = authorKeyForPage(page);
     if (character) {
@@ -262,26 +370,13 @@
 
   function toggleGif() {
     if (!activeCharacter) return;
-    if (activeCharacter === 'wisp') {
-      if (isWispSoundPlaying) {
-        stopWispSound();
-      } else {
-        wispAudio.currentTime = 0;
-        wispAudio.play().then(function () {
-          isWispSoundPlaying = true;
-          charGif.setAttribute('aria-pressed', 'true');
-        }).catch(function (error) {
-          isWispSoundPlaying = false;
-          charGif.setAttribute('aria-pressed', 'false');
-          console.warn('Unable to play Wisp sound:', error);
-        });
-      }
+
+    if (!chapterAudio.paused && currentAudioCharacter === activeCharacter) {
+      stopChapterAudio(true);
       return;
     }
 
-    stopWispSound();
-    isTalking = !isTalking;
-    renderGif(activeCharacter, isTalking);
+    playCharacterAudio(activeCharacter);
   }
 
   function updateBodyBackground(index) {
@@ -309,9 +404,7 @@
 
   function goTo(index) {
     if (index < 0 || index >= pages.length) return;
-    if (activeCharacter === 'wisp' && authorKeyForPage(pages[index]) !== 'wisp') {
-      stopWispSound();
-    }
+    stopChapterAudio(true);
     pages[currentIndex].hidden = true;
     pages[currentIndex].setAttribute('aria-hidden', 'true');
     currentIndex = index;
@@ -339,6 +432,24 @@
     if (e.key !== 'Enter' && e.key !== ' ') return;
     e.preventDefault();
     toggleGif();
+  });
+
+  chapterAudio.addEventListener('play', function () {
+    if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
+    isTalking = true;
+    renderGif(activeCharacter, true);
+  });
+
+  chapterAudio.addEventListener('pause', function () {
+    if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
+    isTalking = false;
+    renderGif(activeCharacter, false);
+  });
+
+  chapterAudio.addEventListener('ended', function () {
+    if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
+    isTalking = false;
+    renderGif(activeCharacter, false);
   });
 
   render();
