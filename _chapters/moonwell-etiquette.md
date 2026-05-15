@@ -64,9 +64,9 @@ One further note, for any acolytes reading this who may be considering the matte
 
 > *Peasant annotation: This is the most alarming thing I have ever agreed with. I find myself nodding along and I don't know what to do about it. The man is right about the enchantment. It is very well done. I hate saying that.*
 
-> *Peon annotation: Vorun says moonwell is good craftsmanship. Morgum also thinks moonwell is good craftsmanship. Morgum and Vorun agree on this. And on the mushroom maybe. Maybe Morgum and Vorun should start a club.*
+> *Peon annotation: Moonwell is good craftsmanship. Morgum did not expect to think same thing as pale man. But here Morgum is. Also probably the mushroom.*
 
-> *Wisp annotation: The water remembers being made. It has not forgotten. This is why it still works.*
+> *Wisp annotation: The water has not changed its mind about what it is. This is why it still works.*
 
 ---
 

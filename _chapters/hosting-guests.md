@@ -82,5 +82,5 @@ We have never had a guest. We have also never been alone. We offer this not as i
 
 > *Peon annotation: Morgum has had many uninvited visitors. Wisp calls this grove. Morgum calls it problem unless visitor brings meat.*
 
-> *Acolyte annotation: Their refusal to distinguish welcome from mere permeability is precisely why no one asks Wisps to host formal occasions.*
+> *Acolyte annotation: Welcome without distinction becomes permeability. Permeability is not hospitality, and no one asks Wisps to host formal occasions. The policy has sound structural reasoning behind it.*
 ---

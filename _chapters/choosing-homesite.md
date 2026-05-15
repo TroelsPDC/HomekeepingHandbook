@@ -24,7 +24,7 @@ Regarding neighbours: I recommend a distance of no less than four furlongs. Clos
 
 Before anyone maps the lot by swallow flight speed, check where rain actually pools.
 
-> *Peon annotation: Morgum agree with dirt squeeze test. Also good for making mud. Mud very useful. Peasant not mention mud.*
+> *Peon annotation: Dirt squeeze test is good. Also good for making mud. Mud very useful. Peasant not mention mud.*
 
 > *Acolyte annotation: The grey-blue clay he dismisses has its uses. It retains impressions remarkably well — footprints, handprints, the outlines of things that lay upon it. A site with clay subsoil is, effectively, a living archive. I have found this professionally invaluable.*
 

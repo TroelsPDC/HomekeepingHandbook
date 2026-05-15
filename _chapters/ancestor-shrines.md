@@ -56,7 +56,7 @@ This is infrastructure. Morgum maintain shrine same as maintain floor: regularly
 
 ## Vorun the Pallid, Acolyte of the Cult
 
-I should disclose, in the interest of scholarly transparency, that I do not maintain an ancestor shrine. This is not a matter of spiritual neglect. Three of my ancestors are currently resident in the eastern wing of our facility, and two more are stationed near the reliquary, where their particular talents — one in structural assessment, one in the retrieval of dropped items from inaccessible spaces — are genuinely useful on a daily basis. I see them more often than I see most living members of my immediate acquaintance. The concept of the shrine, as a structure for accessing or honoring those who are no longer present, does not apply to my situation in the way that it might apply to others.
+For the sake of scholarly completeness, I will note that I do not maintain an ancestor shrine. This is not a matter of spiritual neglect. Three of my ancestors are currently resident in the eastern wing of our facility, and two more are stationed near the reliquary, where their particular talents — one in structural assessment, one in the retrieval of dropped items from inaccessible spaces — are genuinely useful on a daily basis. I see them more often than I see most living members of my immediate acquaintance. The concept of the shrine, as a structure for accessing or honoring those who are no longer present, does not apply to my situation in the way that it might apply to others.
 
 I find ancestor shrines charming. I mean this sincerely, without condescension, though I recognise that assurance will not fully land given what I have just disclosed. There is something genuinely moving about the impulse: you have lost the physical presence of someone, and you respond by creating a small physical space in which their absence can be organized. The bread is not for them. Of course it isn't. But it is not for nothing, either. The act of placing the bread, of lighting the candle, of standing in front of the shelf for a moment longer than efficiency requires — these are rituals of acknowledgment, and rituals of acknowledgment are, in my professional assessment, among the most structurally sound things the living do.
 
@@ -66,7 +66,7 @@ My only practical note — and I offer this gently, as someone who understands t
 
 > *Peon annotation: Oh! Morgum ask: can ancestor near reliquary help Morgum carry rocks? Morgum have too many rocks and not enough hands. This seem like efficient use of skill.*
 
-> *Wisp annotation: He has solved the problem of absence by removing the absence. We observe that there are other solutions. We do not rank them.*
+> *Wisp annotation: The absence was addressed by closing it. We note there are other approaches. We do not rank them.*
 
 ---
 
@@ -92,5 +92,5 @@ We are made of light and the memory of trees, and even we sometimes rest against
 
 > *Peon annotation: Morgum understands rocks seeing each other. Good arrangement. Rest of this is like being hit in head with soft light.*
 
-> *Acolyte annotation: Their refusal to distinguish memory from presence is philosophically untidy and, regrettably, not entirely wrong. I resent this.*
+> *Acolyte annotation: They have declined to draw a line between the present ancestor and the remembered one. The position is philosophically inconvenient and, I note with some displeasure, not entirely wrong.*
 ---

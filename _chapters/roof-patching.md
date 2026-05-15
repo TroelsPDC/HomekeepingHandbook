@@ -64,7 +64,7 @@ If rain through the ceiling begins to sound like whispering names, repair at onc
 
 > *Peon annotation: Vorun say stone. Morgum understand. Stone heavy. Stone not grow anything. Morgum still think mud work but respect stone. Stone old idea.*
 
-> *Wisp annotation: The stone remembers being the mountain. The roof is not the stone's idea.*
+> *Wisp annotation: The stone was a mountain before it was a wall before it was a roof. The roof was not its suggestion.*
 
 ---
 

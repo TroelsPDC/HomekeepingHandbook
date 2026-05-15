@@ -86,5 +86,5 @@ You built your shelter from wood that was living, on stone that is moving, over 
 
 > *Peon annotation: Morgum does not like wall "making progress" toward floor. That is bad kind of progress.*
 
-> *Acolyte annotation: Their composure about decay is respectable; their optimism about fel numbness is not.*
+> *Acolyte annotation: Composure about decay is a position one can respect, professionally. Optimism about fel numbness is a position I would not recommend to anyone whose paperwork is currently in order.*
 ---

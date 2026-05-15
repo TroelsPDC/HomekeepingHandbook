@@ -74,9 +74,9 @@ The undead require acknowledgement. This is one of the few things we have in com
 ## Wisps
 ### *(translated from ambient moonlight)*
 
-The stone remembers every step that has crossed it.
+Every stone holds what has crossed it.
 
-The threshold remembers every hand that has touched it.
+Every threshold holds what has touched it.
 
 What you call a haunting is a home that has accumulated enough memory to speak. You are surprised by this. You were walking through memories every day, and only now — when one remembers loudly enough to startle you — do you notice where you have been living.
 

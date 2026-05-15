@@ -28,7 +28,7 @@ If moral philosophy reaches fish-slapping energy, we've left ethics and entered 
 
 > *Acolyte annotation: The smell, as Master Furlbrow notes, is the primary text. Everything else is commentary.*
 
-> *Wisp annotation: The brine remembers the sea. The murloc does too. This is either an argument for or against. We do not say which.*
+> *Wisp annotation: The sea is still in the murloc, and the brine is the part still acknowledging it. Whether this is an argument for eating it or against, we do not say.*
 
 ---
 
@@ -52,7 +52,7 @@ Morgum also note: murlocs live in groups. If take too many from same group, grou
 
 > *Acolyte annotation: "Until smell become different smell." This is the whole of transformation philosophy in six words. I have written eleven hundred pages that arrive at the same place.*
 
-> *Wisp annotation: He has solved the problem by not having it. We admire this without being able to explain why.*
+> *Wisp annotation: The problem dissolved before he looked at it directly. We admire the result without being able to explain it.*
 
 ---
 
