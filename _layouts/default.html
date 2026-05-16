@@ -23,5 +23,16 @@
     <p class="colophon">A Collaborative Household Reference</p>
   </footer>
   <script src="{{ '/assets/js/audio.js' | relative_url }}"></script>
+  {% if page.url == '/toc/' %}
+  <div class="visitor-counter" aria-label="Visitor count">
+    <span class="visitor-counter-label">Visitors</span>
+    <img
+      src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftroelspdc.github.io%2FHomekeepingHandbook%2Ftoc%2F&count_bg=%235c3d1a&title_bg=%233e2f1c&icon=scroll&icon_color=%23fdf6e3&title=visits&edge_flat=false"
+      alt="Visitor count badge"
+      class="visitor-counter-badge"
+      loading="lazy"
+    />
+  </div>
+  {% endif %}
 </body>
 </html>
