@@ -240,6 +240,39 @@ body.toc-page::before {
   height: auto;
 }
 
+.toc-autoplay-overlay {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  z-index: 130;
+}
+
+.toc-autoplay-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 0.85rem;
+  border: 2px solid #6b4a1d;
+  border-radius: 999px;
+  background: rgba(253, 246, 227, 0.94);
+  box-shadow: 0 5px 14px rgba(40, 20, 6, 0.26);
+  color: #5c3d1a;
+  text-decoration: none;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+}
+
+.toc-autoplay-link:hover {
+  background: #fff8eb;
+}
+
+.toc-autoplay-link img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
 /* Per-author page backgrounds */
 body.chapter-layout {
   position: relative;
@@ -265,6 +298,16 @@ body.chapter-layout::before {
   body.toc-page::before,
   body.chapter-layout::before {
     opacity: 0.12;
+  }
+
+  .toc-autoplay-link {
+    font-size: 0.84rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .toc-autoplay-link img {
+    width: 24px;
+    height: 24px;
   }
 }
 

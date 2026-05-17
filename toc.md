@@ -114,3 +114,10 @@ body_class: toc-page
     <img class="toc-approval-stamp" src="{{ '/assets/approval.png' | relative_url }}" alt="Approval stamp">
   </div>
 </div>
+
+<div class="toc-autoplay-overlay">
+  <a class="toc-autoplay-link" href="{{ '/chapters/choosing-homesite/?autoplay=1' | relative_url }}" aria-label="Autoplay book from the first chapter">
+    <img src="{{ '/assets/peasantCleaning.png' | relative_url }}" alt="" aria-hidden="true">
+    <span>Autoplay book</span>
+  </a>
+</div>
