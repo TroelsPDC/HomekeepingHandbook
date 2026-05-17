@@ -72,6 +72,7 @@
   var AUTOPLAY_STORAGE_KEY = 'hh-autoplay-book';
   // Let the page switch complete before chaining autoplay to the next item.
   var AUTOPLAY_ADVANCE_DELAY_MS = 250;
+  var AUTOPLAY_NEAR_END_THRESHOLD_SECONDS = 0.15;
   var autoplayEnabled = false;
   var autoplayAdvanceQueued = false;
   var audioDirByCharacter = {
@@ -591,7 +592,7 @@
     if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
     var duration = chapterAudio.duration;
     if (!duration || !isFinite(duration)) return;
-    if (duration - chapterAudio.currentTime > 0.15) return;
+    if (duration - chapterAudio.currentTime > AUTOPLAY_NEAR_END_THRESHOLD_SECONDS) return;
     queueAutoplayAdvance();
   });
 
