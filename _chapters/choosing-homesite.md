@@ -1,11 +1,11 @@
 ---
 layout: chapter
-title: "Part I, Chapter 5: Choosing a Homesite"
+title: "Part I, Chapter 1: Choosing a Homesite"
 nav_title: "Choosing a Homesite"
 order: 1
 ---
 
-# Part I, Chapter 5: Choosing a Homesite
+# Part I, Chapter 1: Choosing a Homesite
 
 ---
 
