@@ -70,6 +70,7 @@
   var chapterSlug = window.location.pathname.replace(/\/$/, '').split('/').pop() || '';
   var audioSourceCache = {};
   var AUTOPLAY_STORAGE_KEY = 'hh-autoplay-book';
+  // Let the page switch complete before chaining autoplay to the next item.
   var AUTOPLAY_ADVANCE_DELAY_MS = 250;
   var autoplayEnabled = false;
   var audioDirByCharacter = {
@@ -227,8 +228,21 @@
     var opts = options || {};
     if (!character || isResolvingAudio) return;
 
+    function requestPlayback() {
+      var playRequest = chapterAudio.play();
+      if (playRequest && typeof playRequest.catch === 'function') {
+        playRequest.catch(function () {
+          if (!opts.autoplayRequested) return;
+          autoplayEnabled = false;
+          try {
+            window.sessionStorage.removeItem(AUTOPLAY_STORAGE_KEY);
+          } catch (e) {}
+        });
+      }
+    }
+
     if (currentAudioCharacter === character && chapterAudio.classList.contains('hidden') === false) {
-      chapterAudio.play().catch(function () {});
+      requestPlayback();
       return;
     }
 
@@ -239,19 +253,19 @@
       }
       chapterAudio.classList.remove('hidden');
       currentAudioCharacter = character;
-      chapterAudio.play().catch(function () {});
+      requestPlayback();
       return;
     }
 
     if (cachedSource === null) {
-      if (opts.autoAdvanceOnMissing) queueAutoplayAdvance();
+      if (opts.autoplayAdvanceOnMissing) queueAutoplayAdvance();
       return;
     }
 
     var candidates = audioCandidatesForCharacter(character);
     if (!candidates.length) {
       audioSourceCache[character] = null;
-      if (opts.autoAdvanceOnMissing) queueAutoplayAdvance();
+      if (opts.autoplayAdvanceOnMissing) queueAutoplayAdvance();
       return;
     }
 
@@ -260,13 +274,13 @@
       isResolvingAudio = false;
       audioSourceCache[character] = resolvedSrc;
       if (!resolvedSrc) {
-        if (opts.autoAdvanceOnMissing) queueAutoplayAdvance();
+        if (opts.autoplayAdvanceOnMissing) queueAutoplayAdvance();
         return;
       }
       chapterAudio.src = resolvedSrc;
       chapterAudio.classList.remove('hidden');
       currentAudioCharacter = character;
-      chapterAudio.play().catch(function () {});
+      requestPlayback();
     });
   }
 
@@ -473,7 +487,7 @@
   function advanceAutoplay() {
     if (!autoplayEnabled) return;
     if (currentIndex < pages.length - 1) {
-      goTo(currentIndex + 1, { autoPlayNarration: true });
+      goTo(currentIndex + 1, { autoplayNarration: true });
       return;
     }
     goToNextChapterFromAutoplay();
@@ -518,8 +532,11 @@
       block: 'start'
     });
     render();
-    if (opts.autoPlayNarration && activeCharacter) {
-      playCharacterAudio(activeCharacter, { autoAdvanceOnMissing: true });
+    if (opts.autoplayNarration && activeCharacter) {
+      playCharacterAudio(activeCharacter, {
+        autoplayAdvanceOnMissing: true,
+        autoplayRequested: true
+      });
     }
   }
 
@@ -562,7 +579,10 @@
   updateGif(0);
   sizeCharacterGif();
   if (autoplayEnabled && activeCharacter) {
-    playCharacterAudio(activeCharacter, { autoAdvanceOnMissing: true });
+    playCharacterAudio(activeCharacter, {
+      autoplayAdvanceOnMissing: true,
+      autoplayRequested: true
+    });
   }
   window.addEventListener('resize', function () {
     if (resizeFrame !== null) return;
