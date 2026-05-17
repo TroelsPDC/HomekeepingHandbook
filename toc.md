@@ -31,10 +31,10 @@ body_class: toc-page
 
 ### Part I — Foundations
 
-1. [Choosing a Homesite]({{ '/chapters/choosing-homesite/' | relative_url }})
-2. [Moisture, Rot, and Fel Corruption]({{ '/chapters/moisture-rot/' | relative_url }})
-3. [Proper Load-Bearing Timber]({{ '/chapters/load-bearing-timber/' | relative_url }})
-4. [Whether Doors Are Necessary]({{ '/chapters/doors/' | relative_url }})
+1. [Part I, Chapter 5: Choosing a Homesite]({{ '/chapters/choosing-homesite/' | relative_url }})
+2. [Part I, Chapter 6: Moisture, Rot, and Fel Corruption]({{ '/chapters/moisture-rot/' | relative_url }})
+3. [Part I, Chapter 7: Proper Load-Bearing Timber]({{ '/chapters/load-bearing-timber/' | relative_url }})
+4. [Part I, Chapter 8: Whether Doors Are Necessary]({{ '/chapters/doors/' | relative_url }})
 
 </div>
 
@@ -42,11 +42,11 @@ body_class: toc-page
 
 ### Part II — Hearth & Sustenance
 
-1. [Bread]({{ '/chapters/bread/' | relative_url }})
-2. [Roasted Boar]({{ '/chapters/roasted-boar/' | relative_url }})
-3. [Fungus Cultivation]({{ '/chapters/fungus-cultivation/' | relative_url }})
-4. [Moonwell Etiquette]({{ '/chapters/moonwell-etiquette/' | relative_url }})
-5. [The Ethics of Eating Murloc]({{ '/chapters/ethics-murloc/' | relative_url }})
+1. [Part II, Chapter 9: Bread]({{ '/chapters/bread/' | relative_url }})
+2. [Part II, Chapter 10: Roasted Boar]({{ '/chapters/roasted-boar/' | relative_url }})
+3. [Part II, Chapter 11: Fungus Cultivation]({{ '/chapters/fungus-cultivation/' | relative_url }})
+4. [Part II, Chapter 12: Moonwell Etiquette]({{ '/chapters/moonwell-etiquette/' | relative_url }})
+5. [Part II, Chapter 13: The Ethics of Eating Murloc]({{ '/chapters/ethics-murloc/' | relative_url }})
 
 </div>
 
@@ -54,11 +54,11 @@ body_class: toc-page
 
 ### Part III — Domestic Harmony
 
-1. [Hosting Guests]({{ '/chapters/hosting-guests/' | relative_url }})
-2. [Ancestor Shrines]({{ '/chapters/ancestor-shrines/' | relative_url }})
-3. [Noise Management]({{ '/chapters/noise-management/' | relative_url }})
-4. [Proper Banner Placement]({{ '/chapters/banner-placement/' | relative_url }})
-5. [What To Do If Your Home Becomes Haunted]({{ '/chapters/haunted/' | relative_url }})
+1. [Part III, Chapter 1: Hosting Guests]({{ '/chapters/hosting-guests/' | relative_url }})
+2. [Part III, Chapter 2: Ancestor Shrines]({{ '/chapters/ancestor-shrines/' | relative_url }})
+3. [Part III, Chapter 3: Noise Management]({{ '/chapters/noise-management/' | relative_url }})
+4. [Part III, Chapter 4: Proper Banner Placement]({{ '/chapters/banner-placement/' | relative_url }})
+5. [Part III, Chapter 5: What To Do If Your Home Becomes Haunted]({{ '/chapters/haunted/' | relative_url }})
 
 </div>
 
@@ -66,12 +66,12 @@ body_class: toc-page
 
 ### Part IV — Repairs
 
-1. [Pest Control]({{ '/chapters/pest-control/' | relative_url }})
-2. [Roof Patching]({{ '/chapters/roof-patching/' | relative_url }})
-3. [When to Rebuild Completely]({{ '/chapters/when-to-rebuild/' | relative_url }})
-4. [Fungus in the Basement]({{ '/chapters/fungus-basement/' | relative_url }})
-5. [Scourge Contamination]({{ '/chapters/scourge-contamination/' | relative_url }})
-6. [Fire Safety]({{ '/chapters/fire-safety/' | relative_url }})
+1. [Part IV, Chapter 1: Pest Control]({{ '/chapters/pest-control/' | relative_url }})
+2. [Part IV, Chapter 2: Roof Patching]({{ '/chapters/roof-patching/' | relative_url }})
+3. [Part IV, Chapter 3: When to Rebuild Completely]({{ '/chapters/when-to-rebuild/' | relative_url }})
+4. [Part IV, Chapter 4: Fungus in the Basement]({{ '/chapters/fungus-basement/' | relative_url }})
+5. [Part IV, Chapter 5: Scourge Contamination]({{ '/chapters/scourge-contamination/' | relative_url }})
+6. [Part IV, Chapter 6: Fire Safety]({{ '/chapters/fire-safety/' | relative_url }})
 
 </div>
 
@@ -79,7 +79,7 @@ body_class: toc-page
 
 ### Part V — Beauty
 
-- [Beauty]({{ '/chapters/beauty/' | relative_url }}) *(Symmetry & Copper · Big Axe on Wall · Geometric Bone Arrangements · Morning Dew on Roots)*
+- [Part V: Beauty]({{ '/chapters/beauty/' | relative_url }}) *(Symmetry & Copper · Big Axe on Wall · Geometric Bone Arrangements · Morning Dew on Roots)*
 
 </div>
 
@@ -87,7 +87,7 @@ body_class: toc-page
 
 ### Bonus
 
-- [The Tefal Clean It Textile Cleaner, 750 Watt]({{ '/chapters/tefal-clean-it/' | relative_url }}) *(Clean Thresholds for Upholstery · Serious Slurp · Ritual of Reversal · A Faster Season for Indoor Things)*
+- [Bonus Chapter: The Tefal Clean It Textile Cleaner, 750 Watt]({{ '/chapters/tefal-clean-it/' | relative_url }}) *(Clean Thresholds for Upholstery · Serious Slurp · Ritual of Reversal · A Faster Season for Indoor Things)*
 
 </div>
 
