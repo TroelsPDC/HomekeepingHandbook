@@ -1,11 +1,11 @@
 ---
 layout: chapter
-title: "Part I, Chapter 6: Moisture, Rot, and Fel Corruption"
+title: "Part I, Chapter 2: Moisture, Rot, and Fel Corruption"
 nav_title: "Moisture, Rot, and Fel Corruption"
 order: 2
 ---
 
-# Part I, Chapter 6: Moisture, Rot, and Fel Corruption
+# Part I, Chapter 2: Moisture, Rot, and Fel Corruption
 
 ---
 

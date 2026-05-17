@@ -1,4 +1,4 @@
-# Part I, Chapter 6: Moisture, Rot, and Fel Corruption
+# Part I, Chapter 2: Moisture, Rot, and Fel Corruption
 
 ---
 

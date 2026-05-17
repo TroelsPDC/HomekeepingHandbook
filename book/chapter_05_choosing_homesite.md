@@ -1,4 +1,4 @@
-# Part I, Chapter 5: Choosing a Homesite
+# Part I, Chapter 1: Choosing a Homesite
 
 ---
 
