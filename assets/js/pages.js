@@ -75,6 +75,7 @@
   var AUTOPLAY_NEAR_END_THRESHOLD_MS = 150;
   var AUTOPLAY_NEAR_END_PROBE_THRESHOLD_SECONDS = 5;
   var AUTOPLAY_NEAR_END_CHECK_INTERVAL_MS = 250;
+  var MILLISECONDS_PER_SECOND = 1000;
   var autoplayEnabled = false;
   var autoplayAdvanceQueued = false;
   var autoplayNearEndLastCheckMs = 0;
@@ -601,7 +602,7 @@
     if (!duration || !isFinite(duration)) return;
     // First gate skips most updates; second gate triggers only at the final edge.
     if (chapterAudio.currentTime < duration - AUTOPLAY_NEAR_END_PROBE_THRESHOLD_SECONDS) return;
-    if ((duration - chapterAudio.currentTime) * 1000 > AUTOPLAY_NEAR_END_THRESHOLD_MS) return;
+    if ((duration - chapterAudio.currentTime) * MILLISECONDS_PER_SECOND > AUTOPLAY_NEAR_END_THRESHOLD_MS) return;
     queueAutoplayAdvance();
   });
 
