@@ -72,7 +72,8 @@
   var AUTOPLAY_STORAGE_KEY = 'hh-autoplay-book';
   // Let the page switch complete before chaining autoplay to the next item.
   var AUTOPLAY_ADVANCE_DELAY_MS = 250;
-  var AUTOPLAY_NEAR_END_THRESHOLD_SECONDS = 0.15;
+  var AUTOPLAY_NEAR_END_THRESHOLD_MS = 150;
+  var AUTOPLAY_NEAR_END_PROBE_WINDOW_SECONDS = 5;
   var AUTOPLAY_NEAR_END_CHECK_INTERVAL_MS = 250;
   var autoplayEnabled = false;
   var autoplayAdvanceQueued = false;
@@ -598,7 +599,8 @@
     autoplayNearEndLastCheckMs = now;
     var duration = chapterAudio.duration;
     if (!duration || !isFinite(duration)) return;
-    if (duration - chapterAudio.currentTime > AUTOPLAY_NEAR_END_THRESHOLD_SECONDS) return;
+    if (chapterAudio.currentTime < duration - AUTOPLAY_NEAR_END_PROBE_WINDOW_SECONDS) return;
+    if ((duration - chapterAudio.currentTime) * 1000 > AUTOPLAY_NEAR_END_THRESHOLD_MS) return;
     queueAutoplayAdvance();
   });
 
