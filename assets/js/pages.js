@@ -70,6 +70,7 @@
   var chapterSlug = window.location.pathname.replace(/\/$/, '').split('/').pop() || '';
   var audioSourceCache = {};
   var AUTOPLAY_STORAGE_KEY = 'hh-autoplay-book';
+  var AUTOPLAY_ADVANCE_DELAY_MS = 250;
   var autoplayEnabled = false;
   var audioDirByCharacter = {
     peasant: 'Peasant',
@@ -140,7 +141,7 @@
     if (!autoplayEnabled) return;
     window.setTimeout(function () {
       advanceAutoplay();
-    }, 250);
+    }, AUTOPLAY_ADVANCE_DELAY_MS);
   }
 
   function stopChapterAudio(hideControls) {
