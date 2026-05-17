@@ -401,10 +401,11 @@
   function render() {
     var total = pages.length;
     nav.innerHTML = '';
+    var hasNextChapter = !!document.querySelector('.chapter-nav .nav-next');
 
     var prevBtn = document.createElement('button');
     prevBtn.className = 'page-btn page-btn-prev';
-    prevBtn.innerHTML = '&#8592; Prev';
+    prevBtn.innerHTML = '&#8592; Prev Author';
     prevBtn.disabled = currentIndex === 0;
     prevBtn.setAttribute('aria-label', 'Previous author');
     prevBtn.addEventListener('click', function () { goTo(currentIndex - 1); });
@@ -425,10 +426,17 @@
 
     var nextBtn = document.createElement('button');
     nextBtn.className = 'page-btn page-btn-next';
-    nextBtn.innerHTML = 'Next &#8594;';
-    nextBtn.disabled = currentIndex === total - 1;
-    nextBtn.setAttribute('aria-label', 'Next author');
-    nextBtn.addEventListener('click', function () { goTo(currentIndex + 1); });
+    var atLastAuthor = currentIndex === total - 1;
+    nextBtn.innerHTML = atLastAuthor && hasNextChapter ? 'Next Chapter &#8594;' : 'Next Author &#8594;';
+    nextBtn.disabled = atLastAuthor && !hasNextChapter;
+    nextBtn.setAttribute('aria-label', atLastAuthor && hasNextChapter ? 'Next chapter' : 'Next author');
+    nextBtn.addEventListener('click', function () {
+      if (!atLastAuthor) {
+        goTo(currentIndex + 1);
+        return;
+      }
+      goToNextChapterFromAutoplay();
+    });
 
     nav.appendChild(prevBtn);
     nav.appendChild(dots);
