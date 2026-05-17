@@ -435,7 +435,7 @@
         goTo(currentIndex + 1);
         return;
       }
-      goToNextChapter();
+    goToNextChapter();
     });
 
     nav.appendChild(prevBtn);
