@@ -126,7 +126,7 @@
     return nextUrl.toString();
   }
 
-  function goToNextChapterFromAutoplay() {
+  function goToNextChapter() {
     var nextChapterLink = document.querySelector('.chapter-nav .nav-next');
     if (!nextChapterLink || !nextChapterLink.href) {
       autoplayEnabled = false;
@@ -435,7 +435,7 @@
         goTo(currentIndex + 1);
         return;
       }
-      goToNextChapterFromAutoplay();
+      goToNextChapter();
     });
 
     nav.appendChild(prevBtn);
@@ -498,7 +498,7 @@
       goTo(currentIndex + 1, { autoplayNarration: true });
       return;
     }
-    goToNextChapterFromAutoplay();
+      goToNextChapter();
   }
 
   function updateBodyBackground(index) {
