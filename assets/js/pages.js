@@ -73,6 +73,7 @@
   // Let the page switch complete before chaining autoplay to the next item.
   var AUTOPLAY_ADVANCE_DELAY_MS = 250;
   var autoplayEnabled = false;
+  var autoplayAdvanceQueued = false;
   var audioDirByCharacter = {
     peasant: 'Peasant',
     peon: 'Peon',
@@ -139,8 +140,10 @@
   }
 
   function queueAutoplayAdvance() {
-    if (!autoplayEnabled) return;
+    if (!autoplayEnabled || autoplayAdvanceQueued) return;
+    autoplayAdvanceQueued = true;
     window.setTimeout(function () {
+      autoplayAdvanceQueued = false;
       advanceAutoplay();
     }, AUTOPLAY_ADVANCE_DELAY_MS);
   }
@@ -531,6 +534,7 @@
     pages[currentIndex].hidden = true;
     pages[currentIndex].setAttribute('aria-hidden', 'true');
     currentIndex = index;
+    autoplayAdvanceQueued = false;
     pages[currentIndex].hidden = false;
     pages[currentIndex].setAttribute('aria-hidden', 'false');
     updateBodyBackground(currentIndex);
@@ -579,7 +583,16 @@
     if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
     isTalking = false;
     renderGif(activeCharacter, false);
-    if (autoplayEnabled) advanceAutoplay();
+    queueAutoplayAdvance();
+  });
+
+  chapterAudio.addEventListener('timeupdate', function () {
+    if (!autoplayEnabled || autoplayAdvanceQueued) return;
+    if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
+    var duration = chapterAudio.duration;
+    if (!duration || !isFinite(duration)) return;
+    if (duration - chapterAudio.currentTime > 0.15) return;
+    queueAutoplayAdvance();
   });
 
   render();
