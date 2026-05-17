@@ -27,6 +27,10 @@ body_class: toc-page
 
 ---
 
+<p style="text-align: center;">
+  Chapter numbering follows the original order in Martha Stewart's <em>Homekeeping Handbook</em>.
+</p>
+
 <div class="toc-section" markdown="1">
 
 ### Part I — Foundations
