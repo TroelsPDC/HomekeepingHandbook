@@ -35,10 +35,10 @@ body_class: toc-page
 
 ### Part I — Foundations
 
-1. [Chapter 1: Choosing a Homesite]({{ '/chapters/choosing-homesite/' | relative_url }})
-2. [Chapter 2: Moisture, Rot, and Fel Corruption]({{ '/chapters/moisture-rot/' | relative_url }})
-3. [Chapter 3: Proper Load-Bearing Timber]({{ '/chapters/load-bearing-timber/' | relative_url }})
-4. [Chapter 4: Whether Doors Are Necessary]({{ '/chapters/doors/' | relative_url }})
+1. [Choosing a Homesite]({{ '/chapters/choosing-homesite/' | relative_url }})
+2. [Moisture, Rot, and Fel Corruption]({{ '/chapters/moisture-rot/' | relative_url }})
+3. [Proper Load-Bearing Timber]({{ '/chapters/load-bearing-timber/' | relative_url }})
+4. [Whether Doors Are Necessary]({{ '/chapters/doors/' | relative_url }})
 
 </div>
 
@@ -46,11 +46,11 @@ body_class: toc-page
 
 ### Part II — Hearth & Sustenance
 
-1. [Chapter 1: Bread]({{ '/chapters/bread/' | relative_url }})
-2. [Chapter 2: Roasted Boar]({{ '/chapters/roasted-boar/' | relative_url }})
-3. [Chapter 3: Fungus Cultivation]({{ '/chapters/fungus-cultivation/' | relative_url }})
-4. [Chapter 4: Moonwell Etiquette]({{ '/chapters/moonwell-etiquette/' | relative_url }})
-5. [Chapter 5: The Ethics of Eating Murloc]({{ '/chapters/ethics-murloc/' | relative_url }})
+1. [Bread]({{ '/chapters/bread/' | relative_url }})
+2. [Roasted Boar]({{ '/chapters/roasted-boar/' | relative_url }})
+3. [Fungus Cultivation]({{ '/chapters/fungus-cultivation/' | relative_url }})
+4. [Moonwell Etiquette]({{ '/chapters/moonwell-etiquette/' | relative_url }})
+5. [The Ethics of Eating Murloc]({{ '/chapters/ethics-murloc/' | relative_url }})
 
 </div>
 
@@ -58,11 +58,11 @@ body_class: toc-page
 
 ### Part III — Domestic Harmony
 
-1. [Chapter 1: Hosting Guests]({{ '/chapters/hosting-guests/' | relative_url }})
-2. [Chapter 2: Ancestor Shrines]({{ '/chapters/ancestor-shrines/' | relative_url }})
-3. [Chapter 3: Noise Management]({{ '/chapters/noise-management/' | relative_url }})
-4. [Chapter 4: Proper Banner Placement]({{ '/chapters/banner-placement/' | relative_url }})
-5. [Chapter 5: What To Do If Your Home Becomes Haunted]({{ '/chapters/haunted/' | relative_url }})
+1. [Hosting Guests]({{ '/chapters/hosting-guests/' | relative_url }})
+2. [Ancestor Shrines]({{ '/chapters/ancestor-shrines/' | relative_url }})
+3. [Noise Management]({{ '/chapters/noise-management/' | relative_url }})
+4. [Proper Banner Placement]({{ '/chapters/banner-placement/' | relative_url }})
+5. [What To Do If Your Home Becomes Haunted]({{ '/chapters/haunted/' | relative_url }})
 
 </div>
 
@@ -70,12 +70,12 @@ body_class: toc-page
 
 ### Part IV — Repairs
 
-1. [Chapter 1: Pest Control]({{ '/chapters/pest-control/' | relative_url }})
-2. [Chapter 2: Roof Patching]({{ '/chapters/roof-patching/' | relative_url }})
-3. [Chapter 3: When to Rebuild Completely]({{ '/chapters/when-to-rebuild/' | relative_url }})
-4. [Chapter 4: Fungus in the Basement]({{ '/chapters/fungus-basement/' | relative_url }})
-5. [Chapter 5: Scourge Contamination]({{ '/chapters/scourge-contamination/' | relative_url }})
-6. [Chapter 6: Fire Safety]({{ '/chapters/fire-safety/' | relative_url }})
+1. [Pest Control]({{ '/chapters/pest-control/' | relative_url }})
+2. [Roof Patching]({{ '/chapters/roof-patching/' | relative_url }})
+3. [When to Rebuild Completely]({{ '/chapters/when-to-rebuild/' | relative_url }})
+4. [Fungus in the Basement]({{ '/chapters/fungus-basement/' | relative_url }})
+5. [Scourge Contamination]({{ '/chapters/scourge-contamination/' | relative_url }})
+6. [Fire Safety]({{ '/chapters/fire-safety/' | relative_url }})
 
 </div>
 
