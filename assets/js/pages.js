@@ -498,7 +498,7 @@
       goTo(currentIndex + 1, { autoplayNarration: true });
       return;
     }
-      goToNextChapter();
+    goToNextChapter();
   }
 
   function updateBodyBackground(index) {
