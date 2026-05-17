@@ -73,8 +73,10 @@
   // Let the page switch complete before chaining autoplay to the next item.
   var AUTOPLAY_ADVANCE_DELAY_MS = 250;
   var AUTOPLAY_NEAR_END_THRESHOLD_SECONDS = 0.15;
+  var AUTOPLAY_NEAR_END_CHECK_INTERVAL_MS = 250;
   var autoplayEnabled = false;
   var autoplayAdvanceQueued = false;
+  var autoplayNearEndLastCheckMs = 0;
   var audioDirByCharacter = {
     peasant: 'Peasant',
     peon: 'Peon',
@@ -536,6 +538,7 @@
     pages[currentIndex].setAttribute('aria-hidden', 'true');
     currentIndex = index;
     autoplayAdvanceQueued = false;
+    autoplayNearEndLastCheckMs = 0;
     pages[currentIndex].hidden = false;
     pages[currentIndex].setAttribute('aria-hidden', 'false');
     updateBodyBackground(currentIndex);
@@ -590,6 +593,9 @@
   chapterAudio.addEventListener('timeupdate', function () {
     if (!autoplayEnabled || autoplayAdvanceQueued) return;
     if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
+    var now = Date.now();
+    if (now - autoplayNearEndLastCheckMs < AUTOPLAY_NEAR_END_CHECK_INTERVAL_MS) return;
+    autoplayNearEndLastCheckMs = now;
     var duration = chapterAudio.duration;
     if (!duration || !isFinite(duration)) return;
     if (duration - chapterAudio.currentTime > AUTOPLAY_NEAR_END_THRESHOLD_SECONDS) return;
