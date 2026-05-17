@@ -72,7 +72,13 @@
   var AUTOPLAY_STORAGE_KEY = 'hh-autoplay-book';
   // Let the page switch complete before chaining autoplay to the next item.
   var AUTOPLAY_ADVANCE_DELAY_MS = 250;
+  var AUTOPLAY_NEAR_END_THRESHOLD_MS = 150;
+  var AUTOPLAY_NEAR_END_PROBE_THRESHOLD_SECONDS = 5;
+  var AUTOPLAY_NEAR_END_CHECK_INTERVAL_MS = 250;
+  var MILLISECONDS_PER_SECOND = 1000;
   var autoplayEnabled = false;
+  var autoplayAdvanceQueued = false;
+  var autoplayNearEndLastCheckMs = 0;
   var audioDirByCharacter = {
     peasant: 'Peasant',
     peon: 'Peon',
@@ -139,8 +145,10 @@
   }
 
   function queueAutoplayAdvance() {
-    if (!autoplayEnabled) return;
+    if (!autoplayEnabled || autoplayAdvanceQueued) return;
+    autoplayAdvanceQueued = true;
     window.setTimeout(function () {
+      autoplayAdvanceQueued = false;
       advanceAutoplay();
     }, AUTOPLAY_ADVANCE_DELAY_MS);
   }
@@ -531,6 +539,8 @@
     pages[currentIndex].hidden = true;
     pages[currentIndex].setAttribute('aria-hidden', 'true');
     currentIndex = index;
+    autoplayAdvanceQueued = false;
+    autoplayNearEndLastCheckMs = 0;
     pages[currentIndex].hidden = false;
     pages[currentIndex].setAttribute('aria-hidden', 'false');
     updateBodyBackground(currentIndex);
@@ -579,7 +589,21 @@
     if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
     isTalking = false;
     renderGif(activeCharacter, false);
-    if (autoplayEnabled) advanceAutoplay();
+    queueAutoplayAdvance();
+  });
+
+  chapterAudio.addEventListener('timeupdate', function () {
+    if (!autoplayEnabled || autoplayAdvanceQueued) return;
+    if (!activeCharacter || activeCharacter !== currentAudioCharacter) return;
+    var now = Date.now();
+    if (now - autoplayNearEndLastCheckMs < AUTOPLAY_NEAR_END_CHECK_INTERVAL_MS) return;
+    autoplayNearEndLastCheckMs = now;
+    var duration = chapterAudio.duration;
+    if (!duration || !isFinite(duration)) return;
+    // First gate skips most updates; second gate triggers only at the final edge.
+    if (chapterAudio.currentTime < duration - AUTOPLAY_NEAR_END_PROBE_THRESHOLD_SECONDS) return;
+    if ((duration - chapterAudio.currentTime) * MILLISECONDS_PER_SECOND > AUTOPLAY_NEAR_END_THRESHOLD_MS) return;
+    queueAutoplayAdvance();
   });
 
   render();
